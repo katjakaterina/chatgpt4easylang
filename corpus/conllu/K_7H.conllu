@@ -1,0 +1,205 @@
+# text = Für die Eheschließung gibt es verschiedene Orte: das Neue Rathaus, das Alte Rathaus oder die Schillerwiesen zwischen dem 1. Juni und 30.
+# sent_id = 0
+1	Für	für	ADP	APPR	_	3	case	_	start_char=0|end_char=3
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4|end_char=7
+3	Eheschließung	Eheschließung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=8|end_char=21
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=22|end_char=26
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=27|end_char=29
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=30|end_char=42
+7	Orte	Ort	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nsubj	_	start_char=43|end_char=47
+8	:	:	PUNCT	$.	_	11	punct	_	start_char=47|end_char=48
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=49|end_char=52
+10	Neue	neu	PROPN	ADJA	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	start_char=53|end_char=57
+11	Rathaus	Rathaus	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	start_char=58|end_char=65
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=65|end_char=66
+13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=67|end_char=70
+14	Alte	alt	PROPN	ADJA	Case=Nom|Gender=Neut|Number=Sing	15	amod	_	start_char=71|end_char=75
+15	Rathaus	Rathaus	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	start_char=76|end_char=83
+16	oder	oder	CCONJ	KON	_	18	cc	_	start_char=84|end_char=88
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=89|end_char=92
+18	Schillerwiesen	Schillerwiesen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	start_char=93|end_char=107
+19	zwischen	zwischen	ADP	APPR	_	23	case	_	start_char=108|end_char=116
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	start_char=117|end_char=120
+21	1	1	NUM	CARD	NumType=Card	23	compound	_	start_char=121|end_char=122
+22	.	.	PUNCT	$.	_	21	punct	_	start_char=122|end_char=123
+23	Juni	Juni	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	start_char=124|end_char=128
+24	und	und	CCONJ	KON	_	25	cc	_	start_char=129|end_char=132
+25	30	30	NUM	CARD	NumType=Card	23	conj	_	start_char=133|end_char=135
+26	.	.	PUNCT	$.	_	4	punct	_	start_char=135|end_char=136
+
+# text = September.
+# sent_id = 1
+1	September	September	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=137|end_char=146
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=146|end_char=147
+
+# text = Am Freitag sind Vorsprachen nur mit vorheriger Terminvereinbarung möglich.
+# sent_id = 2
+1-2	Am	_	_	_	_	_	_	_	start_char=148|end_char=150
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	start_char=151|end_char=158
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=159|end_char=163
+5	Vorsprachen	Vorsprache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=164|end_char=175
+6	nur	nur	ADV	ADV	_	10	advmod	_	start_char=176|end_char=179
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=180|end_char=183
+8	vorheriger	vorherig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=184|end_char=194
+9	Terminvereinbarung	Terminvereinbarung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=195|end_char=213
+10	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=214|end_char=221
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=221|end_char=222
+
+# text = Die Anmeldung erfolgt beim Standesamt des Bezirks, in dem einer der Partner wohnt.
+# sent_id = 3
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=223|end_char=226
+2	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=227|end_char=236
+3	erfolgt	erfolgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=237|end_char=244
+4-5	beim	_	_	_	_	_	_	_	start_char=245|end_char=249
+4	bei	bei	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=250|end_char=260
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=261|end_char=264
+8	Bezirks	Bezirk	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=265|end_char=272
+9	,	,	PUNCT	$,	_	15	punct	_	start_char=272|end_char=273
+10	in	in	ADP	APPR	_	11	case	_	start_char=274|end_char=276
+11	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	15	obl	_	start_char=277|end_char=280
+12	einer	ein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	start_char=281|end_char=286
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=287|end_char=290
+14	Partner	Partner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=291|end_char=298
+15	wohnt	wohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=299|end_char=304
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=304|end_char=305
+
+# text = Wenn keiner der Partner in Göttingen wohnt, können Sie die Anmeldung beim Wohnsitzstandesamt machen und angeben, dass Sie in Göttingen heiraten möchten.
+# sent_id = 4
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=306|end_char=310
+2	keiner	kein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	7	nsubj	_	start_char=311|end_char=317
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=318|end_char=321
+4	Partner	Partner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=322|end_char=329
+5	in	in	ADP	APPR	_	6	case	_	start_char=330|end_char=332
+6	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=333|end_char=342
+7	wohnt	wohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=343|end_char=348
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=348|end_char=349
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=350|end_char=356
+10	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=357|end_char=360
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=361|end_char=364
+12	Anmeldung	Anmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=365|end_char=374
+13-14	beim	_	_	_	_	_	_	_	start_char=375|end_char=379
+13	bei	bei	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Wohnsitzstandesamt	Wohnsitzstandesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=380|end_char=398
+16	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=399|end_char=405
+17	und	und	CCONJ	KON	_	18	cc	_	start_char=406|end_char=409
+18	angeben	angeben	VERB	VVINF	VerbForm=Inf	16	conj	_	start_char=410|end_char=417
+19	,	,	PUNCT	$,	_	24	punct	_	start_char=417|end_char=418
+20	dass	dass	SCONJ	KOUS	_	24	mark	_	start_char=419|end_char=423
+21	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	start_char=424|end_char=427
+22	in	in	ADP	APPR	_	23	case	_	start_char=428|end_char=430
+23	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	start_char=431|end_char=440
+24	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	18	ccomp	_	start_char=441|end_char=449
+25	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	start_char=450|end_char=457
+26	.	.	PUNCT	$.	_	16	punct	_	start_char=457|end_char=458
+
+# text = Die benötigten Unterlagen variieren je nach Einzelfall.
+# sent_id = 5
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=459|end_char=462
+2	benötigten	benötigt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=463|end_char=473
+3	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=474|end_char=484
+4	variieren	variieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=485|end_char=494
+5	je	je	ADV	ADV	_	4	advmod	_	start_char=495|end_char=497
+6	nach	nach	ADP	APPR	_	7	case	_	start_char=498|end_char=502
+7	Einzelfall	Einzelfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=503|end_char=513
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=513|end_char=514
+
+# text = Wenn beide Partner in Göttingen geboren sind, dort ihren Hauptwohnsitz haben und Deutsche sind, benötigen sie nur einen gültigen Ausweis wie einen Personalausweis oder Reisepass.
+# sent_id = 6
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=515|end_char=519
+2	beide	beide	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=520|end_char=525
+3	Partner	Partner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	start_char=526|end_char=533
+4	in	in	ADP	APPR	_	5	case	_	start_char=534|end_char=536
+5	Göttingen	Göttingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=537|end_char=546
+6	geboren	gebären	VERB	VVPP	VerbForm=Part	17	advcl	_	start_char=547|end_char=554
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	start_char=555|end_char=559
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=559|end_char=560
+9	dort	dort	ADV	ADV	_	12	advmod	_	start_char=561|end_char=565
+10	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=566|end_char=571
+11	Hauptwohnsitz	Hauptwohnsitz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=572|end_char=585
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=586|end_char=591
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=592|end_char=595
+14	Deutsche	deutsch	NOUN	NN	Case=Nom|Number=Plur	12	conj	_	start_char=596|end_char=604
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=605|end_char=609
+16	,	,	PUNCT	$,	_	6	punct	_	start_char=609|end_char=610
+17	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=611|end_char=620
+18	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=621|end_char=624
+19	nur	nur	ADV	ADV	_	17	advmod	_	start_char=625|end_char=628
+20	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=629|end_char=634
+21	gültigen	gültig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=635|end_char=643
+22	Ausweis	Ausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=644|end_char=651
+23	wie	wie	ADP	KOKOM	_	25	case	_	start_char=652|end_char=655
+24	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=656|end_char=661
+25	Personalausweis	Personalausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	start_char=662|end_char=677
+26	oder	oder	CCONJ	KON	_	27	cc	_	start_char=678|end_char=682
+27	Reisepass	Reisepaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	conj	_	start_char=683|end_char=692
+28	.	.	PUNCT	$.	_	17	punct	_	start_char=692|end_char=693
+
+# text = In anderen Fällen sollten Sie sich beim Standesamt informieren, welche Urkunden und Unterlagen Sie vorlegen müssen.
+# sent_id = 7
+1	In	in	ADP	APPR	_	3	case	_	start_char=694|end_char=696
+2	anderen	ander	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=697|end_char=704
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=705|end_char=711
+4	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=712|end_char=719
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=720|end_char=723
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=724|end_char=728
+7-8	beim	_	_	_	_	_	_	_	start_char=729|end_char=733
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=734|end_char=744
+10	informieren	informieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=745|end_char=756
+11	,	,	PUNCT	$,	_	17	punct	_	start_char=756|end_char=757
+12	welche	welch	PRON	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int	13	det	_	start_char=758|end_char=764
+13	Urkunden	Urkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	obj	_	start_char=765|end_char=773
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=774|end_char=777
+15	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	conj	_	start_char=778|end_char=788
+16	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=789|end_char=792
+17	vorlegen	vorlegen	VERB	VVINF	VerbForm=Inf	10	ccomp	_	start_char=793|end_char=801
+18	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=802|end_char=808
+19	.	.	PUNCT	$.	_	10	punct	_	start_char=808|end_char=809
+
+# text = Es können Gebühren anfallen und Fristen müssen beachtet werden.
+# sent_id = 8
+1	Es	es	PRON	PPER	PronType=Prs	4	expl	_	start_char=810|end_char=812
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=813|end_char=819
+3	Gebühren	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=820|end_char=828
+4	anfallen	anfallen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=829|end_char=837
+5	und	und	CCONJ	KON	_	8	cc	_	start_char=838|end_char=841
+6	Fristen	Frist	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	start_char=842|end_char=849
+7	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=850|end_char=856
+8	beachtet	beachten	VERB	VVPP	VerbForm=Part	4	conj	_	start_char=857|end_char=865
+9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	start_char=866|end_char=872
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=872|end_char=873
+
+# text = Wenn Sie sich über ein bestimmtes Wort unsicher sind, können Sie das Wort in einem Wörterbuch nachschlagen oder beim Standesamt nachfragen.
+# sent_id = 9
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=874|end_char=878
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=879|end_char=882
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=883|end_char=887
+4	über	über	ADP	APPR	_	7	case	_	start_char=888|end_char=892
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=893|end_char=896
+6	bestimmtes	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=897|end_char=907
+7	Wort	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	start_char=908|end_char=912
+8	unsicher	unsich	ADJ	ADJD	Degree=Pos	18	advcl	_	start_char=913|end_char=921
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=922|end_char=926
+10	,	,	PUNCT	$,	_	8	punct	_	start_char=926|end_char=927
+11	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=928|end_char=934
+12	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=935|end_char=938
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=939|end_char=942
+14	Wort	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	start_char=943|end_char=947
+15	in	in	ADP	APPR	_	17	case	_	start_char=948|end_char=950
+16	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	start_char=951|end_char=956
+17	Wörterbuch	Wörterbuch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	start_char=957|end_char=967
+18	nachschlagen	nachschlagen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=968|end_char=980
+19	oder	oder	CCONJ	KON	_	23	cc	_	start_char=981|end_char=985
+20-21	beim	_	_	_	_	_	_	_	start_char=986|end_char=990
+20	bei	bei	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	start_char=991|end_char=1001
+23	nachfragen	nachfragen	VERB	VVINF	VerbForm=Inf	18	conj	_	start_char=1002|end_char=1012
+24	.	.	PUNCT	$.	_	18	punct	_	start_char=1012|end_char=1013
+

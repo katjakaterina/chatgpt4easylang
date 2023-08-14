@@ -1,0 +1,108 @@
+# text = Du bist aus deiner Wohnung in Hannover ausgezogen und ziehst ins Ausland oder gibst eine Nebenwohnung außerhalb Hannovers auf?
+# sent_id = 0
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	start_char=0|end_char=2
+2	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3|end_char=7
+3	aus	aus	ADP	APPR	_	5	case	_	start_char=8|end_char=11
+4	deiner	dein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=12|end_char=18
+5	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=19|end_char=26
+6	in	in	ADP	APPR	_	7	case	_	start_char=27|end_char=29
+7	Hannover	Hannover	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=30|end_char=38
+8	ausgezogen	ausziehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=39|end_char=49
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=50|end_char=53
+10	ziehst	zeihen|ziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=54|end_char=60
+11-12	ins	_	_	_	_	_	_	_	start_char=61|end_char=64
+11	in	in	ADP	APPR	_	13	case	_	_
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Ausland	Ausland	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=65|end_char=72
+14	oder	oder	CCONJ	KON	_	15	cc	_	start_char=73|end_char=77
+15	gibst	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=78|end_char=83
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=84|end_char=88
+17	Nebenwohnung	Nebenwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=89|end_char=101
+18	außerhalb	außerhalb	ADP	APPR	_	19	case	_	start_char=102|end_char=111
+19	Hannovers	Hannovers	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	start_char=112|end_char=121
+20	auf	auf	ADP	PTKVZ	_	15	compound:prt	_	start_char=122|end_char=125
+21	?	?	PUNCT	$.	_	8	punct	_	start_char=125|end_char=126
+
+# text = Du musst dich innerhalb von zwei Wochen nach dem Auszug abmelden, wenn du keine neue Wohnung im Inland beziehst.
+# sent_id = 1
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	start_char=127|end_char=129
+2	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=130|end_char=135
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	start_char=136|end_char=140
+4	innerhalb	innerhalb	ADP	ADV	_	11	advmod	_	start_char=141|end_char=150
+5	von	von	ADP	APPR	_	7	case	_	start_char=151|end_char=154
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	start_char=155|end_char=159
+7	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=160|end_char=166
+8	nach	nach	ADP	APPR	_	10	case	_	start_char=167|end_char=171
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=172|end_char=175
+10	Auszug	Auszug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=176|end_char=182
+11	abmelden	abmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=183|end_char=191
+12	,	,	PUNCT	$,	_	21	punct	_	start_char=191|end_char=192
+13	wenn	wenn	SCONJ	KOUS	_	21	mark	_	start_char=193|end_char=197
+14	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nsubj	_	start_char=198|end_char=200
+15	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	17	nmod	_	start_char=201|end_char=206
+16	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=207|end_char=211
+17	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=212|end_char=219
+18-19	im	_	_	_	_	_	_	_	start_char=220|end_char=222
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Inland	Inland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	start_char=223|end_char=229
+21	beziehst	beziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=230|end_char=238
+22	.	.	PUNCT	$.	_	11	punct	_	start_char=238|end_char=239
+
+# text = Du kannst persönlich zu uns kommen oder deine Abmeldung schriftlich erledigen.
+# sent_id = 2
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	start_char=240|end_char=242
+2	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=243|end_char=249
+3	persönlich	persönlich	ADV	ADJD	_	6	advmod	_	start_char=250|end_char=260
+4	zu	zu	ADP	APPR	_	5	case	_	start_char=261|end_char=263
+5	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl	_	start_char=264|end_char=267
+6	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=268|end_char=274
+7	oder	oder	CCONJ	KON	_	11	cc	_	start_char=275|end_char=279
+8	deine	dein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=280|end_char=285
+9	Abmeldung	Abmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=286|end_char=295
+10	schriftlich	schriftlich	ADV	ADJD	_	11	advmod	_	start_char=296|end_char=307
+11	erledigen	erledigen	VERB	VVINF	VerbForm=Inf	6	conj	_	start_char=308|end_char=317
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=317|end_char=318
+
+# text = Für die Abmeldung brauchst du deine Ausweisdokumente und Angaben zur alten und neuen Adresse.
+# sent_id = 3
+1	Für	für	ADP	APPR	_	3	case	_	start_char=319|end_char=322
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=323|end_char=326
+3	Abmeldung	Abmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=327|end_char=336
+4	brauchst	brauchsen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=337|end_char=345
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=346|end_char=348
+6	deine	dein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=349|end_char=354
+7	Ausweisdokumente	Ausweisdokument	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=355|end_char=371
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=372|end_char=375
+9	Angaben	Angabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	start_char=376|end_char=383
+10-11	zur	_	_	_	_	_	_	_	start_char=384|end_char=387
+10	zu	zu	ADP	APPR	_	15	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+12	alten	alt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=388|end_char=393
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=394|end_char=397
+14	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	start_char=398|end_char=403
+15	Adresse	Adresse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=404|end_char=411
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=411|end_char=412
+
+# text = Die Abmeldung ist kostenlos.
+# sent_id = 4
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=413|end_char=416
+2	Abmeldung	Abmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=417|end_char=426
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=427|end_char=430
+4	kostenlos	kostenlos	ADJ	ADJD	Degree=Pos	0	root	_	start_char=431|end_char=440
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=440|end_char=441
+
+# text = Sobald du dich abgemeldet hast, bekommst du eine Abmeldebestätigung.
+# sent_id = 5
+1	Sobald	sobald	SCONJ	KOUS	_	4	mark	_	start_char=442|end_char=448
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=449|end_char=451
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=452|end_char=456
+4	abgemeldet	abmelden	VERB	VVPP	VerbForm=Part	7	advcl	_	start_char=457|end_char=467
+5	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=468|end_char=472
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=472|end_char=473
+7	bekommst	bekommsen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=474|end_char=482
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	start_char=483|end_char=485
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=486|end_char=490
+10	Abmeldebestätigung	Abmeldebestätigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=491|end_char=509
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=509|end_char=510
+

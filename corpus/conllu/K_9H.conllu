@@ -1,0 +1,241 @@
+# text = Man kann auf Anfrage eine Lebenspartnerschaftsurkunde erhalten, die die Tatsache der Begründung einer Lebenspartnerschaft bescheinigt.
+# sent_id = 0
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=0|end_char=3
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=4|end_char=8
+3	auf	auf	ADP	APPR	_	4	case	_	start_char=9|end_char=12
+4	Anfrage	Anfrage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=13|end_char=20
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=21|end_char=25
+6	Lebenspartnerschaftsurkunde	Lebenspartnerschaftsurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=26|end_char=53
+7	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=54|end_char=62
+8	,	,	PUNCT	$,	_	16	punct	_	start_char=62|end_char=63
+9	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	start_char=64|end_char=67
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=68|end_char=71
+11	Tatsache	Tatsache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=72|end_char=80
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=81|end_char=84
+13	Begründung	Begründung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=85|end_char=95
+14	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=96|end_char=101
+15	Lebenspartnerschaft	Lebenspartnerschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=102|end_char=121
+16	bescheinigt	bescheinigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=122|end_char=133
+17	.	.	PUNCT	$.	_	7	punct	_	start_char=133|end_char=134
+
+# text = Das Lebenspartnerschaftsregister ist nicht für jeden einsehbar oder Auskünfte darüber sind nicht ohne Weiteres erhältlich.
+# sent_id = 1
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=135|end_char=138
+2	Lebenspartnerschaftsregister	Lebenspartnerschaftsregister	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=139|end_char=167
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=168|end_char=171
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=172|end_char=177
+5	für	für	ADP	APPR	_	6	case	_	start_char=178|end_char=181
+6	jeden	jed	PRON	PIS	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	7	nmod	_	start_char=182|end_char=187
+7	einsehbar	einsehbar	ADJ	ADJD	Degree=Pos	0	root	_	start_char=188|end_char=197
+8	oder	oder	CCONJ	KON	_	15	cc	_	start_char=198|end_char=202
+9	Auskünfte	Auskunft	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	nsubj	_	start_char=203|end_char=212
+10	darüber	darüber	ADV	PAV	_	9	advmod	_	start_char=213|end_char=220
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=221|end_char=225
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	start_char=226|end_char=231
+13	ohne	ohne	ADP	APPR	_	14	case	_	start_char=232|end_char=236
+14	Weiteres	Weiteres	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	start_char=237|end_char=245
+15	erhältlich	erhältlich	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=246|end_char=256
+16	.	.	PUNCT	$.	_	7	punct	_	start_char=256|end_char=257
+
+# text = Nur Behörden, Gerichte, Hochschulen und andere Einrichtungen, die wissenschaftliche Forschung betreiben, oder Personen, die ein rechtliches Interesse nachweisen können, haben das Recht auf Einsicht oder Auskünfte.
+# sent_id = 2
+1	Nur	nur	ADV	ADV	_	2	advmod	_	start_char=258|end_char=261
+2	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	start_char=262|end_char=270
+3	,	,	PUNCT	$,	_	4	punct	_	start_char=270|end_char=271
+4	Gerichte	Gericht	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	start_char=272|end_char=280
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=280|end_char=281
+6	Hochschulen	Hochschule	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=282|end_char=293
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=294|end_char=297
+8	andere	ander	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=298|end_char=304
+9	Einrichtungen	Einrichtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=305|end_char=318
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=318|end_char=319
+11	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	14	nsubj	_	start_char=320|end_char=323
+12	wissenschaftliche	wissenschaftlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=324|end_char=341
+13	Forschung	Forschung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=342|end_char=351
+14	betreiben	betreiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	start_char=352|end_char=361
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=361|end_char=362
+16	oder	oder	CCONJ	KON	_	17	cc	_	start_char=363|end_char=367
+17	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=368|end_char=376
+18	,	,	PUNCT	$,	_	23	punct	_	start_char=376|end_char=377
+19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	23	nsubj	_	start_char=378|end_char=381
+20	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	22	det	_	start_char=382|end_char=385
+21	rechtliches	rechtlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	start_char=386|end_char=397
+22	Interesse	Interesse	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	start_char=398|end_char=407
+23	nachweisen	nachweisen	VERB	VVINF	VerbForm=Inf	17	acl	_	start_char=408|end_char=418
+24	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=419|end_char=425
+25	,	,	PUNCT	$,	_	23	punct	_	start_char=425|end_char=426
+26	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=427|end_char=432
+27	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	start_char=433|end_char=436
+28	Recht	Recht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	start_char=437|end_char=442
+29	auf	auf	ADP	APPR	_	30	case	_	start_char=443|end_char=446
+30	Einsicht	Einsicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	start_char=447|end_char=455
+31	oder	oder	CCONJ	KON	_	32	cc	_	start_char=456|end_char=460
+32	Auskünfte	Auskunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	30	conj	_	start_char=461|end_char=470
+33	.	.	PUNCT	$.	_	26	punct	_	start_char=470|end_char=471
+
+# text = Die Lebenspartnerschaftsurkunde wird normalerweise bei der Begründung der Lebenspartnerschaft erstellt und gibt den aktuellen Stand des Registers wieder, wobei Daten aus der Fortführung des Registers berücksichtigt werden.
+# sent_id = 3
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=472|end_char=475
+2	Lebenspartnerschaftsurkunde	Lebenspartnerschaftsurkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	start_char=476|end_char=503
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=504|end_char=508
+4	normalerweise	normalerweise	ADV	ADV	_	10	advmod	_	start_char=509|end_char=522
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=523|end_char=526
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=527|end_char=530
+7	Begründung	Begründung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=531|end_char=541
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=542|end_char=545
+9	Lebenspartnerschaft	Lebenspartnerschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=546|end_char=565
+10	erstellt	erstellen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=566|end_char=574
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=575|end_char=578
+12	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=579|end_char=583
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=584|end_char=587
+14	aktuellen	aktuell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=588|end_char=597
+15	Stand	Stand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=598|end_char=603
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=604|end_char=607
+17	Registers	Register	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=608|end_char=617
+18	wieder	wieder	ADV	PTKVZ	_	12	mark	_	start_char=618|end_char=624
+19	,	,	PUNCT	$,	_	27	punct	_	start_char=624|end_char=625
+20	wobei	wobei	ADV	PWAV	PronType=Int	27	advmod	_	start_char=626|end_char=631
+21	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	27	nsubj:pass	_	start_char=632|end_char=637
+22	aus	aus	ADP	APPR	_	24	case	_	start_char=638|end_char=641
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=642|end_char=645
+24	Fortführung	Fortführung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	start_char=646|end_char=657
+25	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=658|end_char=661
+26	Registers	Register	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	start_char=662|end_char=671
+27	berücksichtigt	berücksichtigen	VERB	VVPP	VerbForm=Part	12	advcl	_	start_char=672|end_char=686
+28	werden	werden	AUX	VAFIN	VerbForm=Inf|Voice=Pass	27	aux:pass	_	start_char=687|end_char=693
+29	.	.	PUNCT	$.	_	10	punct	_	start_char=693|end_char=694
+
+# text = Die zuständige Stelle für die Ausstellung der Urkunde ist die Gemeinde, Samtgemeinde oder Stadt, in der die Lebenspartnerschaft begründet wurde oder die eine im Ausland geschlossene Lebenspartnerschaft beurkundet hat.
+# sent_id = 4
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=695|end_char=698
+2	zuständige	zuständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=699|end_char=709
+3	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=710|end_char=716
+4	für	für	ADP	APPR	_	6	case	_	start_char=717|end_char=720
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=721|end_char=724
+6	Ausstellung	Ausstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=725|end_char=736
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=737|end_char=740
+8	Urkunde	Urkunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=741|end_char=748
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=749|end_char=752
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=753|end_char=756
+11	Gemeinde	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=757|end_char=765
+12	,	,	PUNCT	$,	_	13	punct	_	start_char=765|end_char=766
+13	Samtgemeinde	Samtgemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	start_char=767|end_char=779
+14	oder	oder	CCONJ	KON	_	15	cc	_	start_char=780|end_char=784
+15	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	start_char=785|end_char=790
+16	,	,	PUNCT	$,	_	21	punct	_	start_char=790|end_char=791
+17	in	in	ADP	APPR	_	18	case	_	start_char=792|end_char=794
+18	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	21	obl	_	start_char=795|end_char=798
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=799|end_char=802
+20	Lebenspartnerschaft	Lebenspartnerschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	start_char=803|end_char=822
+21	begründet	begründen	VERB	VVPP	VerbForm=Part	11	acl	_	start_char=823|end_char=832
+22	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	21	aux:pass	_	start_char=833|end_char=838
+23	oder	oder	CCONJ	KON	_	31	cc	_	start_char=839|end_char=843
+24	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	31	nsubj	_	start_char=844|end_char=847
+25	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=848|end_char=852
+26-27	im	_	_	_	_	_	_	_	start_char=853|end_char=855
+26	in	in	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
+28	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	start_char=856|end_char=863
+29	geschlossene	geschlossen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=864|end_char=876
+30	Lebenspartnerschaft	Lebenspartnerschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	start_char=877|end_char=896
+31	beurkundet	beurkunden	VERB	VVPP	VerbForm=Part	21	conj	_	start_char=897|end_char=907
+32	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	start_char=908|end_char=911
+33	.	.	PUNCT	$.	_	11	punct	_	start_char=911|end_char=912
+
+# text = Um die Lebenspartnerschaftsurkunde zu erhalten, benötigen Antragsteller einen Personalausweis oder Reisepass.
+# sent_id = 5
+1	Um	um	ADP	KOUI	_	5	mark	_	start_char=913|end_char=915
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=916|end_char=919
+3	Lebenspartnerschaftsurkunde	Lebenspartnerschaftsurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=920|end_char=947
+4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=948|end_char=950
+5	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	7	advcl	_	start_char=951|end_char=959
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=959|end_char=960
+7	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=961|end_char=970
+8	Antragsteller	Antragsteller	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=971|end_char=984
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=985|end_char=990
+10	Personalausweis	Personalausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=991|end_char=1006
+11	oder	oder	CCONJ	KON	_	12	cc	_	start_char=1007|end_char=1011
+12	Reisepass	Reisepaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	start_char=1012|end_char=1021
+13	.	.	PUNCT	$.	_	7	punct	_	start_char=1021|end_char=1022
+
+# text = Die Gebühr beträgt 15,00 Euro für die erste Urkunde, wobei weitere Urkunden zum gleichen Zeitpunkt beantragt werden können.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1023|end_char=1026
+2	Gebühr	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1027|end_char=1033
+3	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1034|end_char=1041
+4	15,00	15,00	NUM	CARD	NumType=Card	5	nummod	_	start_char=1042|end_char=1047
+5	Euro	Euro	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1048|end_char=1052
+6	für	für	ADP	APPR	_	9	case	_	start_char=1053|end_char=1056
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1057|end_char=1060
+8	erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	9	amod	_	start_char=1061|end_char=1066
+9	Urkunde	Urkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=1067|end_char=1074
+10	,	,	PUNCT	$,	_	18	punct	_	start_char=1074|end_char=1075
+11	wobei	wobei	ADV	PWAV	PronType=Int	18	advmod	_	start_char=1076|end_char=1081
+12	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	13	amod	_	start_char=1082|end_char=1089
+13	Urkunden	Urkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj:pass	_	start_char=1090|end_char=1098
+14-15	zum	_	_	_	_	_	_	_	start_char=1099|end_char=1102
+14	zu	zu	ADP	APPR	_	17	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	gleichen	gleich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=1103|end_char=1111
+17	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	start_char=1112|end_char=1121
+18	beantragt	beantragen	VERB	VVPP	VerbForm=Part	3	advcl	_	start_char=1122|end_char=1131
+19	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	18	aux:pass	_	start_char=1132|end_char=1138
+20	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=1139|end_char=1145
+21	.	.	PUNCT	$.	_	3	punct	_	start_char=1145|end_char=1146
+
+# text = Die Frist für die Führung der Lebenspartnerschaft darf noch nicht abgelaufen sein, da das Standesamt das Lebenspartnerschaftsregister für maximal 80 Jahre führt.
+# sent_id = 7
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1147|end_char=1150
+2	Frist	Frist	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1151|end_char=1156
+3	für	für	ADP	APPR	_	5	case	_	start_char=1157|end_char=1160
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1161|end_char=1164
+5	Führung	Führung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1165|end_char=1172
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1173|end_char=1176
+7	Lebenspartnerschaft	Lebenspartnerschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=1177|end_char=1196
+8	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1197|end_char=1201
+9	noch	noch	ADV	ADV	_	10	advmod	_	start_char=1202|end_char=1206
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=1207|end_char=1212
+11	abgelaufen	ablaufen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1213|end_char=1223
+12	sein	sein	AUX	VAINF	VerbForm=Inf	11	aux	_	start_char=1224|end_char=1228
+13	,	,	PUNCT	$,	_	23	punct	_	start_char=1228|end_char=1229
+14	da	da	SCONJ	KOUS	_	23	mark	_	start_char=1230|end_char=1232
+15	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	start_char=1233|end_char=1236
+16	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=1237|end_char=1247
+17	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	start_char=1248|end_char=1251
+18	Lebenspartnerschaftsregister	Lebenspartnerschaftsregister	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	start_char=1252|end_char=1280
+19	für	für	ADP	APPR	_	22	case	_	start_char=1281|end_char=1284
+20	maximal	maximal	ADV	ADV	_	21	advmod	_	start_char=1285|end_char=1292
+21	80	80	NUM	CARD	NumType=Card	22	nummod	_	start_char=1293|end_char=1295
+22	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	obl	_	start_char=1296|end_char=1301
+23	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=1302|end_char=1307
+24	.	.	PUNCT	$.	_	11	punct	_	start_char=1307|end_char=1308
+
+# text = Die durchschnittliche Bearbeitungszeit beträgt etwa 2 Wochen, während Auskünfte im Rahmen der Ahnenforschung je nach Umfang der Anfrage wesentlich länger dauern können.
+# sent_id = 8
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1309|end_char=1312
+2	durchschnittliche	durchschnittlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1313|end_char=1330
+3	Bearbeitungszeit	Bearbeitungszeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1331|end_char=1347
+4	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1348|end_char=1355
+5	etwa	etwa	ADV	ADV	_	6	advmod	_	start_char=1356|end_char=1360
+6	2	2	NUM	CARD	NumType=Card	7	nummod	_	start_char=1361|end_char=1362
+7	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=1363|end_char=1369
+8	,	,	PUNCT	$,	_	23	punct	_	start_char=1369|end_char=1370
+9	während	während	SCONJ	KOUS	_	23	mark	_	start_char=1371|end_char=1378
+10	Auskünfte	Auskunft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	start_char=1379|end_char=1388
+11-12	im	_	_	_	_	_	_	_	start_char=1389|end_char=1391
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	start_char=1392|end_char=1398
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1399|end_char=1402
+15	Ahnenforschung	Ahnenforschung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=1403|end_char=1417
+16	je	je	ADV	ADV	_	18	advmod	_	start_char=1418|end_char=1420
+17	nach	nach	ADP	APPR	_	18	case	_	start_char=1421|end_char=1425
+18	Umfang	Umfang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	start_char=1426|end_char=1432
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=1433|end_char=1436
+20	Anfrage	Anfrage	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=1437|end_char=1444
+21	wesentlich	wesentlich	ADJ	ADJD	Degree=Pos	22	advmod	_	start_char=1445|end_char=1455
+22	länger	lang	ADJ	ADJD	Degree=Pos	23	advmod	_	start_char=1456|end_char=1462
+23	dauern	dauern	VERB	VVINF	VerbForm=Inf	4	advcl	_	start_char=1463|end_char=1469
+24	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=1470|end_char=1476
+25	.	.	PUNCT	$.	_	4	punct	_	start_char=1476|end_char=1477
+

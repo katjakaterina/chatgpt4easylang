@@ -1,0 +1,12 @@
+ Führungszeugnis: Ein amtliches Dokument, das Informationen aus dem Bundeszentralregister über eine Person enthält und anzeigen kann, ob diese Person vorbestraft ist oder nicht. Es dient als Nachweis der Unbescholtenheit.
+ Bundeszentralregister: Eine zentrale Datenbank, in der alle strafrechtlichen Verurteilungen in Deutschland erfasst werden.
+ Vorbestraft: Eine Person wird als vorbestraft bezeichnet, wenn sie bereits wegen einer Straftat verurteilt wurde.
+ Unbescholtenheit: Wenn eine Person als unbescholten bezeichnet wird, bedeutet dies, dass sie nicht vorbestraft ist.
+ Gesetzlicher Vertreter: Eine Person, die die rechtliche Verantwortung für eine andere Person hat, wie zum Beispiel die Eltern für ihre minderjährigen Kinder.
+ Stadtbüro: Eine öffentliche Einrichtung, die verschiedene Dienstleistungen für die Einwohner einer Stadt anbietet.
+ Ausweisdokument: Ein amtliches Dokument, das die Identität einer Person nachweist, wie zum Beispiel ein Personalausweis oder Reisepass.
+ Arten von Führungszeugnissen: Es gibt verschiedene Arten von Führungszeugnissen, die je nach Verwendungszweck unterschiedliche Informationen enthalten.
+ Europäisches Führungszeugnis: Ein Führungszeugnis für Personen mit Haupt- oder Nebenwohnsitz in Hildesheim, die neben der deutschen auch die Staatsangehörigkeit eines anderen Mitgliedsstaates der Europäischen Union besitzen. Es kann nur ausgestellt werden, wenn der Herkunftsstaat Auskunft aus seinem Strafregister erteilt hat.
+ Postversand: Der Versand von Dokumenten per Post.
+ Gebühr: Die Kosten, die für die Ausstellung eines Führungszeugnisses anfallen.
+

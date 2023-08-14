@@ -1,0 +1,499 @@
+# text = Allgemeine Informationen Sie sind aus Ihrer Wohnung in Hannover ausgezogen und ziehen ins Ausland oder Sie geben eine Nebenwohnung außerhalb Hannovers auf?
+# sent_id = 0
+1	Allgemeine	allgemein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=0|end_char=10
+2	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=11|end_char=24
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	appos	_	start_char=26|end_char=29
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=30|end_char=34
+5	aus	aus	ADP	APPR	_	7	case	_	start_char=35|end_char=38
+6	Ihrer	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=39|end_char=44
+7	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=45|end_char=52
+8	in	in	ADP	APPR	_	9	case	_	start_char=53|end_char=55
+9	Hannover	Hannover	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=56|end_char=64
+10	ausgezogen	ausziehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=65|end_char=75
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=76|end_char=79
+12	ziehen	ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=80|end_char=86
+13-14	ins	_	_	_	_	_	_	_	start_char=87|end_char=90
+13	in	in	ADP	APPR	_	15	case	_	_
+14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Ausland	Ausland	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=91|end_char=98
+16	oder	oder	CCONJ	KON	_	18	cc	_	start_char=99|end_char=103
+17	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=104|end_char=107
+18	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=108|end_char=113
+19	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=114|end_char=118
+20	Nebenwohnung	Nebenwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=119|end_char=131
+21	außerhalb	außerhalb	ADP	APPR	_	22	case	_	start_char=132|end_char=141
+22	Hannovers	Hannovers	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	start_char=142|end_char=151
+23	auf	auf	ADP	PTKVZ	_	18	compound:prt	_	start_char=152|end_char=155
+24	?	?	PUNCT	$.	_	10	punct	_	start_char=155|end_char=156
+
+# text = Verfahrensablauf Für die Abmeldung können Sie persönlich zu uns kommen.
+# sent_id = 1
+1	Verfahrensablauf	Verfahrensablauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	start_char=158|end_char=174
+2	Für	für	ADP	APPR	_	4	case	_	start_char=176|end_char=179
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=180|end_char=183
+4	Abmeldung	Abmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=184|end_char=193
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=194|end_char=200
+6	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=201|end_char=204
+7	persönlich	persönlich	ADV	ADJD	_	10	advmod	_	start_char=205|end_char=215
+8	zu	zu	ADP	APPR	_	9	case	_	start_char=216|end_char=218
+9	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	10	obl	_	start_char=219|end_char=222
+10	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=223|end_char=229
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=229|end_char=230
+
+# text = Nutzen Sie die Online-Terminvergabe der Bürgerämter, siehe Link unten.
+# sent_id = 2
+1	Nutzen	Nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=231|end_char=237
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=238|end_char=241
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=242|end_char=245
+4	Online	Online	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	compound	_	start_char=246|end_char=252
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=252|end_char=253
+6	Terminvergabe	Terminvergabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=253|end_char=266
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=267|end_char=270
+8	Bürgerämter	Bürgeramt	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=271|end_char=282
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=282|end_char=283
+10	siehe	sehen	VERB	VVIMP	Mood=Imp|Number=Sing|VerbForm=Fin	1	parataxis	_	start_char=284|end_char=289
+11	Link	Link	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=290|end_char=294
+12	unten	unten	ADV	ADV	_	10	advmod	_	start_char=295|end_char=300
+13	.	.	PUNCT	$.	_	1	punct	_	start_char=300|end_char=301
+
+# text = Bei Abmeldungen von gemeinsam ausziehenden Familien mit minderjährigen Kindern reicht es aus, wenn ein Elternteil die Abmeldung vornimmt.
+# sent_id = 3
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=303|end_char=306
+2	Abmeldungen	Abmeldung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	start_char=307|end_char=318
+3	von	von	ADP	APPR	_	6	case	_	start_char=319|end_char=322
+4	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=323|end_char=332
+5	ausziehenden	ausziehend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=333|end_char=345
+6	Familien	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	start_char=346|end_char=354
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=355|end_char=358
+8	minderjährigen	minderjährig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=359|end_char=373
+9	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	start_char=374|end_char=381
+10	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=382|end_char=388
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=389|end_char=391
+12	aus	aus	ADP	PTKVZ	_	10	compound:prt	_	start_char=392|end_char=395
+13	,	,	PUNCT	$,	_	19	punct	_	start_char=395|end_char=396
+14	wenn	wenn	SCONJ	KOUS	_	19	mark	_	start_char=397|end_char=401
+15	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=402|end_char=405
+16	Elternteil	Elternteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=406|end_char=416
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=417|end_char=420
+18	Abmeldung	Abmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=421|end_char=430
+19	vornimmt	vornehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=431|end_char=439
+20	.	.	PUNCT	$.	_	10	punct	_	start_char=439|end_char=440
+
+# text = Dies gilt nur, wenn die Eltern verheiratet sind.
+# sent_id = 4
+1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=441|end_char=445
+2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=446|end_char=450
+3	nur	nur	ADV	ADV	_	2	advmod	_	start_char=451|end_char=454
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=454|end_char=455
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=456|end_char=460
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=461|end_char=464
+7	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	start_char=465|end_char=471
+8	verheiratet	verheiraten	ADJ	VVPP	Degree=Pos|VerbForm=Part	2	advcl	_	start_char=472|end_char=483
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=484|end_char=488
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=488|end_char=489
+
+# text = Um das Ausfüllen des Vordrucks brauchen Sie sich nicht zu kümmern.
+# sent_id = 5
+1	Um	um	ADP	APPR	_	3	case	_	start_char=491|end_char=493
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=494|end_char=497
+3	Ausfüllen	Ausfull	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	start_char=498|end_char=507
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=508|end_char=511
+5	Vordrucks	Vordruck	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=512|end_char=521
+6	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=522|end_char=530
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=531|end_char=534
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=535|end_char=539
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=540|end_char=545
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=546|end_char=548
+11	kümmern	kümmern	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=549|end_char=556
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=556|end_char=557
+
+# text = Dies wird von uns an den Beratungsplätzen für Sie erledigt.
+# sent_id = 6
+1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj:pass	_	start_char=558|end_char=562
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=563|end_char=567
+3	von	von	ADP	APPR	_	4	case	_	start_char=568|end_char=571
+4	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	10	obl	_	start_char=572|end_char=575
+5	an	an	ADP	APPR	_	7	case	_	start_char=576|end_char=578
+6	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=579|end_char=582
+7	Beratungsplätzen	Beratungsplatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=583|end_char=599
+8	für	für	ADP	APPR	_	9	case	_	start_char=600|end_char=603
+9	Sie	Sie|sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obl	_	start_char=604|end_char=607
+10	erledigt	erledigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=608|end_char=616
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=616|end_char=617
+
+# text = Sie müssen Ihre Abmeldung lediglich unterschreiben.
+# sent_id = 7
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=618|end_char=621
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=622|end_char=628
+3	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=629|end_char=633
+4	Abmeldung	Abmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=634|end_char=643
+5	lediglich	lediglich	ADV	ADV	_	6	advmod	_	start_char=644|end_char=653
+6	unterschreiben	unterschreiben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=654|end_char=668
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=668|end_char=669
+
+# text = Sie können Ihre Abmeldung ebenfalls schriftlich erledigen.
+# sent_id = 8
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=671|end_char=674
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=675|end_char=681
+3	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=682|end_char=686
+4	Abmeldung	Abmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=687|end_char=696
+5	ebenfalls	ebenfalls	ADV	ADV	_	7	advmod	_	start_char=697|end_char=706
+6	schriftlich	schriftlich	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=707|end_char=718
+7	erledigen	erledigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=719|end_char=728
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=728|end_char=729
+
+# text = Nötig sind folgende Angaben: - Namen und Geburtsdaten der Personen, die ausziehen - Tag des Auszugs - Anschrift der alten Wohnung - Anschrift der neuen Wohnung (mindestens die Angabe des Wegzugslandes) - Unterschrift der ausziehenden Personen - Bitte senden Sie uns zusammen mit diesen Angaben eine Kopie der Personalausweise oder Pässe der wegziehenden Personen zu.
+# sent_id = 9
+1	Nötig	nötig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=730|end_char=735
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=736|end_char=740
+3	folgende	folgend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=741|end_char=749
+4	Angaben	Angabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=750|end_char=757
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=757|end_char=758
+6	-	-	PUNCT	$(	_	7	punct	_	start_char=760|end_char=761
+7	Namen	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	appos	_	start_char=762|end_char=767
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=768|end_char=771
+9	Geburtsdaten	Geburtsdaten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	start_char=772|end_char=784
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=785|end_char=788
+11	Personen	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=789|end_char=797
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=797|end_char=798
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	start_char=799|end_char=802
+14	ausziehen	ausziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	start_char=803|end_char=812
+15	-	-	PUNCT	$(	_	16	punct	_	start_char=814|end_char=815
+16	Tag	Tag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	start_char=816|end_char=819
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=820|end_char=823
+18	Auszugs	Auszug	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	compound	_	start_char=824|end_char=831
+19	-	-	PUNCT	$(	_	18	punct	_	start_char=833|end_char=834
+20	Anschrift	Anschrift	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=835|end_char=844
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=845|end_char=848
+22	alten	alt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=849|end_char=854
+23	Wohnung	Wohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	compound	_	start_char=855|end_char=862
+24	-	-	PUNCT	$(	_	23	punct	_	start_char=864|end_char=865
+25	Anschrift	Anschrift	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=866|end_char=875
+26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=876|end_char=879
+27	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=880|end_char=885
+28	Wohnung	Wohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	start_char=886|end_char=893
+29	(	(	PUNCT	$(	_	32	punct	_	start_char=894|end_char=895
+30	mindestens	mindestens	ADV	ADV	_	32	advmod	_	start_char=895|end_char=905
+31	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=906|end_char=909
+32	Angabe	Angabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	appos	_	start_char=910|end_char=916
+33	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	start_char=917|end_char=920
+34	Wegzugslandes	Wegzugsland	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	start_char=921|end_char=934
+35	)	)	PUNCT	$(	_	32	punct	_	start_char=934|end_char=935
+36	-	-	PUNCT	$(	_	37	punct	_	start_char=937|end_char=938
+37	Unterschrift	Unterschrift	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	conj	_	start_char=939|end_char=951
+38	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	start_char=952|end_char=955
+39	ausziehenden	ausziehend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	start_char=956|end_char=968
+40	Personen	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	42	compound	_	start_char=969|end_char=977
+41	-	-	PUNCT	$(	_	40	punct	_	start_char=979|end_char=980
+42	Bitte	Bitte	NOUN	NN	Case=Gen|Number=Plur	37	nmod	_	start_char=981|end_char=986
+43	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=987|end_char=993
+44	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	43	nsubj	_	start_char=994|end_char=997
+45	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	43	obj	_	start_char=998|end_char=1001
+46	zusammen	zusammen	ADV	ADV	_	49	advmod	_	start_char=1002|end_char=1010
+47	mit	mit	ADP	APPR	_	49	case	_	start_char=1011|end_char=1014
+48	diesen	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	49	det	_	start_char=1015|end_char=1021
+49	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	43	obl	_	start_char=1022|end_char=1029
+50	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	start_char=1030|end_char=1034
+51	Kopie	Kopie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	43	obj	_	start_char=1035|end_char=1040
+52	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	53	det	_	start_char=1041|end_char=1044
+53	Personalausweise	Personalausweise	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	51	nmod	_	start_char=1045|end_char=1061
+54	oder	oder	CCONJ	KON	_	55	cc	_	start_char=1062|end_char=1066
+55	Pässe	Paß	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	53	conj	_	start_char=1067|end_char=1072
+56	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	58	det	_	start_char=1073|end_char=1076
+57	wegziehenden	wegziehend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	58	amod	_	start_char=1077|end_char=1089
+58	Personen	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	53	nmod	_	start_char=1090|end_char=1098
+59	zu	zu	ADP	PTKVZ	_	43	compound:prt	_	start_char=1099|end_char=1101
+60	.	.	PUNCT	$.	_	1	punct	_	start_char=1101|end_char=1102
+
+# text = Welche Unterlagen werden benötigt?
+# sent_id = 10
+1	Welche	welch	PRON	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int	2	det	_	start_char=1104|end_char=1110
+2	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	start_char=1111|end_char=1121
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=1122|end_char=1128
+4	benötigt	benötigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1129|end_char=1137
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=1137|end_char=1138
+
+# text = - Ihr Personalausweis sowie die Ausweisdokumente aller abzumeldenden Familienmitglieder - Ausländische Mitbürgerinnen und Mitbürger benötigen ihre Pässe Welche Gebühren fallen an?
+# sent_id = 11
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1140|end_char=1141
+2	Ihr	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	3	det:poss	_	start_char=1142|end_char=1145
+3	Personalausweis	Personalausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1146|end_char=1161
+4	sowie	sowie	CCONJ	KON	_	6	cc	_	start_char=1162|end_char=1167
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	start_char=1168|end_char=1171
+6	Ausweisdokumente	Ausweisdokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	conj	_	start_char=1172|end_char=1188
+7	aller	alle	PRON	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=1189|end_char=1194
+8	abzumeldenden	abzumeldend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	start_char=1195|end_char=1208
+9	Familienmitglieder	Familienmitglied	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	compound	_	start_char=1209|end_char=1227
+10	-	-	PUNCT	$(	_	9	punct	_	start_char=1229|end_char=1230
+11	Ausländische	ausländisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=1231|end_char=1243
+12	Mitbürgerinnen	Mitbürgerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nmod	_	start_char=1244|end_char=1258
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=1259|end_char=1262
+14	Mitbürger	Mitbürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	start_char=1263|end_char=1272
+15	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1273|end_char=1282
+16	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	start_char=1283|end_char=1287
+17	Pässe	Paß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	start_char=1288|end_char=1293
+18	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	19	det	_	start_char=1295|end_char=1301
+19	Gebühren	Gebühr	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	start_char=1302|end_char=1310
+20	fallen	fallen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	start_char=1311|end_char=1317
+21	an	an	ADP	PTKVZ	_	15	compound:prt	_	start_char=1318|end_char=1320
+22	?	?	PUNCT	$.	_	15	punct	_	start_char=1320|end_char=1321
+
+# text = Die Abmeldung ist gebührenfrei.
+# sent_id = 12
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1323|end_char=1326
+2	Abmeldung	Abmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1327|end_char=1336
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1337|end_char=1340
+4	gebührenfrei	gebührenfrei	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1341|end_char=1353
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1353|end_char=1354
+
+# text = Welche Fristen muss ich beachten?
+# sent_id = 13
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	2	det	_	start_char=1356|end_char=1362
+2	Fristen	Frist	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=1363|end_char=1370
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1371|end_char=1375
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1376|end_char=1379
+5	beachten	beachen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1380|end_char=1388
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=1388|end_char=1389
+
+# text = Meldefrist: Sie müssen sich innerhalb von zwei Wochen nach dem Auszug abmelden, wenn Sie keine neue Wohnung im Inland beziehen.
+# sent_id = 14
+1	Meldefrist	Meldefrist	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	dep	_	start_char=1391|end_char=1401
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1401|end_char=1402
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1403|end_char=1406
+4	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=1407|end_char=1413
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	start_char=1414|end_char=1418
+6	innerhalb	innerhalb	ADP	ADV	_	13	advmod	_	start_char=1419|end_char=1428
+7	von	von	ADP	APPR	_	9	case	_	start_char=1429|end_char=1432
+8	zwei	zwei	NUM	CARD	NumType=Card	9	nummod	_	start_char=1433|end_char=1437
+9	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	start_char=1438|end_char=1444
+10	nach	nach	ADP	APPR	_	12	case	_	start_char=1445|end_char=1449
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=1450|end_char=1453
+12	Auszug	Auszug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=1454|end_char=1460
+13	abmelden	abmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1461|end_char=1469
+14	,	,	PUNCT	$,	_	23	punct	_	start_char=1469|end_char=1470
+15	wenn	wenn	SCONJ	KOUS	_	23	mark	_	start_char=1471|end_char=1475
+16	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=1476|end_char=1479
+17	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	19	nmod	_	start_char=1480|end_char=1485
+18	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=1486|end_char=1490
+19	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=1491|end_char=1498
+20-21	im	_	_	_	_	_	_	_	start_char=1499|end_char=1501
+20	in	in	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Inland	Inland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	start_char=1502|end_char=1508
+23	beziehen	beziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=1509|end_char=1517
+24	.	.	PUNCT	$.	_	13	punct	_	start_char=1517|end_char=1518
+
+# text = Eine Abmeldung vor dem Auszugstermin ist frühestens eine Woche vor dem Auszug möglich.
+# sent_id = 15
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1519|end_char=1523
+2	Abmeldung	Abmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=1524|end_char=1533
+3	vor	vor	ADP	APPR	_	5	case	_	start_char=1534|end_char=1537
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1538|end_char=1541
+5	Auszugstermin	Auszugstermin	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=1542|end_char=1555
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=1556|end_char=1559
+7	frühestens	frühestens	ADV	ADV	_	8	advmod	_	start_char=1560|end_char=1570
+8	eine	ein	NUM	ART	Case=Acc|Gender=Fem|NumType=Card|Number=Sing	9	nummod	_	start_char=1571|end_char=1575
+9	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=1576|end_char=1581
+10	vor	vor	ADP	APPR	_	12	case	_	start_char=1582|end_char=1585
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=1586|end_char=1589
+12	Auszug	Auszug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	start_char=1590|end_char=1596
+13	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1597|end_char=1604
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=1604|end_char=1605
+
+# text = Bearbeitungsdauer Ihre Abmeldung wird sofort vorgenommen.
+# sent_id = 16
+1	Bearbeitungsdauer	Bearbeitungsdauer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=1607|end_char=1624
+2	Ihre	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=1626|end_char=1630
+3	Abmeldung	Abmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=1631|end_char=1640
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	start_char=1641|end_char=1645
+5	sofort	sofort	ADV	ADV	_	6	advmod	_	start_char=1646|end_char=1652
+6	vorgenommen	vornehmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1653|end_char=1664
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1664|end_char=1665
+
+# text = Die Abmeldebestätigung können Sie gleich mitnehmen.
+# sent_id = 17
+1	Die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1666|end_char=1669
+2	Abmeldebestätigung	Abmeldebestätigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=1670|end_char=1688
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1689|end_char=1695
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1696|end_char=1699
+5	gleich	gleich	ADV	ADV	_	6	advmod	_	start_char=1700|end_char=1706
+6	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1707|end_char=1716
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1716|end_char=1717
+
+# text = Rechtsgrundlage - Bundesmeldegesetz (BMG)
+# sent_id = 18
+1	Rechtsgrundlage	Rechtsgrundlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	compound	_	start_char=1719|end_char=1734
+2	-	-	PUNCT	$(	_	1	punct	_	start_char=1736|end_char=1737
+3	Bundesmeldegesetz	Bundesmeldegesetz	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1738|end_char=1755
+4	(	(	PUNCT	$(	_	5	punct	_	start_char=1756|end_char=1757
+5	BMG	BMG	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	start_char=1757|end_char=1760
+6	)	)	PUNCT	$(	_	5	punct	_	start_char=1760|end_char=1761
+
+# text = Was sollte ich noch wissen? - Bei einem Umzug innerhalb der Bundesrepublik Deutschland müssen Sie sich nicht abmelden.
+# sent_id = 19
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	5	obj	_	start_char=1763|end_char=1766
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	start_char=1767|end_char=1773
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1774|end_char=1777
+4	noch	noch	ADV	ADV	_	5	advmod	_	start_char=1778|end_char=1782
+5	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1783|end_char=1789
+6	?	?	PUNCT	$.	_	19	punct	_	start_char=1789|end_char=1790
+7	-	-	PUNCT	$(	_	19	punct	_	start_char=1792|end_char=1793
+8	Bei	bei	ADP	APPR	_	10	case	_	start_char=1794|end_char=1797
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1798|end_char=1803
+10	Umzug	Umzug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=1804|end_char=1809
+11	innerhalb	innerhalb	ADP	APPR	_	13	case	_	start_char=1810|end_char=1819
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1820|end_char=1823
+13	Bundesrepublik	Bundesrepublik	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=1824|end_char=1838
+14	Deutschland	Deutschland	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	13	appos	_	start_char=1839|end_char=1850
+15	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=1851|end_char=1857
+16	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=1858|end_char=1861
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	start_char=1862|end_char=1866
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	start_char=1867|end_char=1872
+19	abmelden	abmelden	VERB	VVINF	VerbForm=Inf	5	ccomp	_	start_char=1873|end_char=1881
+20	.	.	PUNCT	$.	_	5	punct	_	start_char=1881|end_char=1882
+
+# text = Eine Anmeldung am neuen Wohnort ist ausreichend.
+# sent_id = 20
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1883|end_char=1887
+2	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1888|end_char=1897
+3-4	am	_	_	_	_	_	_	_	start_char=1898|end_char=1900
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1901|end_char=1906
+6	Wohnort	Wohnort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=1907|end_char=1914
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1915|end_char=1918
+8	ausreichend	ausreichend	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1919|end_char=1930
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1930|end_char=1931
+
+# text = - Die Abmeldung einer Nebenwohnung in Hannover muss über die Meldebehörde Ihrer Hauptwohnung vorgenommen werden.
+# sent_id = 21
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=1933|end_char=1934
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1935|end_char=1938
+3	Abmeldung	Abmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	start_char=1939|end_char=1948
+4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1949|end_char=1954
+5	Nebenwohnung	Nebenwohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=1955|end_char=1967
+6	in	in	ADP	APPR	_	7	case	_	start_char=1968|end_char=1970
+7	Hannover	Hannover	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=1971|end_char=1979
+8	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1980|end_char=1984
+9	über	über	ADP	APPR	_	11	case	_	start_char=1985|end_char=1989
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1990|end_char=1993
+11	Meldebehörde	Meldebehörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=1994|end_char=2006
+12	Ihrer	Ihr|ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=2007|end_char=2012
+13	Hauptwohnung	Hauptwohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=2013|end_char=2025
+14	vorgenommen	vornehmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2026|end_char=2037
+15	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	14	aux:pass	_	start_char=2038|end_char=2044
+16	.	.	PUNCT	$.	_	14	punct	_	start_char=2044|end_char=2045
+
+# text = - Bei einem Wegzug ins Ausland und der Aufgabe einer Nebenwohnung besteht weiterhin die Pflicht zur Abmeldung.
+# sent_id = 22
+1	-	-	PUNCT	$(	_	13	punct	_	start_char=2047|end_char=2048
+2	Bei	bei	ADP	APPR	_	4	case	_	start_char=2049|end_char=2052
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2053|end_char=2058
+4	Wegzug	Wegzug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=2059|end_char=2065
+5-6	ins	_	_	_	_	_	_	_	start_char=2066|end_char=2069
+5	in	in	ADP	APPR	_	7	case	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Ausland	Ausland	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=2070|end_char=2077
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=2078|end_char=2081
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2082|end_char=2085
+10	Aufgabe	Aufgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	start_char=2086|end_char=2093
+11	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2094|end_char=2099
+12	Nebenwohnung	Nebenwohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=2100|end_char=2112
+13	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2113|end_char=2120
+14	weiterhin	weiterhin	ADV	ADV	_	13	advmod	_	start_char=2121|end_char=2130
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=2131|end_char=2134
+16	Pflicht	Pflicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=2135|end_char=2142
+17-18	zur	_	_	_	_	_	_	_	start_char=2143|end_char=2146
+17	zu	zu	ADP	APPR	_	19	case	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Abmeldung	Abmeldung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	start_char=2147|end_char=2156
+20	.	.	PUNCT	$.	_	13	punct	_	start_char=2156|end_char=2157
+
+# text = - Deutsche Staatsbürger/innen, die ins Ausland verziehen, können durch Angabe ihrer genauen Auslandsanschrift über anstehende Bundestags- und Europawahlen informiert werden.
+# sent_id = 23
+1	-	-	PUNCT	$(	_	2	punct	_	start_char=2159|end_char=2160
+2	Deutsche	deutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=2161|end_char=2169
+3	Staatsbürger/innen	Staatsbürger/innen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj:pass	_	start_char=2170|end_char=2188
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=2188|end_char=2189
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	_	start_char=2190|end_char=2193
+6-7	ins	_	_	_	_	_	_	_	start_char=2194|end_char=2197
+6	in	in	ADP	APPR	_	8	case	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ausland	Ausland	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	start_char=2198|end_char=2205
+9	verziehen	verziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=2206|end_char=2215
+10	,	,	PUNCT	$,	_	9	punct	_	start_char=2215|end_char=2216
+11	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=2217|end_char=2223
+12	durch	durch	ADP	APPR	_	13	case	_	start_char=2224|end_char=2229
+13	Angabe	Angabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	start_char=2230|end_char=2236
+14	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=2237|end_char=2242
+15	genauen	genau	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=2243|end_char=2250
+16	Auslandsanschrift	Auslandsanschrift	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=2251|end_char=2268
+17	über	über	ADP	APPR	_	19	case	_	start_char=2269|end_char=2273
+18	anstehende	anstehend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=2274|end_char=2284
+19	Bundestags	Bundestag	NOUN	TRUNC	_	16	nmod	_	start_char=2285|end_char=2295
+20	-	-	PUNCT	$(	_	22	punct	_	start_char=2295|end_char=2296
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=2297|end_char=2300
+22	Europawahlen	Europawahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	conj	_	start_char=2301|end_char=2313
+23	informiert	informieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2314|end_char=2324
+24	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	23	aux:pass	_	start_char=2325|end_char=2331
+25	.	.	PUNCT	$.	_	23	punct	_	start_char=2331|end_char=2332
+
+# text = Bereits ins Ausland Verzogene können ihrer letzten inländischen Meldebehörde zu diesem Zweck eine aktuelle Auslandsanschrift angeben.
+# sent_id = 24
+1	Bereits	bereits	ADV	ADV	_	4	advmod	_	start_char=2333|end_char=2340
+2-3	ins	_	_	_	_	_	_	_	start_char=2341|end_char=2344
+2	in	in	ADP	APPR	_	4	case	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Ausland	Ausland	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	start_char=2345|end_char=2352
+5	Verzogene	Verzogene	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	appos	_	start_char=2353|end_char=2362
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=2363|end_char=2369
+7	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=2370|end_char=2375
+8	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=2376|end_char=2383
+9	inländischen	inländisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=2384|end_char=2396
+10	Meldebehörde	Meldebehörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	start_char=2397|end_char=2409
+11	zu	zu	ADP	APPR	_	13	case	_	start_char=2410|end_char=2412
+12	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=2413|end_char=2419
+13	Zweck	Zweck	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	start_char=2420|end_char=2425
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=2426|end_char=2430
+15	aktuelle	aktuell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=2431|end_char=2439
+16	Auslandsanschrift	Auslandsanschrift	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nsubj	_	start_char=2440|end_char=2457
+17	angeben	angeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2458|end_char=2465
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=2465|end_char=2466
+
+# text = - Für die Abmeldung von Kindern und Jugendlichen bis zum vollendeten 16.
+# sent_id = 25
+1	-	-	PUNCT	$(	_	4	punct	_	start_char=2468|end_char=2469
+2	Für	für	ADP	APPR	_	4	case	_	start_char=2470|end_char=2473
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2474|end_char=2477
+4	Abmeldung	Abmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	start_char=2478|end_char=2487
+5	von	von	ADP	APPR	_	6	case	_	start_char=2488|end_char=2491
+6	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	start_char=2492|end_char=2499
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2500|end_char=2503
+8	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	6	conj	_	start_char=2504|end_char=2516
+9	bis	bis	ADP	APPR	_	13	case	_	start_char=2517|end_char=2520
+10-11	zum	_	_	_	_	_	_	_	start_char=2521|end_char=2524
+10	zu	zu	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+12	vollendeten	vollendet	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=2525|end_char=2536
+13	16	16	NUM	CARD	NumType=Card	4	nmod	_	start_char=2537|end_char=2539
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=2539|end_char=2540
+
+# text = Lebensjahr muss die Person sorgen, aus deren Wohnung das Kind oder der Jugendliche auszieht.
+# sent_id = 26
+1	Lebensjahr	Lebensjahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	dep	_	start_char=2541|end_char=2551
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2552|end_char=2556
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2557|end_char=2560
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=2561|end_char=2567
+5	sorgen	sorgen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2568|end_char=2574
+6	,	,	PUNCT	$,	_	15	punct	_	start_char=2574|end_char=2575
+7	aus	aus	ADP	APPR	_	9	case	_	start_char=2576|end_char=2579
+8	deren	der	DET	PRELAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	9	nmod:poss	_	start_char=2580|end_char=2585
+9	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=2586|end_char=2593
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=2594|end_char=2597
+11	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=2598|end_char=2602
+12	oder	oder	CCONJ	KON	_	14	cc	_	start_char=2603|end_char=2607
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=2608|end_char=2611
+14	Jugendliche	Jugendliche	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=2612|end_char=2623
+15	auszieht	ausziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=2624|end_char=2632
+16	.	.	PUNCT	$.	_	5	punct	_	start_char=2632|end_char=2633
+

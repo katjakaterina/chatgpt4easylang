@@ -1,0 +1,547 @@
+# text = Anmeldung einer Eheschließung
+# sent_id = 0
+1	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=9
+2	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=15
+3	Eheschließung	Eheschließung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=16|end_char=29
+
+# text = Wenn man heiraten möchte, muss man das beim Standesamt anmelden.
+# sent_id = 1
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	start_char=32|end_char=36
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=37|end_char=40
+3	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	12	advcl	_	start_char=41|end_char=49
+4	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=50|end_char=56
+5	,	,	PUNCT	$,	_	3	punct	_	start_char=56|end_char=57
+6	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=58|end_char=62
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=63|end_char=66
+8	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	start_char=67|end_char=70
+9-10	beim	_	_	_	_	_	_	_	start_char=71|end_char=75
+9	bei	bei	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=76|end_char=86
+12	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=87|end_char=95
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=95|end_char=96
+
+# text = Die Anmeldung dient dazu, zu prüfen, ob man in rechtlicher Hinsicht dazu befugt ist zu heiraten und ob es Hindernisse gibt, die eine Heirat verhindern.
+# sent_id = 2
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=97|end_char=100
+2	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=101|end_char=110
+3	dient	dienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=111|end_char=116
+4	dazu	dazu	PRON	PAV	_	3	dep	_	start_char=117|end_char=121
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=121|end_char=122
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=123|end_char=125
+7	prüfen	prüfen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=126|end_char=132
+8	,	,	PUNCT	$,	_	15	punct	_	start_char=132|end_char=133
+9	ob	ob	SCONJ	KOUS	_	15	mark	_	start_char=134|end_char=136
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=137|end_char=140
+11	in	in	ADP	APPR	_	13	case	_	start_char=141|end_char=143
+12	rechtlicher	rechtlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=144|end_char=155
+13	Hinsicht	Hinsicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=156|end_char=164
+14	dazu	dazu	ADV	PAV	_	15	advmod	_	start_char=165|end_char=169
+15	befugt	befugen	VERB	VVPP	VerbForm=Part	7	ccomp	_	start_char=170|end_char=176
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=177|end_char=180
+17	zu	zu	PART	PTKZU	_	18	mark	_	start_char=181|end_char=183
+18	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	15	xcomp	_	start_char=184|end_char=192
+19	und	und	CCONJ	KON	_	23	cc	_	start_char=193|end_char=196
+20	ob	ob	SCONJ	KOUS	_	23	mark	_	start_char=197|end_char=199
+21	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	start_char=200|end_char=202
+22	Hindernisse	Hindernis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	start_char=203|end_char=214
+23	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	start_char=215|end_char=219
+24	,	,	PUNCT	$,	_	28	punct	_	start_char=219|end_char=220
+25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	28	nsubj	_	start_char=221|end_char=224
+26	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=225|end_char=229
+27	Heirat	Heirat	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	start_char=230|end_char=236
+28	verhindern	verhindern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	start_char=237|end_char=247
+29	.	.	PUNCT	$.	_	3	punct	_	start_char=247|end_char=248
+
+# text = Vor der eigentlichen Eheschließung müssen noch weitere Formalitäten erledigt werden.
+# sent_id = 3
+1	Vor	vor	ADP	APPR	_	4	case	_	start_char=249|end_char=252
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=253|end_char=256
+3	eigentlichen	eigentlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=257|end_char=269
+4	Eheschließung	Eheschließung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=270|end_char=283
+5	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=284|end_char=290
+6	noch	noch	ADV	ADV	_	9	advmod	_	start_char=291|end_char=295
+7	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	8	amod	_	start_char=296|end_char=303
+8	Formalitäten	Formalität	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	start_char=304|end_char=316
+9	erledigt	erledigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=317|end_char=325
+10	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	9	aux:pass	_	start_char=326|end_char=332
+11	.	.	PUNCT	$.	_	9	punct	_	start_char=332|end_char=333
+
+# text = Die Anmeldung ist frühestens 6 Monate vor der Hochzeit möglich.
+# sent_id = 4
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=336|end_char=339
+2	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=340|end_char=349
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=350|end_char=353
+4	frühestens	frühestens	ADV	ADV	_	5	advmod	_	start_char=354|end_char=364
+5	6	6	NUM	CARD	NumType=Card	6	nummod	_	start_char=365|end_char=366
+6	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	start_char=367|end_char=373
+7	vor	vor	ADP	APPR	_	9	case	_	start_char=374|end_char=377
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=378|end_char=381
+9	Hochzeit	Hochzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=382|end_char=390
+10	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=391|end_char=398
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=398|end_char=399
+
+# text = Wenn der erste Tag der Anmeldefrist auf einen Freitag oder ein Wochenende fällt, beginnt die Frist am Montag darauf.
+# sent_id = 5
+1	Wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=400|end_char=404
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=405|end_char=408
+3	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	4	amod	_	start_char=409|end_char=414
+4	Tag	Tag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=415|end_char=418
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=419|end_char=422
+6	Anmeldefrist	Anmeldefrist	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=423|end_char=435
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=436|end_char=439
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=440|end_char=445
+9	Freitag	Freitag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	start_char=446|end_char=453
+10	oder	oder	CCONJ	KON	_	12	cc	_	start_char=454|end_char=458
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=459|end_char=462
+12	Wochenende	Wochenende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	start_char=463|end_char=473
+13	fällt	fallen|fällen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=474|end_char=479
+14	,	,	PUNCT	$,	_	13	punct	_	start_char=479|end_char=480
+15	beginnt	beginnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=481|end_char=488
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=489|end_char=492
+17	Frist	Frist	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=493|end_char=498
+18-19	am	_	_	_	_	_	_	_	start_char=499|end_char=501
+18	an	an	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	start_char=502|end_char=508
+21	darauf	darauf	PRON	PAV	_	15	advmod	_	start_char=509|end_char=515
+22	.	.	PUNCT	$.	_	15	punct	_	start_char=515|end_char=516
+
+# text = Es ist empfehlenswert, dass beide Verlobte zusammen während der Sprechzeiten zur Anmeldung kommen.
+# sent_id = 6
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=517|end_char=519
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=520|end_char=523
+3	empfehlenswert	empfehlenswert	ADJ	ADJD	Degree=Pos	0	root	_	start_char=524|end_char=538
+4	,	,	PUNCT	$,	_	15	punct	_	start_char=538|end_char=539
+5	dass	dass	SCONJ	KOUS	_	15	mark	_	start_char=540|end_char=544
+6	beide	beide	PRON	PIAT	Case=Nom|Number=Plur|PronType=Ind	7	det	_	start_char=545|end_char=550
+7	Verlobte	Verlobte	NOUN	NN	Case=Nom|Number=Plur	15	nsubj	_	start_char=551|end_char=559
+8	zusammen	zusammen	ADV	ADV	_	11	advmod	_	start_char=560|end_char=568
+9	während	während	ADP	APPR	_	11	case	_	start_char=569|end_char=576
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=577|end_char=580
+11	Sprechzeiten	Sprechzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	15	obl	_	start_char=581|end_char=593
+12-13	zur	_	_	_	_	_	_	_	start_char=594|end_char=597
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Anmeldung	Anmeldung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=598|end_char=607
+15	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	start_char=608|end_char=614
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=614|end_char=615
+
+# text = Falls einer der Verlobten verhindert ist, kann er oder sie eine Beitrittserklärung unterschreiben, mit der er oder sie erklärt, dass der andere Verlobte die Anmeldung auch für ihn oder sie durchführen darf.
+# sent_id = 7
+1	Falls	Fall	SCONJ	KOUS	_	5	mark	_	start_char=616|end_char=621
+2	einer	ein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	start_char=622|end_char=627
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=628|end_char=631
+4	Verlobten	Verlobte	NOUN	NN	Case=Gen|Number=Plur	2	nmod	_	start_char=632|end_char=641
+5	verhindert	verhindern	VERB	VVPP	VerbForm=Part	14	advcl	_	start_char=642|end_char=652
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=653|end_char=656
+7	,	,	PUNCT	$,	_	5	punct	_	start_char=656|end_char=657
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=658|end_char=662
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=663|end_char=665
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=666|end_char=670
+11	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	conj	_	start_char=671|end_char=674
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=675|end_char=679
+13	Beitrittserklärung	Beitrittserklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=680|end_char=698
+14	unterschreiben	unterschreiben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=699|end_char=713
+15	,	,	PUNCT	$,	_	21	punct	_	start_char=713|end_char=714
+16	mit	mit	ADP	APPR	_	17	case	_	start_char=715|end_char=718
+17	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	21	obl	_	start_char=719|end_char=722
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=723|end_char=725
+19	oder	oder	CCONJ	KON	_	20	cc	_	start_char=726|end_char=730
+20	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	conj	_	start_char=731|end_char=734
+21	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	start_char=735|end_char=742
+22	,	,	PUNCT	$,	_	34	punct	_	start_char=742|end_char=743
+23	dass	dass	SCONJ	KOUS	_	34	mark	_	start_char=744|end_char=748
+24	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=749|end_char=752
+25	andere	ander	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=753|end_char=759
+26	Verlobte	Verlobte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	start_char=760|end_char=768
+27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=769|end_char=772
+28	Anmeldung	Anmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	start_char=773|end_char=782
+29	auch	auch	ADV	ADV	_	31	advmod	_	start_char=783|end_char=787
+30	für	für	ADP	APPR	_	31	case	_	start_char=788|end_char=791
+31	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obl	_	start_char=792|end_char=795
+32	oder	oder	CCONJ	KON	_	33	cc	_	start_char=796|end_char=800
+33	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	conj	_	start_char=801|end_char=804
+34	durchführen	durchfahren|durchführen	VERB	VVINF	VerbForm=Inf	21	ccomp	_	start_char=805|end_char=816
+35	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	start_char=817|end_char=821
+36	.	.	PUNCT	$.	_	14	punct	_	start_char=821|end_char=822
+
+# text = Der Standesbeamte, in dessen Bezirk einer der Verlobten einen gewöhnlichen Aufenthalt hat, ist zuständig für die Entgegennahme der Anmeldung.
+# sent_id = 8
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=825|end_char=828
+2	Standesbeamte	Standesbeamte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=829|end_char=842
+3	,	,	PUNCT	$,	_	13	punct	_	start_char=842|end_char=843
+4	in	in	ADP	APPR	_	6	case	_	start_char=844|end_char=846
+5	dessen	der	DET	PRELAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	det	_	start_char=847|end_char=853
+6	Bezirk	Bezirk	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=854|end_char=860
+7	einer	ein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	start_char=861|end_char=866
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=867|end_char=870
+9	Verlobten	Verlobte	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=871|end_char=880
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=881|end_char=886
+11	gewöhnlichen	gewöhnlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=887|end_char=899
+12	Aufenthalt	Aufenthalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=900|end_char=910
+13	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=911|end_char=914
+14	,	,	PUNCT	$,	_	2	punct	_	start_char=914|end_char=915
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=916|end_char=919
+16	zuständig	zuständig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=920|end_char=929
+17	für	für	ADP	APPR	_	19	case	_	start_char=930|end_char=933
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=934|end_char=937
+19	Entgegennahme	Entgegennahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	start_char=938|end_char=951
+20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=952|end_char=955
+21	Anmeldung	Anmeldung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=956|end_char=965
+22	.	.	PUNCT	$.	_	16	punct	_	start_char=965|end_char=966
+
+# text = Wenn man warten muss, sollte man Verständnis haben, da man die gleiche Zeit und Aufmerksamkeit erhält wie die Kunden, die vor einem bedient wurden.
+# sent_id = 9
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	start_char=967|end_char=971
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=972|end_char=975
+3	warten	warten	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=976|end_char=982
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=983|end_char=987
+5	,	,	PUNCT	$,	_	3	punct	_	start_char=987|end_char=988
+6	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=989|end_char=995
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=996|end_char=999
+8	Verständnis	Verständnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1000|end_char=1011
+9	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=1012|end_char=1017
+10	,	,	PUNCT	$,	_	18	punct	_	start_char=1017|end_char=1018
+11	da	da	SCONJ	KOUS	_	18	mark	_	start_char=1019|end_char=1021
+12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	18	nsubj	_	start_char=1022|end_char=1025
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1026|end_char=1029
+14	gleiche	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=1030|end_char=1037
+15	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=1038|end_char=1042
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=1043|end_char=1046
+17	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	start_char=1047|end_char=1061
+18	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=1062|end_char=1068
+19	wie	wie	ADP	KOKOM	_	21	case	_	start_char=1069|end_char=1072
+20	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	start_char=1073|end_char=1076
+21	Kunden	Kunde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	obl	_	start_char=1077|end_char=1083
+22	,	,	PUNCT	$,	_	26	punct	_	start_char=1083|end_char=1084
+23	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	26	nsubj:pass	_	start_char=1085|end_char=1088
+24	vor	vor	ADP	APPR	_	25	case	_	start_char=1089|end_char=1092
+25	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	obl	_	start_char=1093|end_char=1098
+26	bedient	bedienen	VERB	VVPP	VerbForm=Part	21	acl	_	start_char=1099|end_char=1106
+27	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	26	aux:pass	_	start_char=1107|end_char=1113
+28	.	.	PUNCT	$.	_	9	punct	_	start_char=1113|end_char=1114
+
+# text = Eheschließungstermin
+# sent_id = 10
+1	Eheschließungstermin	Eheschließungstermin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1117|end_char=1137
+
+# text = Wenn beide Verlobten volljährig, ledig, deutsch und ehefähig sind und alle erforderlichen Unterlagen besorgt wurden, kann man von Montag bis Donnerstag während der Sprechzeiten seine Hochzeit anmelden und dabei auch den gewünschten Hochzeitstermin besprechen.
+# sent_id = 11
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=1140|end_char=1144
+2	beide	beide	PRON	PIAT	Case=Nom|Number=Plur|PronType=Ind	3	det	_	start_char=1145|end_char=1150
+3	Verlobten	Verlobte	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	start_char=1151|end_char=1160
+4	volljährig	volljährig	ADJ	ADJD	Degree=Pos	30	advcl	_	start_char=1161|end_char=1171
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=1171|end_char=1172
+6	ledig	ledig	ADJ	ADJD	Degree=Pos	4	conj	_	start_char=1173|end_char=1178
+7	,	,	PUNCT	$,	_	8	punct	_	start_char=1178|end_char=1179
+8	deutsch	deutsch	ADJ	ADJD	Degree=Pos	4	conj	_	start_char=1180|end_char=1187
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=1188|end_char=1191
+10	ehefähig	ehefähig	ADJ	ADJD	Degree=Pos	4	conj	_	start_char=1192|end_char=1200
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1201|end_char=1205
+12	und	und	CCONJ	KON	_	16	cc	_	start_char=1206|end_char=1209
+13	alle	alle	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	15	det	_	start_char=1210|end_char=1214
+14	erforderlichen	erforderlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=1215|end_char=1229
+15	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	start_char=1230|end_char=1240
+16	besorgt	besorgen	VERB	VVPP	VerbForm=Part	4	conj	_	start_char=1241|end_char=1248
+17	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	16	aux:pass	_	start_char=1249|end_char=1255
+18	,	,	PUNCT	$,	_	4	punct	_	start_char=1255|end_char=1256
+19	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=1257|end_char=1261
+20	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	30	nsubj	_	start_char=1262|end_char=1265
+21	von	von	ADP	APPR	_	22	case	_	start_char=1266|end_char=1269
+22	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	start_char=1270|end_char=1276
+23	bis	bis	ADP	APPR	_	24	case	_	start_char=1277|end_char=1280
+24	Donnerstag	Donnerstag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	start_char=1281|end_char=1291
+25	während	während	ADP	APPR	_	27	case	_	start_char=1292|end_char=1299
+26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=1300|end_char=1303
+27	Sprechzeiten	Sprechzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	30	obl	_	start_char=1304|end_char=1316
+28	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	start_char=1317|end_char=1322
+29	Hochzeit	Hochzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	start_char=1323|end_char=1331
+30	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1332|end_char=1340
+31	und	und	CCONJ	KON	_	37	cc	_	start_char=1341|end_char=1344
+32	dabei	dabei	ADV	PAV	_	37	advmod	_	start_char=1345|end_char=1350
+33	auch	auch	ADV	ADV	_	37	advmod	_	start_char=1351|end_char=1355
+34	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=1356|end_char=1359
+35	gewünschten	gewünscht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	start_char=1360|end_char=1371
+36	Hochzeitstermin	Hochzeitstermin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obj	_	start_char=1372|end_char=1387
+37	besprechen	besprechen	VERB	VVINF	VerbForm=Inf	30	conj	_	start_char=1388|end_char=1398
+38	.	.	PUNCT	$.	_	30	punct	_	start_char=1398|end_char=1399
+
+# text = Es wird um Verständnis gebeten, dass der Hochzeitstermin erst abgesprochen werden kann, wenn alle erforderlichen Nachweise vollständig vorgelegt wurden.
+# sent_id = 12
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=1400|end_char=1402
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=1403|end_char=1407
+3	um	um	ADP	APPR	_	4	case	_	start_char=1408|end_char=1410
+4	Verständnis	Verständnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	start_char=1411|end_char=1422
+5	gebeten	bitten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1423|end_char=1430
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1430|end_char=1431
+7	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=1432|end_char=1436
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1437|end_char=1440
+9	Hochzeitstermin	Hochzeitstermin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	start_char=1441|end_char=1456
+10	erst	erst	ADV	ADV	_	11	advmod	_	start_char=1457|end_char=1461
+11	abgesprochen	absprechen	VERB	VVPP	VerbForm=Part	4	ccomp	_	start_char=1462|end_char=1474
+12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	start_char=1475|end_char=1481
+13	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1482|end_char=1486
+14	,	,	PUNCT	$,	_	20	punct	_	start_char=1486|end_char=1487
+15	wenn	wenn	SCONJ	KOUS	_	20	mark	_	start_char=1488|end_char=1492
+16	alle	alle	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	18	det	_	start_char=1493|end_char=1497
+17	erforderlichen	erforderlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	start_char=1498|end_char=1512
+18	Nachweise	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj:pass	_	start_char=1513|end_char=1522
+19	vollständig	vollständig	ADJ	ADJD	Degree=Pos	20	advmod	_	start_char=1523|end_char=1534
+20	vorgelegt	vorlegen	VERB	VVPP	VerbForm=Part	11	advcl	_	start_char=1535|end_char=1544
+21	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	20	aux:pass	_	start_char=1545|end_char=1551
+22	.	.	PUNCT	$.	_	5	punct	_	start_char=1551|end_char=1552
+
+# text = Das bedeutet, dass keine Hochzeitstermine reserviert werden können.
+# sent_id = 13
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=1553|end_char=1556
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1557|end_char=1565
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=1565|end_char=1566
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	start_char=1567|end_char=1571
+5	keine	kein	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	6	nmod	_	start_char=1572|end_char=1577
+6	Hochzeitstermine	Hochzeitstermine	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	start_char=1578|end_char=1594
+7	reserviert	reservieren	VERB	VVPP	VerbForm=Part	2	ccomp	_	start_char=1595|end_char=1605
+8	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	7	aux:pass	_	start_char=1606|end_char=1612
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1613|end_char=1619
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=1619|end_char=1620
+
+# text = Persönliche Beratung
+# sent_id = 14
+1	Persönliche	persönlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=1623|end_char=1634
+2	Beratung	Beratung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1635|end_char=1643
+
+# text = In bestimmten Fällen empfiehlt es sich, eine persönliche Beratung in Anspruch zu nehmen.
+# sent_id = 15
+1	In	in	ADP	APPR	_	3	case	_	start_char=1646|end_char=1648
+2	bestimmten	bestimmt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=1649|end_char=1659
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=1660|end_char=1666
+4	empfiehlt	empfehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1667|end_char=1676
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1677|end_char=1679
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=1680|end_char=1684
+7	,	,	PUNCT	$,	_	14	punct	_	start_char=1684|end_char=1685
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1686|end_char=1690
+9	persönliche	persönlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1691|end_char=1702
+10	Beratung	Beratung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	start_char=1703|end_char=1711
+11	in	in	ADP	APPR	_	12	case	_	start_char=1712|end_char=1714
+12	Anspruch	Anspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=1715|end_char=1723
+13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=1724|end_char=1726
+14	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=1727|end_char=1733
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=1733|end_char=1734
+
+# text = Zum Beispiel, wenn einer der Verlobten eine ausländische Staatsangehörigkeit hat, minderjährige Kinder hat, schon einmal verheiratet war oder in einer eingetragenen Lebenspartnerschaft gelebt hat, nicht im Bundesgebiet geboren ist, Asylberechtigter oder ausländischer Flüchtling ist, im Ausland geschieden wurde oder minderjährig ist.
+# sent_id = 16
+1-2	Zum	_	_	_	_	_	_	_	start_char=1735|end_char=1738
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	34	obl	_	start_char=1739|end_char=1747
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=1747|end_char=1748
+5	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=1749|end_char=1753
+6	einer	ein	PRON	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	start_char=1754|end_char=1759
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=1760|end_char=1763
+8	Verlobten	Verlobte	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=1764|end_char=1773
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1774|end_char=1778
+10	ausländische	ausländisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1779|end_char=1791
+11	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=1792|end_char=1811
+12	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=1812|end_char=1815
+13	,	,	PUNCT	$,	_	16	punct	_	start_char=1815|end_char=1816
+14	minderjährige	minderjährig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	start_char=1817|end_char=1830
+15	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	start_char=1831|end_char=1837
+16	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	start_char=1838|end_char=1841
+17	,	,	PUNCT	$,	_	20	punct	_	start_char=1841|end_char=1842
+18	schon	schon	ADV	ADV	_	19	advmod	_	start_char=1843|end_char=1848
+19	einmal	einmal	ADV	ADV	_	20	advmod	_	start_char=1849|end_char=1855
+20	verheiratet	verheiraten	ADJ	VVPP	Degree=Pos|VerbForm=Part	12	conj	_	start_char=1856|end_char=1867
+21	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	start_char=1868|end_char=1871
+22	oder	oder	CCONJ	KON	_	27	cc	_	start_char=1872|end_char=1876
+23	in	in	ADP	APPR	_	26	case	_	start_char=1877|end_char=1879
+24	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=1880|end_char=1885
+25	eingetragenen	eingetragen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=1886|end_char=1899
+26	Lebenspartnerschaft	Lebenspartnerschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	start_char=1900|end_char=1919
+27	gelebt	leben	VERB	VVPP	VerbForm=Part	20	conj	_	start_char=1920|end_char=1926
+28	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=1927|end_char=1930
+29	,	,	PUNCT	$,	_	34	punct	_	start_char=1930|end_char=1931
+30	nicht	nicht	PART	PTKNEG	Polarity=Neg	34	advmod	_	start_char=1932|end_char=1937
+31-32	im	_	_	_	_	_	_	_	start_char=1938|end_char=1940
+31	in	in	ADP	APPR	_	33	case	_	_
+32	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
+33	Bundesgebiet	Bundesgebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	34	obl	_	start_char=1941|end_char=1953
+34	geboren	gebären	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1954|end_char=1961
+35	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	start_char=1962|end_char=1965
+36	,	,	PUNCT	$,	_	37	punct	_	start_char=1965|end_char=1966
+37	Asylberechtigter	Asylberechtigte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	appos	_	start_char=1967|end_char=1983
+38	oder	oder	CCONJ	KON	_	40	cc	_	start_char=1984|end_char=1988
+39	ausländischer	ausländisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	start_char=1989|end_char=2002
+40	Flüchtling	Flüchtling	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	conj	_	start_char=2003|end_char=2013
+41	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	start_char=2014|end_char=2017
+42	,	,	PUNCT	$,	_	46	punct	_	start_char=2017|end_char=2018
+43-44	im	_	_	_	_	_	_	_	start_char=2019|end_char=2021
+43	in	in	ADP	APPR	_	45	case	_	_
+44	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	45	det	_	_
+45	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	46	obl	_	start_char=2022|end_char=2029
+46	geschieden	scheiden	VERB	VVPP	VerbForm=Part	34	conj	_	start_char=2030|end_char=2040
+47	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	46	aux:pass	_	start_char=2041|end_char=2046
+48	oder	oder	CCONJ	KON	_	49	cc	_	start_char=2047|end_char=2051
+49	minderjährig	minderjährig	ADJ	ADJD	Degree=Pos	46	conj	_	start_char=2052|end_char=2064
+50	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux:pass	_	start_char=2065|end_char=2068
+51	.	.	PUNCT	$.	_	34	punct	_	start_char=2068|end_char=2069
+
+# text = Trauzimmer der Stadt Hildesheim
+# sent_id = 17
+1	Trauzimmer	Trauzimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=2072|end_char=2082
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2083|end_char=2086
+3	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=2087|end_char=2092
+4	Hildesheim	Hildesheim	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	3	appos	_	start_char=2093|end_char=2103
+
+# text = Hochzeiten in Hildesheim finden im historischen Trauzimmer im Alten Rathaus statt.
+# sent_id = 18
+1	Hochzeiten	Hochzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=2106|end_char=2116
+2	in	in	ADP	APPR	_	3	case	_	start_char=2117|end_char=2119
+3	Hildesheim	Hildesheim	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	start_char=2120|end_char=2130
+4	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2131|end_char=2137
+5-6	im	_	_	_	_	_	_	_	start_char=2138|end_char=2140
+5	in	in	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	historischen	historisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=2141|end_char=2153
+8	Trauzimmer	Trauzimmer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=2154|end_char=2164
+9-10	im	_	_	_	_	_	_	_	start_char=2165|end_char=2167
+9	in	in	ADP	APPR	_	12	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+11	Alten	alt	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	start_char=2168|end_char=2173
+12	Rathaus	Rathaus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=2174|end_char=2181
+13	statt	statt	ADP	PTKVZ	_	4	compound:prt	_	start_char=2182|end_char=2187
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=2187|end_char=2188
+
+# text = Aber wenn man das mit dem Standesamt bespricht, kann die Hochzeit auch im Dachpavillon des Museums stattfinden.
+# sent_id = 19
+1	Aber	aber	CCONJ	KON	_	8	cc	_	start_char=2189|end_char=2193
+2	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=2194|end_char=2198
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=2199|end_char=2202
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	start_char=2203|end_char=2206
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=2207|end_char=2210
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2211|end_char=2214
+7	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=2215|end_char=2225
+8	bespricht	besprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	start_char=2226|end_char=2235
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=2235|end_char=2236
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=2237|end_char=2241
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2242|end_char=2245
+12	Hochzeit	Hochzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=2246|end_char=2254
+13	auch	auch	ADV	ADV	_	19	advmod	_	start_char=2255|end_char=2259
+14-15	im	_	_	_	_	_	_	_	start_char=2260|end_char=2262
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Dachpavillon	Dachpavillon	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=2263|end_char=2275
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	start_char=2276|end_char=2279
+18	Museums	Museum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	start_char=2280|end_char=2287
+19	stattfinden	stattfinden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2288|end_char=2299
+20	.	.	PUNCT	$.	_	19	punct	_	start_char=2299|end_char=2300
+
+# text = Trauzeiten
+# sent_id = 20
+1	Trauzeiten	Trauzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2303|end_char=2313
+
+# text = Hochzeiten finden in der Regel von Montag bis Freitag von 9:30 Uhr bis 11:30 Uhr statt, aber man kann auch nach Vereinbarung Hochzeiten von Montag bis Mittwoch nachmittags haben.
+# sent_id = 21
+1	Hochzeiten	Hochzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2316|end_char=2326
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2327|end_char=2333
+3	in	in	ADP	APPR	_	5	case	_	start_char=2334|end_char=2336
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2337|end_char=2340
+5	Regel	Regel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2341|end_char=2346
+6	von	von	ADP	APPR	_	7	case	_	start_char=2347|end_char=2350
+7	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=2351|end_char=2357
+8	bis	bis	ADP	APPR	_	9	case	_	start_char=2358|end_char=2361
+9	Freitag	Freitag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=2362|end_char=2369
+10	von	von	ADP	APPR	_	12	case	_	start_char=2370|end_char=2373
+11	9:30	9:30	NUM	CARD	NumType=Card	12	nummod	_	start_char=2374|end_char=2378
+12	Uhr	Uhr	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2379|end_char=2382
+13	bis	bis	ADP	APPR	_	15	case	_	start_char=2383|end_char=2386
+14	11:30	11:30	NUM	CARD	NumType=Card	15	nummod	_	start_char=2387|end_char=2392
+15	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=2393|end_char=2396
+16	statt	statt	ADP	PTKVZ	_	2	compound:prt	_	start_char=2397|end_char=2402
+17	,	,	PUNCT	$,	_	30	punct	_	start_char=2402|end_char=2403
+18	aber	aber	CCONJ	KON	_	30	cc	_	start_char=2404|end_char=2408
+19	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	30	nsubj	_	start_char=2409|end_char=2412
+20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=2413|end_char=2417
+21	auch	auch	ADV	ADV	_	30	advmod	_	start_char=2418|end_char=2422
+22	nach	nach	ADP	APPR	_	23	case	_	start_char=2423|end_char=2427
+23	Vereinbarung	Vereinbarung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	obl	_	start_char=2428|end_char=2440
+24	Hochzeiten	Hochzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	30	obj	_	start_char=2441|end_char=2451
+25	von	von	ADP	APPR	_	26	case	_	start_char=2452|end_char=2455
+26	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	start_char=2456|end_char=2462
+27	bis	bis	ADP	APPR	_	28	case	_	start_char=2463|end_char=2466
+28	Mittwoch	Mittwoch	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	start_char=2467|end_char=2475
+29	nachmittags	nachmittags	ADV	ADV	_	30	advmod	_	start_char=2476|end_char=2487
+30	haben	haben	VERB	VAINF	VerbForm=Inf	2	conj	_	start_char=2488|end_char=2493
+31	.	.	PUNCT	$.	_	2	punct	_	start_char=2493|end_char=2494
+
+# text = Einmal im Monat gibt es auch Freitagnachmittags- und Samstagsvormittagstrauungen (Termine siehe "Dokumente").
+# sent_id = 22
+1	Einmal	einmal	ADV	ADV	_	4	advmod	_	start_char=2495|end_char=2501
+2-3	im	_	_	_	_	_	_	_	start_char=2502|end_char=2504
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Monat	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	start_char=2505|end_char=2510
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2511|end_char=2515
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=2516|end_char=2518
+7	auch	auch	ADV	ADV	_	5	advmod	_	start_char=2519|end_char=2523
+8	Freitagnachmittags	Freitagnachmittag	NOUN	TRUNC	_	5	nsubj	_	start_char=2524|end_char=2542
+9	-	-	PUNCT	$(	_	11	punct	_	start_char=2542|end_char=2543
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=2544|end_char=2547
+11	Samstagsvormittagstrauungen	Samstagsvormittagstrauung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=2548|end_char=2575
+12	(	(	PUNCT	$(	_	14	punct	_	start_char=2576|end_char=2577
+13	Termine	Termin	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=2577|end_char=2584
+14	siehe	sehen	VERB	VVIMP	Mood=Imp|Number=Sing|VerbForm=Fin	5	parataxis	_	start_char=2585|end_char=2590
+15	"	"	PUNCT	$(	_	16	punct	_	start_char=2591|end_char=2592
+16	Dokumente	Dokument	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	start_char=2592|end_char=2601
+17	"	"	PUNCT	$(	_	16	punct	_	start_char=2601|end_char=2602
+18	)	)	PUNCT	$(	_	14	punct	_	start_char=2602|end_char=2603
+19	.	.	PUNCT	$.	_	5	punct	_	start_char=2603|end_char=2604
+
+# text = Wenn man außerhalb der üblichen Öffnungszeiten oder im Museumspavillon heiraten möchte, fallen zusätzliche Kosten an.
+# sent_id = 23
+1	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=2605|end_char=2609
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=2610|end_char=2613
+3	außerhalb	außerhalb	ADP	APPR	_	6	case	_	start_char=2614|end_char=2623
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2624|end_char=2627
+5	üblichen	üblich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=2628|end_char=2636
+6	Öffnungszeiten	Öffnungszeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	11	obl	_	start_char=2637|end_char=2651
+7	oder	oder	CCONJ	KON	_	10	cc	_	start_char=2652|end_char=2656
+8-9	im	_	_	_	_	_	_	_	start_char=2657|end_char=2659
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Museumspavillon	Museumspavillon	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	start_char=2660|end_char=2675
+11	heiraten	heiraten	VERB	VVINF	VerbForm=Inf	14	advcl	_	start_char=2676|end_char=2684
+12	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	start_char=2685|end_char=2691
+13	,	,	PUNCT	$,	_	11	punct	_	start_char=2691|end_char=2692
+14	fallen	fallen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2693|end_char=2699
+15	zusätzliche	zusätzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	start_char=2700|end_char=2711
+16	Kosten	Kosten	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	start_char=2712|end_char=2718
+17	an	an	ADP	PTKVZ	_	14	compound:prt	_	start_char=2719|end_char=2721
+18	.	.	PUNCT	$.	_	14	punct	_	start_char=2721|end_char=2722
+
+# text = Was muss ich mitbringen?
+# sent_id = 24
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	start_char=2725|end_char=2728
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2729|end_char=2733
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=2734|end_char=2737
+4	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2738|end_char=2748
+5	?	?	PUNCT	$.	_	4	punct	_	start_char=2748|end_char=2749
+
+# text = Man braucht bestimmte Unterlagen.
+# sent_id = 25
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=2752|end_char=2755
+2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2756|end_char=2763
+3	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=2764|end_char=2773
+4	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2774|end_char=2784
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2784|end_char=2785
+
+# text = Man sollte sich an die zuständige Stelle wenden
+# sent_id = 26
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=2786|end_char=2789
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=2790|end_char=2796
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=2797|end_char=2801
+4	an	an	ADP	APPR	_	7	case	_	start_char=2802|end_char=2804
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2805|end_char=2808
+6	zuständige	zuständig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=2809|end_char=2819
+7	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=2820|end_char=2826
+8	wenden	wenden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2827|end_char=2833
+

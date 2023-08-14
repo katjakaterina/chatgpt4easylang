@@ -1,0 +1,81 @@
+# text = Du darfst bei der Landtagswahl in Niedersachsen am 09.
+# sent_id = 0
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	darfst	darfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=9
+3	bei	bei	ADP	APPR	_	5	case	_	start_char=10|end_char=13
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=14|end_char=17
+5	Landtagswahl	Landtagswahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=18|end_char=30
+6	in	in	ADP	APPR	_	7	case	_	start_char=31|end_char=33
+7	Niedersachsen	Niedersachsen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=34|end_char=47
+8-9	am	_	_	_	_	_	_	_	start_char=48|end_char=50
+8	an	an	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+10	09	09	NUM	CARD	NumType=Card	2	obl	_	start_char=51|end_char=53
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=53|end_char=54
+
+# text = Oktober 2022 mitwählen, wenn du die deutsche Staatsangehörigkeit hast und seit mindestens drei Monaten in Niedersachsen wohnst.
+# sent_id = 1
+1	Oktober	Oktober	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	start_char=55|end_char=62
+2	2022	2022	NUM	CARD	NumType=Card	1	nmod	_	start_char=63|end_char=67
+3	mitwählen	mitwählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=68|end_char=77
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=77|end_char=78
+5	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=79|end_char=83
+6	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	start_char=84|end_char=86
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=87|end_char=90
+8	deutsche	deutsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=91|end_char=99
+9	Staatsangehörigkeit	Staatsangehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=100|end_char=119
+10	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=120|end_char=124
+11	und	und	CCONJ	KON	_	18	cc	_	start_char=125|end_char=128
+12	seit	seit	ADP	APPR	_	15	case	_	start_char=129|end_char=133
+13	mindestens	mindestens	ADV	ADV	_	14	advmod	_	start_char=134|end_char=144
+14	drei	drei	NUM	CARD	NumType=Card	15	nummod	_	start_char=145|end_char=149
+15	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	start_char=150|end_char=157
+16	in	in	ADP	APPR	_	17	case	_	start_char=158|end_char=160
+17	Niedersachsen	Niedersachsen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	start_char=161|end_char=174
+18	wohnst	wohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=175|end_char=181
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=181|end_char=182
+
+# text = Es gibt unterschiedliche Regelungen, wenn du erst kürzlich nach Braunschweig gezogen bist oder umgezogen bist.
+# sent_id = 2
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=183|end_char=185
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=186|end_char=190
+3	unterschiedliche	unterschiedlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=191|end_char=207
+4	Regelungen	Regelung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=208|end_char=218
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=218|end_char=219
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=220|end_char=224
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj:pass	_	start_char=225|end_char=227
+8	erst	erst	ADV	ADV	_	9	advmod	_	start_char=228|end_char=232
+9	kürzlich	kürzlich	ADV	ADV	_	12	advmod	_	start_char=233|end_char=241
+10	nach	nach	ADP	APPR	_	11	case	_	start_char=242|end_char=246
+11	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=247|end_char=259
+12	gezogen	ziehen	VERB	VVPP	VerbForm=Part	2	advcl	_	start_char=260|end_char=267
+13	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	start_char=268|end_char=272
+14	oder	oder	CCONJ	KON	_	15	cc	_	start_char=273|end_char=277
+15	umgezogen	umziehen	VERB	VVPP	VerbForm=Part	12	conj	_	start_char=278|end_char=287
+16	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=288|end_char=292
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=292|end_char=293
+
+# text = Wenn du nicht sicher bist, ob du wahlberechtigt bist oder Fragen hast, dann frag einfach bei uns nach.
+# sent_id = 3
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=294|end_char=298
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=299|end_char=301
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=302|end_char=307
+4	sicher	sicher	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=308|end_char=314
+5	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=315|end_char=319
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=319|end_char=320
+7	ob	ob	SCONJ	KOUS	_	9	mark	_	start_char=321|end_char=323
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	start_char=324|end_char=326
+9	wahlberechtigt	wahlberechtigt	ADJ	ADJD	Degree=Pos	5	ccomp	_	start_char=327|end_char=341
+10	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=342|end_char=346
+11	oder	oder	CCONJ	KON	_	13	cc	_	start_char=347|end_char=351
+12	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=352|end_char=358
+13	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=359|end_char=363
+14	,	,	PUNCT	$,	_	16	punct	_	start_char=363|end_char=364
+15	dann	dann	ADV	ADV	_	16	advmod	_	start_char=365|end_char=369
+16	frag	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=370|end_char=374
+17	einfach	einfach	ADV	ADV	_	16	advmod	_	start_char=375|end_char=382
+18	bei	bei	ADP	APPR	_	19	case	_	start_char=383|end_char=386
+19	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	obl	_	start_char=387|end_char=390
+20	nach	nach	ADP	PTKVZ	_	16	compound:prt	_	start_char=391|end_char=395
+21	.	.	PUNCT	$.	_	16	punct	_	start_char=395|end_char=396
+

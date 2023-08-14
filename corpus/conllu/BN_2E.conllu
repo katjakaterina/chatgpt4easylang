@@ -1,0 +1,172 @@
+# text = Wenn du etwas Wertvolles (das mehr als 10 Euro kostet) findest, musst du es im Fundbüro der Stadt abgeben.
+# sent_id = 0
+1	Wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=0|end_char=4
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	start_char=5|end_char=7
+3	etwas	etwas	PRON	PIAT	PronType=Ind	4	det	_	start_char=8|end_char=13
+4	Wertvolles	Wertvolles	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=14|end_char=24
+5	(	(	PUNCT	$(	_	11	punct	_	start_char=25|end_char=26
+6	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	11	nsubj	_	start_char=26|end_char=29
+7	mehr	mehr	ADV	ADV	_	11	advmod	_	start_char=30|end_char=34
+8	als	als	ADP	KOKOM	_	10	case	_	start_char=35|end_char=38
+9	10	10	NUM	CARD	NumType=Card	10	nummod	_	start_char=39|end_char=41
+10	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nmod	_	start_char=42|end_char=46
+11	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=47|end_char=53
+12	)	)	PUNCT	$(	_	11	punct	_	start_char=53|end_char=54
+13	findest	findesen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	advcl	_	start_char=55|end_char=62
+14	,	,	PUNCT	$,	_	13	punct	_	start_char=62|end_char=63
+15	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=64|end_char=69
+16	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	_	start_char=70|end_char=72
+17	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=73|end_char=75
+18-19	im	_	_	_	_	_	_	_	start_char=76|end_char=78
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Fundbüro	Fundbüro	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	start_char=79|end_char=87
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=88|end_char=91
+22	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=92|end_char=97
+23	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=98|end_char=105
+24	.	.	PUNCT	$.	_	23	punct	_	start_char=105|end_char=106
+
+# text = Dort wird eine Fundanzeige gemacht und deine Daten sowie die Daten zum Fundgegenstand werden notiert.
+# sent_id = 1
+1	Dort	dort	ADV	ADV	_	5	advmod	_	start_char=107|end_char=111
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=112|end_char=116
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=117|end_char=121
+4	Fundanzeige	Fundanzeige	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=122|end_char=133
+5	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=134|end_char=141
+6	und	und	CCONJ	KON	_	16	cc	_	start_char=142|end_char=145
+7	deine	dein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=146|end_char=151
+8	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	nsubj:pass	_	start_char=152|end_char=157
+9	sowie	sowie	CCONJ	KON	_	11	cc	_	start_char=158|end_char=163
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	start_char=164|end_char=167
+11	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	start_char=168|end_char=173
+12-13	zum	_	_	_	_	_	_	_	start_char=174|end_char=177
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Fundgegenstand	Fundgegenstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=178|end_char=192
+15	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	aux:pass	_	start_char=193|end_char=199
+16	notiert	notieren	VERB	VVPP	VerbForm=Part	5	conj	_	start_char=200|end_char=207
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=207|end_char=208
+
+# text = Wenn sich innerhalb von sechs Monaten niemand meldet, der den Gegenstand vermisst, darfst du ihn behalten oder er wird versteigert.
+# sent_id = 2
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=209|end_char=213
+2	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=214|end_char=218
+3	innerhalb	innerhalb	ADP	ADV	_	8	advmod	_	start_char=219|end_char=228
+4	von	von	ADP	APPR	_	6	case	_	start_char=229|end_char=232
+5	sechs	sechs	NUM	CARD	NumType=Card	6	nummod	_	start_char=233|end_char=238
+6	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=239|end_char=246
+7	niemand	niemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=247|end_char=254
+8	meldet	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=255|end_char=261
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=261|end_char=262
+10	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	start_char=263|end_char=266
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=267|end_char=270
+12	Gegenstand	Gegenstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=271|end_char=281
+13	vermisst	vermissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=282|end_char=290
+14	,	,	PUNCT	$,	_	13	punct	_	start_char=290|end_char=291
+15	darfst	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=292|end_char=298
+16	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	start_char=299|end_char=301
+17	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	start_char=302|end_char=305
+18	behalten	behalten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=306|end_char=314
+19	oder	oder	CCONJ	KON	_	22	cc	_	start_char=315|end_char=319
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj:pass	_	start_char=320|end_char=322
+21	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	aux:pass	_	start_char=323|end_char=327
+22	versteigert	versteigern	VERB	VVPP	VerbForm=Part	18	conj	_	start_char=328|end_char=339
+23	.	.	PUNCT	$.	_	18	punct	_	start_char=339|end_char=340
+
+# text = Auch gefundene Tiere müssen gemeldet werden.
+# sent_id = 3
+1	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=341|end_char=345
+2	gefundene	gefunden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=346|end_char=355
+3	Tiere	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	start_char=356|end_char=361
+4	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=362|end_char=368
+5	gemeldet	melden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=369|end_char=377
+6	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	5	aux:pass	_	start_char=378|end_char=384
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=384|end_char=385
+
+# text = Du kannst sie in einem Tierheim abgeben.
+# sent_id = 4
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	start_char=386|end_char=388
+2	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=389|end_char=395
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	start_char=396|end_char=399
+4	in	in	ADP	APPR	_	6	case	_	start_char=400|end_char=402
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=403|end_char=408
+6	Tierheim	Tierheim	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=409|end_char=417
+7	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=418|end_char=425
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=425|end_char=426
+
+# text = Nach einem halben Jahr ohne Vermisstenmeldung können die Tiere auch versteigert werden.
+# sent_id = 5
+1	Nach	nach	ADP	APPR	_	4	case	_	start_char=427|end_char=431
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=432|end_char=437
+3	halben	halb	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=438|end_char=444
+4	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=445|end_char=449
+5	ohne	ohne	ADP	APPR	_	6	case	_	start_char=450|end_char=454
+6	Vermisstenmeldung	Vermisstenmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=455|end_char=472
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=473|end_char=479
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	start_char=480|end_char=483
+9	Tiere	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj:pass	_	start_char=484|end_char=489
+10	auch	auch	ADV	ADV	_	11	advmod	_	start_char=490|end_char=494
+11	versteigert	versteigern	VERB	VVPP	VerbForm=Part	0	root	_	start_char=495|end_char=506
+12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	start_char=507|end_char=513
+13	.	.	PUNCT	$.	_	11	punct	_	start_char=513|end_char=514
+
+# text = Wenn du etwas verloren hast, kannst du im Internet nachsehen oder im Fundbüro fragen, ob es gefunden wurde.
+# sent_id = 6
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=515|end_char=519
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=520|end_char=522
+3	etwas	etwas	PRON	PIS	PronType=Ind	4	obj	_	start_char=523|end_char=528
+4	verloren	verlieren	VERB	VVPP	VerbForm=Part	12	advcl	_	start_char=529|end_char=537
+5	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=538|end_char=542
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=542|end_char=543
+7	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=544|end_char=550
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	start_char=551|end_char=553
+9-10	im	_	_	_	_	_	_	_	start_char=554|end_char=556
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	start_char=557|end_char=565
+12	nachsehen	nachsehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=566|end_char=575
+13	oder	oder	CCONJ	KON	_	17	cc	_	start_char=576|end_char=580
+14-15	im	_	_	_	_	_	_	_	start_char=581|end_char=583
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Fundbüro	Fundbüro	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	start_char=584|end_char=592
+17	fragen	fragen	VERB	VVINF	VerbForm=Inf	12	conj	_	start_char=593|end_char=599
+18	,	,	PUNCT	$,	_	21	punct	_	start_char=599|end_char=600
+19	ob	ob	SCONJ	KOUS	_	21	mark	_	start_char=601|end_char=603
+20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	start_char=604|end_char=606
+21	gefunden	finden	VERB	VVPP	VerbForm=Part	17	ccomp	_	start_char=607|end_char=615
+22	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	21	aux:pass	_	start_char=616|end_char=621
+23	.	.	PUNCT	$.	_	12	punct	_	start_char=621|end_char=622
+
+# text = Wenn Fundgegenstände nicht innerhalb von sechs Monaten abgeholt werden, werden sie versteigert, aber es gibt keine Garantie für den Wert und den Zustand der versteigerten Gegenstände.
+# sent_id = 7
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=623|end_char=627
+2	Fundgegenstände	Fundgegenstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	start_char=628|end_char=643
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=644|end_char=649
+4	innerhalb	innerhalb	ADP	ADV	_	8	advmod	_	start_char=650|end_char=659
+5	von	von	ADP	APPR	_	7	case	_	start_char=660|end_char=663
+6	sechs	sechs	NUM	CARD	NumType=Card	7	nummod	_	start_char=664|end_char=669
+7	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=670|end_char=677
+8	abgeholt	abholen	VERB	VVPP	VerbForm=Part	13	advcl	_	start_char=678|end_char=686
+9	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=687|end_char=693
+10	,	,	PUNCT	$,	_	8	punct	_	start_char=693|end_char=694
+11	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	start_char=695|end_char=701
+12	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj:pass	_	start_char=702|end_char=705
+13	versteigert	versteigern	VERB	VVPP	VerbForm=Part	0	root	_	start_char=706|end_char=717
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=717|end_char=718
+15	aber	aber	CCONJ	KON	_	17	cc	_	start_char=719|end_char=723
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	start_char=724|end_char=726
+17	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	start_char=727|end_char=731
+18	keine	kein	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	19	nmod	_	start_char=732|end_char=737
+19	Garantie	Garantie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nsubj	_	start_char=738|end_char=746
+20	für	für	ADP	APPR	_	22	case	_	start_char=747|end_char=750
+21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=751|end_char=754
+22	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	start_char=755|end_char=759
+23	und	und	CCONJ	KON	_	25	cc	_	start_char=760|end_char=763
+24	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=764|end_char=767
+25	Zustand	Zustand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	conj	_	start_char=768|end_char=775
+26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=776|end_char=779
+27	versteigerten	versteigert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	start_char=780|end_char=793
+28	Gegenstände	Gegenstand	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	start_char=794|end_char=805
+29	.	.	PUNCT	$.	_	13	punct	_	start_char=805|end_char=806
+

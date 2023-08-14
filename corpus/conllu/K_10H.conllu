@@ -1,0 +1,358 @@
+# text = Sie können beim Standesamt eine Sterbeurkunde beantragen.
+# sent_id = 0
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=0|end_char=3
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4|end_char=10
+3-4	beim	_	_	_	_	_	_	_	start_char=11|end_char=15
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=16|end_char=26
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=27|end_char=31
+7	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=32|end_char=45
+8	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=46|end_char=56
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=56|end_char=57
+
+# text = Eine Sterbeurkunde wird benötigt, um verschiedene Verwaltungsvorgänge nach dem Tod einer Person durchzuführen, wie zum Beispiel die Auflösung von Verträgen oder die Regelung des Nachlasses.
+# sent_id = 1
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=58|end_char=62
+2	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=63|end_char=76
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=77|end_char=81
+4	benötigt	benötigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=82|end_char=90
+5	,	,	PUNCT	$,	_	14	punct	_	start_char=90|end_char=91
+6	um	um	ADP	KOUI	_	14	mark	_	start_char=92|end_char=94
+7	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=95|end_char=107
+8	Verwaltungsvorgänge	Verwaltungsvorgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	start_char=108|end_char=127
+9	nach	nach	ADP	APPR	_	11	case	_	start_char=128|end_char=132
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=133|end_char=136
+11	Tod	Tod	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=137|end_char=140
+12	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=141|end_char=146
+13	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=147|end_char=153
+14	durchzuführen	durchführen	VERB	VVIZU	VerbForm=Inf	4	advcl	_	start_char=154|end_char=167
+15	,	,	PUNCT	$,	_	21	punct	_	start_char=167|end_char=168
+16	wie	wie	ADP	KOKOM	_	21	case	_	start_char=169|end_char=172
+17-18	zum	_	_	_	_	_	_	_	start_char=173|end_char=176
+17	zu	zu	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	start_char=177|end_char=185
+20	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=186|end_char=189
+21	Auflösung	Auflösung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	start_char=190|end_char=199
+22	von	von	ADP	APPR	_	23	case	_	start_char=200|end_char=203
+23	Verträgen	Vertrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	nmod	_	start_char=204|end_char=213
+24	oder	oder	CCONJ	KON	_	26	cc	_	start_char=214|end_char=218
+25	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=219|end_char=222
+26	Regelung	Regelung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	start_char=223|end_char=231
+27	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	start_char=232|end_char=235
+28	Nachlasses	Nachlaß	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	start_char=236|end_char=246
+29	.	.	PUNCT	$.	_	4	punct	_	start_char=246|end_char=247
+
+# text = Für die Ausstellung der Sterbeurkunde müssen Sie einen Antrag stellen und die notwendigen Unterlagen vorlegen, wie zum Beispiel den Totenschein oder eine Geburtsurkunde der verstorbenen Person.
+# sent_id = 2
+1	Für	für	ADP	APPR	_	3	case	_	start_char=248|end_char=251
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=252|end_char=255
+3	Ausstellung	Ausstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=256|end_char=267
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=268|end_char=271
+5	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=272|end_char=285
+6	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=286|end_char=292
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=293|end_char=296
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=297|end_char=302
+9	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=303|end_char=309
+10	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=310|end_char=317
+11	und	und	CCONJ	KON	_	15	cc	_	start_char=318|end_char=321
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=322|end_char=325
+13	notwendigen	notwendig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=326|end_char=337
+14	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=338|end_char=348
+15	vorlegen	vorlegen	VERB	VVINF	VerbForm=Inf	10	conj	_	start_char=349|end_char=357
+16	,	,	PUNCT	$,	_	22	punct	_	start_char=357|end_char=358
+17	wie	wie	ADP	KOKOM	_	22	case	_	start_char=359|end_char=362
+18-19	zum	_	_	_	_	_	_	_	start_char=363|end_char=366
+18	zu	zu	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	start_char=367|end_char=375
+21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=376|end_char=379
+22	Totenschein	Totenschein	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	appos	_	start_char=380|end_char=391
+23	oder	oder	CCONJ	KON	_	25	cc	_	start_char=392|end_char=396
+24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=397|end_char=401
+25	Geburtsurkunde	Geburtsurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	start_char=402|end_char=416
+26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=417|end_char=420
+27	verstorbenen	verstorben	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=421|end_char=433
+28	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	start_char=434|end_char=440
+29	.	.	PUNCT	$.	_	10	punct	_	start_char=440|end_char=441
+
+# text = Das Standesamt prüft die Unterlagen und stellt die Sterbeurkunde aus, wenn alles in Ordnung ist.
+# sent_id = 3
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=442|end_char=445
+2	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=446|end_char=456
+3	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=457|end_char=462
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=463|end_char=466
+5	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=467|end_char=477
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=478|end_char=481
+7	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=482|end_char=488
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=489|end_char=492
+9	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=493|end_char=506
+10	aus	aus	ADP	PTKVZ	_	7	compound:prt	_	start_char=507|end_char=510
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=510|end_char=511
+12	wenn	wenn	SCONJ	KOUS	_	16	mark	_	start_char=512|end_char=516
+13	alles	alle	PRON	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	16	nsubj	_	start_char=517|end_char=522
+14	in	in	ADP	APPR	_	15	case	_	start_char=523|end_char=525
+15	Ordnung	Ordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=526|end_char=533
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=534|end_char=537
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=537|end_char=538
+
+# text = Das Standesamt, das für den Sterbefall zuständig ist, ist auch zuständig für die Ausstellung der Sterbeurkunde.
+# sent_id = 4
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=539|end_char=542
+2	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=543|end_char=553
+3	,	,	PUNCT	$,	_	8	punct	_	start_char=553|end_char=554
+4	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	start_char=555|end_char=558
+5	für	für	ADP	APPR	_	7	case	_	start_char=559|end_char=562
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=563|end_char=566
+7	Sterbefall	Sterbefall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	start_char=567|end_char=577
+8	zuständig	zuständig	ADJ	ADJD	Degree=Pos	2	acl	_	start_char=578|end_char=587
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=588|end_char=591
+10	,	,	PUNCT	$,	_	8	punct	_	start_char=591|end_char=592
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=593|end_char=596
+12	auch	auch	ADV	ADV	_	13	advmod	_	start_char=597|end_char=601
+13	zuständig	zuständig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=602|end_char=611
+14	für	für	ADP	APPR	_	16	case	_	start_char=612|end_char=615
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=616|end_char=619
+16	Ausstellung	Ausstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=620|end_char=631
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=632|end_char=635
+18	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=636|end_char=649
+19	.	.	PUNCT	$.	_	13	punct	_	start_char=649|end_char=650
+
+# text = Um eine Sterbeurkunde zu beantragen, müssen Sie mindestens 16 Jahre alt sein und einen Identitätsnachweis vorlegen, wie zum Beispiel einen Personalausweis oder einen Reisepass.
+# sent_id = 5
+1	Um	um	ADP	KOUI	_	5	mark	_	start_char=651|end_char=653
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=654|end_char=658
+3	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=659|end_char=672
+4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=673|end_char=675
+5	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	12	advcl	_	start_char=676|end_char=686
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=686|end_char=687
+7	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=688|end_char=694
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=695|end_char=698
+9	mindestens	mindestens	ADV	ADV	_	10	advmod	_	start_char=699|end_char=709
+10	16	16	NUM	CARD	NumType=Card	11	nummod	_	start_char=710|end_char=712
+11	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	nmod	_	start_char=713|end_char=718
+12	alt	alt	ADJ	ADJD	Degree=Pos	0	root	_	start_char=719|end_char=722
+13	sein	sein	AUX	VAINF	VerbForm=Inf	12	cop	_	start_char=723|end_char=727
+14	und	und	CCONJ	KON	_	17	cc	_	start_char=728|end_char=731
+15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=732|end_char=737
+16	Identitätsnachweis	Identitätsnachweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=738|end_char=756
+17	vorlegen	vorlegen	VERB	VVINF	VerbForm=Inf	12	conj	_	start_char=757|end_char=765
+18	,	,	PUNCT	$,	_	24	punct	_	start_char=765|end_char=766
+19	wie	wie	ADP	KOKOM	_	24	case	_	start_char=767|end_char=770
+20-21	zum	_	_	_	_	_	_	_	start_char=771|end_char=774
+20	zu	zu	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	start_char=775|end_char=783
+23	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=784|end_char=789
+24	Personalausweis	Personalausweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	appos	_	start_char=790|end_char=805
+25	oder	oder	CCONJ	KON	_	27	cc	_	start_char=806|end_char=810
+26	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	start_char=811|end_char=816
+27	Reisepass	Reisepaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	conj	_	start_char=817|end_char=826
+28	.	.	PUNCT	$.	_	12	punct	_	start_char=826|end_char=827
+
+# text = Die Gebühr beträgt 15,00 EUR für das erste Exemplar und 7,50 EUR für jedes weitere Exemplar, wenn Sie diese gleichzeitig mit dem ersten Exemplar beantragen.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=828|end_char=831
+2	Gebühr	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=832|end_char=838
+3	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=839|end_char=846
+4	15,00	15,00	NUM	CARD	NumType=Card	5	nummod	_	start_char=847|end_char=852
+5	EUR	EUR	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=853|end_char=856
+6	für	für	ADP	APPR	_	9	case	_	start_char=857|end_char=860
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=861|end_char=864
+8	erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	9	amod	_	start_char=865|end_char=870
+9	Exemplar	Exemplar	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	start_char=871|end_char=879
+10	und	und	CCONJ	KON	_	12	cc	_	start_char=880|end_char=883
+11	7,50	7,50	NUM	CARD	NumType=Card	12	nummod	_	start_char=884|end_char=888
+12	EUR	EUR	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	start_char=889|end_char=892
+13	für	für	ADP	APPR	_	16	case	_	start_char=893|end_char=896
+14	jedes	jed	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	16	det	_	start_char=897|end_char=902
+15	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	16	amod	_	start_char=903|end_char=910
+16	Exemplar	Exemplar	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	start_char=911|end_char=919
+17	,	,	PUNCT	$,	_	26	punct	_	start_char=919|end_char=920
+18	wenn	wenn	SCONJ	KOUS	_	26	mark	_	start_char=921|end_char=925
+19	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	start_char=926|end_char=929
+20	diese	dies	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem	26	obj	_	start_char=930|end_char=935
+21	gleichzeitig	gleichzeitig	ADJ	ADJD	Degree=Pos	26	advmod	_	start_char=936|end_char=948
+22	mit	mit	ADP	APPR	_	25	case	_	start_char=949|end_char=952
+23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	start_char=953|end_char=956
+24	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	25	amod	_	start_char=957|end_char=963
+25	Exemplar	Exemplar	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	start_char=964|end_char=972
+26	beantragen	beantragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=973|end_char=983
+27	.	.	PUNCT	$.	_	3	punct	_	start_char=983|end_char=984
+
+# text = Das Sterberegister darf nicht länger als 30 Jahre geführt worden sein.
+# sent_id = 7
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=985|end_char=988
+2	Sterberegister	Sterberegister	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	start_char=989|end_char=1003
+3	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1004|end_char=1008
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=1009|end_char=1014
+5	länger	lang	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=1015|end_char=1021
+6	als	als	ADP	KOKOM	_	8	case	_	start_char=1022|end_char=1025
+7	30	30	NUM	CARD	NumType=Card	8	nummod	_	start_char=1026|end_char=1028
+8	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	nmod	_	start_char=1029|end_char=1034
+9	geführt	führen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1035|end_char=1042
+10	worden	werden	AUX	VAPP	VerbForm=Part|Voice=Pass	9	aux:pass	_	start_char=1043|end_char=1049
+11	sein	sein	AUX	VAINF	VerbForm=Inf	9	aux	_	start_char=1050|end_char=1054
+12	.	.	PUNCT	$.	_	9	punct	_	start_char=1054|end_char=1055
+
+# text = Die Bearbeitungszeit beträgt etwa 2 Wochen.
+# sent_id = 8
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1056|end_char=1059
+2	Bearbeitungszeit	Bearbeitungszeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1060|end_char=1076
+3	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1077|end_char=1084
+4	etwa	etwa	ADV	ADV	_	5	advmod	_	start_char=1085|end_char=1089
+5	2	2	NUM	CARD	NumType=Card	6	nummod	_	start_char=1090|end_char=1091
+6	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1092|end_char=1098
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=1098|end_char=1099
+
+# text = Wenn das Standesamt den Antrag ablehnt, können Sie beim zuständigen Gericht einen Antrag stellen, das Standesamt anzuweisen, Ihnen die Sterbeurkunde auszustellen.
+# sent_id = 9
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=1100|end_char=1104
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=1105|end_char=1108
+3	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1109|end_char=1119
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1120|end_char=1123
+5	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1124|end_char=1130
+6	ablehnt	ablehnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=1131|end_char=1138
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=1138|end_char=1139
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=1140|end_char=1146
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=1147|end_char=1150
+10-11	beim	_	_	_	_	_	_	_	start_char=1151|end_char=1155
+10	bei	bei	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+12	zuständigen	zuständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=1156|end_char=1167
+13	Gericht	Gericht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=1168|end_char=1175
+14	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=1176|end_char=1181
+15	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=1182|end_char=1188
+16	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1189|end_char=1196
+17	,	,	PUNCT	$,	_	20	punct	_	start_char=1196|end_char=1197
+18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	start_char=1198|end_char=1201
+19	Standesamt	Standesamt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	start_char=1202|end_char=1212
+20	anzuweisen	anweisen	VERB	VVIZU	VerbForm=Inf	16	xcomp	_	start_char=1213|end_char=1223
+21	,	,	PUNCT	$,	_	25	punct	_	start_char=1223|end_char=1224
+22	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	25	iobj	_	start_char=1225|end_char=1230
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=1231|end_char=1234
+24	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	start_char=1235|end_char=1248
+25	auszustellen	ausstellen	VERB	VVIZU	VerbForm=Inf	20	xcomp	_	start_char=1249|end_char=1261
+26	.	.	PUNCT	$.	_	16	punct	_	start_char=1261|end_char=1262
+
+# text = Anmerkung:  Verwaltungsvorgänge: dies bezieht sich auf alle behördlichen oder rechtlichen Angelegenheiten, die nach dem Tod einer Person geregelt werden müssen  Totenschein: ist ein ärztliches Dokument, das den Tod einer Person bestätigt und die Todesursache angibt.
+# sent_id = 10
+1	Anmerkung	Anmerkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1263|end_char=1272
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=1272|end_char=1273
+3		"	PUNCT	$(	_	4	punct	_	start_char=1274|end_char=1275
+4	Verwaltungsvorgänge	Verwaltungsvorgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	start_char=1276|end_char=1295
+5	:	:	PUNCT	$.	_	4	punct	_	start_char=1295|end_char=1296
+6	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=1297|end_char=1301
+7	bezieht	beziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=1302|end_char=1309
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=1310|end_char=1314
+9	auf	auf	ADP	APPR	_	14	case	_	start_char=1315|end_char=1318
+10	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	start_char=1319|end_char=1323
+11	behördlichen	behördlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=1324|end_char=1336
+12	oder	oder	CCONJ	KON	_	13	cc	_	start_char=1337|end_char=1341
+13	rechtlichen	rechtlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	conj	_	start_char=1342|end_char=1353
+14	Angelegenheiten	Angelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	start_char=1354|end_char=1369
+15	,	,	PUNCT	$,	_	22	punct	_	start_char=1369|end_char=1370
+16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj:pass	_	start_char=1371|end_char=1374
+17	nach	nach	ADP	APPR	_	19	case	_	start_char=1375|end_char=1379
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=1380|end_char=1383
+19	Tod	Tod	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	start_char=1384|end_char=1387
+20	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1388|end_char=1393
+21	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=1394|end_char=1400
+22	geregelt	regeln	VERB	VVPP	VerbForm=Part	14	acl	_	start_char=1401|end_char=1409
+23	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	22	aux:pass	_	start_char=1410|end_char=1416
+24	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=1417|end_char=1423
+25		"	PUNCT	$(	_	26	punct	_	start_char=1424|end_char=1425
+26	Totenschein	Totenschein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	start_char=1426|end_char=1437
+27	:	:	PUNCT	$.	_	31	punct	_	start_char=1437|end_char=1438
+28	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=1439|end_char=1442
+29	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	31	det	_	start_char=1443|end_char=1446
+30	ärztliches	ärztlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	start_char=1447|end_char=1457
+31	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	start_char=1458|end_char=1466
+32	,	,	PUNCT	$,	_	38	punct	_	start_char=1466|end_char=1467
+33	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	38	nsubj	_	start_char=1468|end_char=1471
+34	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	start_char=1472|end_char=1475
+35	Tod	Tod	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	38	obj	_	start_char=1476|end_char=1479
+36	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=1480|end_char=1485
+37	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	start_char=1486|end_char=1492
+38	bestätigt	bestätigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl	_	start_char=1493|end_char=1502
+39	und	und	CCONJ	KON	_	42	cc	_	start_char=1503|end_char=1506
+40	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	start_char=1507|end_char=1510
+41	Todesursache	Todesursache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	42	obj	_	start_char=1511|end_char=1523
+42	angibt	angeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	start_char=1524|end_char=1530
+43	.	.	PUNCT	$.	_	31	punct	_	start_char=1530|end_char=1531
+
+# text = Es wird vom behandelnden Arzt oder einem Amtsarzt ausgestellt  Geburtsurkunde: ist eine Urkunde, die die Geburt einer Person bescheinigt und wichtige Informationen wie den Namen, das Geschlecht, das Geburtsdatum und die Eltern enthält  Sterberegister: ist ein amtliches Register, in dem alle Todesfälle erfasst werden.
+# sent_id = 11
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	start_char=1532|end_char=1534
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=1535|end_char=1539
+3-4	vom	_	_	_	_	_	_	_	start_char=1540|end_char=1543
+3	von	von	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	behandelnden	behandelnd	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1544|end_char=1556
+6	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1557|end_char=1561
+7	oder	oder	CCONJ	KON	_	9	cc	_	start_char=1562|end_char=1566
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1567|end_char=1572
+9	Amtsarzt	Amtsarzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	start_char=1573|end_char=1581
+10	ausgestellt	ausstellen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1582|end_char=1593
+11		"	PUNCT	$(	_	12	punct	_	start_char=1594|end_char=1595
+12	Geburtsurkunde	Geburtsurkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	start_char=1596|end_char=1610
+13	:	:	PUNCT	$.	_	16	punct	_	start_char=1610|end_char=1611
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=1612|end_char=1615
+15	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=1616|end_char=1620
+16	Urkunde	Urkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	start_char=1621|end_char=1628
+17	,	,	PUNCT	$,	_	23	punct	_	start_char=1628|end_char=1629
+18	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	23	nsubj	_	start_char=1630|end_char=1633
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=1634|end_char=1637
+20	Geburt	Geburt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=1638|end_char=1644
+21	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1645|end_char=1650
+22	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=1651|end_char=1657
+23	bescheinigt	bescheinigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	start_char=1658|end_char=1669
+24	und	und	CCONJ	KON	_	39	cc	_	start_char=1670|end_char=1673
+25	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=1674|end_char=1682
+26	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	39	obj	_	start_char=1683|end_char=1696
+27	wie	wie	ADP	KOKOM	_	29	case	_	start_char=1697|end_char=1700
+28	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=1701|end_char=1704
+29	Namen	Name	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	start_char=1705|end_char=1710
+30	,	,	PUNCT	$,	_	32	punct	_	start_char=1710|end_char=1711
+31	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	32	det	_	start_char=1712|end_char=1715
+32	Geschlecht	Geschlecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	conj	_	start_char=1716|end_char=1726
+33	,	,	PUNCT	$,	_	35	punct	_	start_char=1726|end_char=1727
+34	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	35	det	_	start_char=1728|end_char=1731
+35	Geburtsdatum	Geburtsdaten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	conj	_	start_char=1732|end_char=1744
+36	und	und	CCONJ	KON	_	38	cc	_	start_char=1745|end_char=1748
+37	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	38	det	_	start_char=1749|end_char=1752
+38	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	29	conj	_	start_char=1753|end_char=1759
+39	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	start_char=1760|end_char=1767
+40		"	PUNCT	$(	_	41	punct	_	start_char=1768|end_char=1769
+41	Sterberegister	Sterberegister	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	39	appos	_	start_char=1770|end_char=1784
+42	:	:	PUNCT	$.	_	46	punct	_	start_char=1784|end_char=1785
+43	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	start_char=1786|end_char=1789
+44	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	46	det	_	start_char=1790|end_char=1793
+45	amtliches	amtlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	start_char=1794|end_char=1803
+46	Register	Register	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	parataxis	_	start_char=1804|end_char=1812
+47	,	,	PUNCT	$,	_	52	punct	_	start_char=1812|end_char=1813
+48	in	in	ADP	APPR	_	49	case	_	start_char=1814|end_char=1816
+49	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Rel	52	obl	_	start_char=1817|end_char=1820
+50	alle	alle	PRON	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	51	det	_	start_char=1821|end_char=1825
+51	Todesfälle	Todesfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	52	nsubj:pass	_	start_char=1826|end_char=1836
+52	erfasst	erfassen	VERB	VVPP	VerbForm=Part	46	acl	_	start_char=1837|end_char=1844
+53	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	52	aux:pass	_	start_char=1845|end_char=1851
+54	.	.	PUNCT	$.	_	10	punct	_	start_char=1851|end_char=1852
+
+# text = Die Frist für die Führung des Sterberegisters beträgt in Deutschland 30 Jahre.
+# sent_id = 12
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1853|end_char=1856
+2	Frist	Frist	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1857|end_char=1862
+3	für	für	ADP	APPR	_	5	case	_	start_char=1863|end_char=1866
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1867|end_char=1870
+5	Führung	Führung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1871|end_char=1878
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=1879|end_char=1882
+7	Sterberegisters	Sterberegisters	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=1883|end_char=1898
+8	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1899|end_char=1906
+9	in	in	ADP	APPR	_	10	case	_	start_char=1907|end_char=1909
+10	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=1910|end_char=1921
+11	30	30	NUM	CARD	NumType=Card	12	nummod	_	start_char=1922|end_char=1924
+12	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=1925|end_char=1930
+13	.	.	PUNCT	$.	_	8	punct	_	start_char=1930|end_char=1931
+

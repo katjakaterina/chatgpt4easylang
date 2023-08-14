@@ -1,0 +1,273 @@
+# text = Sterbeurkunde bekommen Wenn eine Person gestorben ist, braucht man manchmal eine Sterbeurkunde.
+# sent_id = 0
+1	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	start_char=0|end_char=13
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=14|end_char=22
+3	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=23|end_char=27
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=28|end_char=32
+5	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=33|end_char=39
+6	gestorben	sterben	VERB	VVPP	VerbForm=Part	2	advcl	_	start_char=40|end_char=49
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=50|end_char=53
+8	,	,	PUNCT	$,	_	6	punct	_	start_char=53|end_char=54
+9	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=55|end_char=62
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=63|end_char=66
+11	manchmal	manchmal	ADV	ADV	_	9	advmod	_	start_char=67|end_char=75
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=76|end_char=80
+13	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=81|end_char=94
+14	.	.	PUNCT	$.	_	9	punct	_	start_char=94|end_char=95
+
+# text = Eine Sterbeurkunde ist ein Dokument, das beweist, dass jemand gestorben ist.
+# sent_id = 1
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=96|end_char=100
+2	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=101|end_char=114
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=115|end_char=118
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=119|end_char=122
+5	Dokument	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=123|end_char=131
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=131|end_char=132
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	start_char=133|end_char=136
+8	beweist	beweisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=137|end_char=144
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=144|end_char=145
+10	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=146|end_char=150
+11	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=151|end_char=157
+12	gestorben	sterben	VERB	VVPP	VerbForm=Part	8	ccomp	_	start_char=158|end_char=167
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=168|end_char=171
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=171|end_char=172
+
+# text = Man kann sie beim zuständigen Standesamt beantragen.
+# sent_id = 2
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=173|end_char=176
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=177|end_char=181
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	start_char=182|end_char=185
+4-5	beim	_	_	_	_	_	_	_	start_char=186|end_char=190
+4	bei	bei	ADP	APPR	_	7	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+6	zuständigen	zuständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=191|end_char=202
+7	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=203|end_char=213
+8	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=214|end_char=224
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=224|end_char=225
+
+# text = Manche Verwaltungsaufgaben erfordern eine Sterbeurkunde.
+# sent_id = 3
+1	Manche	manch	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=226|end_char=232
+2	Verwaltungsaufgaben	Verwaltungsaufgaben	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=233|end_char=252
+3	erfordern	erfordern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=253|end_char=262
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=263|end_char=267
+5	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=268|end_char=281
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=281|end_char=282
+
+# text = Wie beantragt man eine Sterbeurkunde?
+# sent_id = 4
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=283|end_char=286
+2	beantragt	beantragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=287|end_char=296
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=297|end_char=300
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=301|end_char=305
+5	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=306|end_char=319
+6	?	?	PUNCT	$.	_	2	punct	_	start_char=319|end_char=320
+
+# text =  Man stellt den Antrag beim Standesamt und gibt die benötigten Unterlagen ab.
+# sent_id = 5
+1		"	PUNCT	$(	_	2	punct	_	start_char=321|end_char=322
+2	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=323|end_char=326
+3	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=327|end_char=333
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=334|end_char=337
+5	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=338|end_char=344
+6-7	beim	_	_	_	_	_	_	_	start_char=345|end_char=349
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Standesamt	Standesamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=350|end_char=360
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=361|end_char=364
+10	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=365|end_char=369
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=370|end_char=373
+12	benötigten	benötigt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=374|end_char=384
+13	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=385|end_char=395
+14	ab	ab	ADP	PTKVZ	_	10	compound:prt	_	start_char=396|end_char=398
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=398|end_char=399
+
+# text =  Das Standesamt prüft den Antrag und die Unterlagen und stellt die Urkunde aus.
+# sent_id = 6
+1		"	PUNCT	$(	_	2	punct	_	start_char=400|end_char=401
+2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=402|end_char=405
+3	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=406|end_char=416
+4	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=417|end_char=422
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=423|end_char=426
+6	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=427|end_char=433
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=434|end_char=437
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=438|end_char=441
+9	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	start_char=442|end_char=452
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=453|end_char=456
+11	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=457|end_char=463
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=464|end_char=467
+13	Urkunde	Urkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=468|end_char=475
+14	aus	aus	ADP	PTKVZ	_	11	compound:prt	_	start_char=476|end_char=479
+15	.	.	PUNCT	$.	_	4	punct	_	start_char=479|end_char=480
+
+# text =  Das Standesamt schickt die Urkunde per Post oder man kann sie persönlich abholen und die Gebühren vor Ort bezahlen.
+# sent_id = 7
+1		"	PUNCT	$(	_	2	punct	_	start_char=481|end_char=482
+2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=483|end_char=486
+3	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=487|end_char=497
+4	schickt	schicken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=498|end_char=505
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=506|end_char=509
+6	Urkunde	Urkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=510|end_char=517
+7	per	per	ADP	APPR	_	8	case	_	start_char=518|end_char=521
+8	Post	Post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=522|end_char=526
+9	oder	oder	CCONJ	KON	_	14	cc	_	start_char=527|end_char=531
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=532|end_char=535
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=536|end_char=540
+12	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	start_char=541|end_char=544
+13	persönlich	persönlich	ADV	ADJD	_	14	advmod	_	start_char=545|end_char=555
+14	abholen	abholen	VERB	VVINF	VerbForm=Inf	4	conj	_	start_char=556|end_char=563
+15	und	und	CCONJ	KON	_	20	cc	_	start_char=564|end_char=567
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=568|end_char=571
+17	Gebühren	Gebühr	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	start_char=572|end_char=580
+18	vor	vor	ADP	APPR	_	19	case	_	start_char=581|end_char=584
+19	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	start_char=585|end_char=588
+20	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	14	conj	_	start_char=589|end_char=597
+21	.	.	PUNCT	$.	_	4	punct	_	start_char=597|end_char=598
+
+# text = Wer kann eine Sterbeurkunde beantragen?  Der Ehepartner oder der Lebenspartner  Die Kinder, Enkelkinder, Eltern oder Großeltern  Geschwister, wenn sie einen guten Grund haben  Andere Personen, wenn sie einen guten Grund haben  Bestattungsunternehmen, wenn sie beauftragt wurden Welche Unterlagen braucht man?
+# sent_id = 8
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	start_char=599|end_char=602
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=603|end_char=607
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=608|end_char=612
+4	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=613|end_char=626
+5	beantragen	beantragen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=627|end_char=637
+6	?	?	PUNCT	$.	_	9	punct	_	start_char=637|end_char=638
+7		"	PUNCT	$(	_	9	punct	_	start_char=639|end_char=640
+8	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=641|end_char=644
+9	Ehepartner	Ehepartner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	start_char=645|end_char=655
+10	oder	oder	CCONJ	KON	_	12	cc	_	start_char=656|end_char=660
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=661|end_char=664
+12	Lebenspartner	Lebenspartner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=665|end_char=678
+13		"	PUNCT	$(	_	15	punct	_	start_char=679|end_char=680
+14	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	15	det	_	start_char=681|end_char=684
+15	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	appos	_	start_char=685|end_char=691
+16	,	,	PUNCT	$,	_	17	punct	_	start_char=691|end_char=692
+17	Enkelkinder	Enkelkinder	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	conj	_	start_char=693|end_char=704
+18	,	,	PUNCT	$,	_	19	punct	_	start_char=704|end_char=705
+19	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Plur	15	conj	_	start_char=706|end_char=712
+20	oder	oder	CCONJ	KON	_	21	cc	_	start_char=713|end_char=717
+21	Großeltern	Großeltern	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	conj	_	start_char=718|end_char=728
+22		"	PUNCT	$(	_	23	punct	_	start_char=729|end_char=730
+23	Geschwister	Geschwister	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	conj	_	start_char=731|end_char=742
+24	,	,	PUNCT	$,	_	30	punct	_	start_char=742|end_char=743
+25	wenn	wenn	SCONJ	KOUS	_	30	mark	_	start_char=744|end_char=748
+26	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	start_char=749|end_char=752
+27	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=753|end_char=758
+28	guten	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=759|end_char=764
+29	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obj	_	start_char=765|end_char=770
+30	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=771|end_char=776
+31		"	PUNCT	$(	_	33	punct	_	start_char=777|end_char=778
+32	Andere	ander	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	33	det	_	start_char=779|end_char=785
+33	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	40	nsubj	_	start_char=786|end_char=794
+34	,	,	PUNCT	$,	_	40	punct	_	start_char=794|end_char=795
+35	wenn	wenn	SCONJ	KOUS	_	40	mark	_	start_char=796|end_char=800
+36	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	40	nsubj	_	start_char=801|end_char=804
+37	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	start_char=805|end_char=810
+38	guten	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	start_char=811|end_char=816
+39	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	obj	_	start_char=817|end_char=822
+40	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	start_char=823|end_char=828
+41		"	PUNCT	$(	_	42	punct	_	start_char=829|end_char=830
+42	Bestattungsunternehmen	Bestattungsunternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	40	appos	_	start_char=831|end_char=853
+43	,	,	PUNCT	$,	_	46	punct	_	start_char=853|end_char=854
+44	wenn	wenn	SCONJ	KOUS	_	46	mark	_	start_char=855|end_char=859
+45	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	46	nsubj:pass	_	start_char=860|end_char=863
+46	beauftragt	beauftragen	VERB	VVPP	VerbForm=Part	40	advcl	_	start_char=864|end_char=874
+47	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	46	aux:pass	_	start_char=875|end_char=881
+48	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	49	det	_	start_char=882|end_char=888
+49	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	46	obj	_	start_char=889|end_char=899
+50	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	start_char=900|end_char=907
+51	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	50	nsubj	_	start_char=908|end_char=911
+52	?	?	PUNCT	$.	_	50	punct	_	start_char=911|end_char=912
+
+# text =  Eine Kopie des Ausweises Wie viel kostet eine Sterbeurkunde?
+# sent_id = 9
+1		"	PUNCT	$(	_	2	punct	_	start_char=913|end_char=914
+2	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=915|end_char=919
+3	Kopie	Kopie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=920|end_char=925
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=926|end_char=929
+5	Ausweises	Ausweis	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=930|end_char=939
+6	Wie	wie	ADV	PWAV	PronType=Int	8	advmod	_	start_char=940|end_char=943
+7	viel	viel	PRON	PIS	PronType=Ind	8	obj	_	start_char=944|end_char=948
+8	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=949|end_char=955
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=956|end_char=960
+10	Sterbeurkunde	Sterbeurkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=961|end_char=974
+11	?	?	PUNCT	$.	_	8	punct	_	start_char=974|end_char=975
+
+# text =  15 Euro für die erste Urkunde  7,50 Euro für jede weitere Urkunde, wenn sie gleichzeitig beantragt wird Wie lange dauert es?  Die Bearbeitung dauert normalerweise etwa 2 Wochen.
+# sent_id = 10
+1		"	PUNCT	$(	_	2	punct	_	start_char=976|end_char=977
+2	15	15	NUM	CARD	NumType=Card	3	nummod	_	start_char=978|end_char=980
+3	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	start_char=981|end_char=985
+4	für	für	ADP	APPR	_	7	case	_	start_char=986|end_char=989
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=990|end_char=993
+6	erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	7	amod	_	start_char=994|end_char=999
+7	Urkunde	Urkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=1000|end_char=1007
+8		"	PUNCT	$(	_	10	punct	_	start_char=1008|end_char=1009
+9	7,50	7,50	NUM	CARD	NumType=Card	10	nummod	_	start_char=1010|end_char=1014
+10	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	7	appos	_	start_char=1015|end_char=1019
+11	für	für	ADP	APPR	_	14	case	_	start_char=1020|end_char=1023
+12	jede	jed	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	14	det	_	start_char=1024|end_char=1028
+13	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	14	amod	_	start_char=1029|end_char=1036
+14	Urkunde	Urkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	start_char=1037|end_char=1044
+15	,	,	PUNCT	$,	_	19	punct	_	start_char=1044|end_char=1045
+16	wenn	wenn	SCONJ	KOUS	_	19	mark	_	start_char=1046|end_char=1050
+17	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	start_char=1051|end_char=1054
+18	gleichzeitig	gleichzeitig	ADV	ADJD	_	19	advmod	_	start_char=1055|end_char=1067
+19	beantragt	beantragen	VERB	VVPP	VerbForm=Part	10	advcl	_	start_char=1068|end_char=1077
+20	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	aux:pass	_	start_char=1078|end_char=1082
+21	Wie	wie	ADP	KOKOM	_	23	advmod	_	start_char=1083|end_char=1086
+22	lange	lange	ADV	ADV	_	23	advmod	_	start_char=1087|end_char=1092
+23	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	start_char=1093|end_char=1099
+24	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	start_char=1100|end_char=1102
+25	?	?	PUNCT	$.	_	23	punct	_	start_char=1102|end_char=1103
+26		"	PUNCT	$(	_	29	punct	_	start_char=1104|end_char=1105
+27	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=1106|end_char=1109
+28	Bearbeitung	Bearbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	start_char=1110|end_char=1121
+29	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1122|end_char=1128
+30	normalerweise	normalerweise	ADV	ADV	_	29	advmod	_	start_char=1129|end_char=1142
+31	etwa	etwa	ADV	ADV	_	32	advmod	_	start_char=1143|end_char=1147
+32	2	2	NUM	CARD	NumType=Card	33	nummod	_	start_char=1148|end_char=1149
+33	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	obj	_	start_char=1150|end_char=1156
+34	.	.	PUNCT	$.	_	29	punct	_	start_char=1156|end_char=1157
+
+# text =  Die Versendung per Post kann auch 2 Wochen dauern.
+# sent_id = 11
+1		"	PUNCT	$(	_	2	punct	_	start_char=1158|end_char=1159
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1160|end_char=1163
+3	Versendung	Versendung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1164|end_char=1174
+4	per	per	ADP	APPR	_	5	case	_	start_char=1175|end_char=1178
+5	Post	Post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=1179|end_char=1183
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1184|end_char=1188
+7	auch	auch	ADV	ADV	_	10	advmod	_	start_char=1189|end_char=1193
+8	2	2	NUM	CARD	NumType=Card	9	nummod	_	start_char=1194|end_char=1195
+9	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	start_char=1196|end_char=1202
+10	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1203|end_char=1209
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=1209|end_char=1210
+
+# text = Wenn das Standesamt den Antrag ablehnt, kann man beim Gericht einen Antrag stellen, damit das Standesamt die Urkunde ausstellt.
+# sent_id = 12
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=1211|end_char=1215
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=1216|end_char=1219
+3	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1220|end_char=1230
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1231|end_char=1234
+5	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1235|end_char=1241
+6	ablehnt	ablehnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=1242|end_char=1249
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=1249|end_char=1250
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=1251|end_char=1255
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=1256|end_char=1259
+10-11	beim	_	_	_	_	_	_	_	start_char=1260|end_char=1264
+10	bei	bei	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Gericht	Gericht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=1265|end_char=1272
+13	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=1273|end_char=1278
+14	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=1279|end_char=1285
+15	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1286|end_char=1293
+16	,	,	PUNCT	$,	_	22	punct	_	start_char=1293|end_char=1294
+17	damit	damit	SCONJ	KOUS	_	22	mark	_	start_char=1295|end_char=1300
+18	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	start_char=1301|end_char=1304
+19	Standesamt	Standesamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	start_char=1305|end_char=1315
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1316|end_char=1319
+21	Urkunde	Urkunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=1320|end_char=1327
+22	ausstellt	ausstellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=1328|end_char=1337
+23	.	.	PUNCT	$.	_	15	punct	_	start_char=1337|end_char=1338
+

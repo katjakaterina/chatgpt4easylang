@@ -1,0 +1,133 @@
+# text = Wenn du deinen Nachnamen ändern möchtest und dies nicht durch Heirat oder Scheidung möglich ist, musst du einen Antrag auf öffentlich-rechtliche Namensänderung stellen.
+# sent_id = 0
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=0|end_char=4
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=5|end_char=7
+3	deinen	dein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=8|end_char=14
+4	Nachnamen	Nachname	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=15|end_char=24
+5	ändern	ändern	VERB	VVINF	VerbForm=Inf	25	advcl	_	start_char=25|end_char=31
+6	möchtest	möchten	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=32|end_char=40
+7	und	und	CCONJ	KON	_	14	cc	_	start_char=41|end_char=44
+8	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=45|end_char=49
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=50|end_char=55
+10	durch	durch	ADP	APPR	_	11	case	_	start_char=56|end_char=61
+11	Heirat	Heirat	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	start_char=62|end_char=68
+12	oder	oder	CCONJ	KON	_	13	cc	_	start_char=69|end_char=73
+13	Scheidung	Scheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	start_char=74|end_char=83
+14	möglich	möglich	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=84|end_char=91
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=92|end_char=95
+16	,	,	PUNCT	$,	_	5	punct	_	start_char=95|end_char=96
+17	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=97|end_char=102
+18	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	start_char=103|end_char=105
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=106|end_char=111
+20	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	start_char=112|end_char=118
+21	auf	auf	ADP	APPR	_	24	case	_	start_char=119|end_char=122
+22	öffentlich	öffentlich	ADJ	ADJD	Degree=Pos	23	advmod	_	start_char=123|end_char=133
+23	-rechtliche	-rechtlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=133|end_char=144
+24	Namensänderung	Namensänderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	start_char=145|end_char=159
+25	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=160|end_char=167
+26	.	.	PUNCT	$.	_	25	punct	_	start_char=167|end_char=168
+
+# text = Wenn du beschränkt geschäftsfähig bist, muss dein gesetzlicher Vertreter den Antrag stellen.
+# sent_id = 1
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	start_char=169|end_char=173
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=174|end_char=176
+3	beschränkt	beschränken	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=177|end_char=187
+4	geschäftsfähig	geschäftsfähig	ADJ	ADJD	Degree=Pos	13	advcl	_	start_char=188|end_char=202
+5	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=203|end_char=207
+6	,	,	PUNCT	$,	_	4	punct	_	start_char=207|end_char=208
+7	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=209|end_char=213
+8	dein	dein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=214|end_char=218
+9	gesetzlicher	gesetzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=219|end_char=231
+10	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=232|end_char=241
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=242|end_char=245
+12	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=246|end_char=252
+13	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=253|end_char=260
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=260|end_char=261
+
+# text = Die zuständige Stelle ist die Gemeinde, Samtgemeinde oder Stadt, in der du wohnst.
+# sent_id = 2
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=262|end_char=265
+2	zuständige	zuständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=266|end_char=276
+3	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=277|end_char=283
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=284|end_char=287
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=288|end_char=291
+6	Gemeinde	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=292|end_char=300
+7	,	,	PUNCT	$,	_	8	punct	_	start_char=300|end_char=301
+8	Samtgemeinde	Samtgemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=302|end_char=314
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=315|end_char=319
+10	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=320|end_char=325
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=325|end_char=326
+12	in	in	ADP	APPR	_	13	case	_	start_char=327|end_char=329
+13	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	15	obl	_	start_char=330|end_char=333
+14	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	start_char=334|end_char=336
+15	wohnst	wohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=337|end_char=343
+16	.	.	PUNCT	$.	_	6	punct	_	start_char=343|end_char=344
+
+# text = Du musst ein wichtiges Anliegen haben und eine Erklärung darüber abgeben, ob du schon einmal einen Namensänderungsantrag gestellt hast.
+# sent_id = 3
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	start_char=345|end_char=347
+2	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=348|end_char=353
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=354|end_char=357
+4	wichtiges	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=358|end_char=367
+5	Anliegen	Anliegen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=368|end_char=376
+6	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=377|end_char=382
+7	und	und	CCONJ	KON	_	11	cc	_	start_char=383|end_char=386
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=387|end_char=391
+9	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=392|end_char=401
+10	darüber	darüber	ADV	PAV	_	11	dep	_	start_char=402|end_char=409
+11	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	6	conj	_	start_char=410|end_char=417
+12	,	,	PUNCT	$,	_	19	punct	_	start_char=417|end_char=418
+13	ob	ob	SCONJ	KOUS	_	19	mark	_	start_char=419|end_char=421
+14	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	start_char=422|end_char=424
+15	schon	schon	ADV	ADV	_	16	advmod	_	start_char=425|end_char=430
+16	einmal	einmal	ADV	ADV	_	19	advmod	_	start_char=431|end_char=437
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=438|end_char=443
+18	Namensänderungsantrag	Namensänderungsantrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=444|end_char=465
+19	gestellt	stellen	VERB	VVPP	VerbForm=Part	11	ccomp	_	start_char=466|end_char=474
+20	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=475|end_char=479
+21	.	.	PUNCT	$.	_	6	punct	_	start_char=479|end_char=480
+
+# text = Du musst auch nachweisen, dass du deutscher Staatsbürger oder staatenlos bist.
+# sent_id = 4
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=481|end_char=483
+2	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=484|end_char=489
+3	auch	auch	ADV	ADV	_	4	advmod	_	start_char=490|end_char=494
+4	nachweisen	nachweisen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=495|end_char=505
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=505|end_char=506
+6	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=507|end_char=511
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	start_char=512|end_char=514
+8	deutscher	deutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=515|end_char=524
+9	Staatsbürger	Staatsbürger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	ccomp	_	start_char=525|end_char=537
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=538|end_char=542
+11	staatenlos	staatenlos	ADJ	ADJD	Degree=Pos	9	conj	_	start_char=543|end_char=553
+12	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=554|end_char=558
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=558|end_char=559
+
+# text = Eine beglaubigte Abschrift des Geburteneintrags ist ebenfalls erforderlich.
+# sent_id = 5
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=560|end_char=564
+2	beglaubigte	beglaubigt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=565|end_char=576
+3	Abschrift	Abschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=577|end_char=586
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=587|end_char=590
+5	Geburteneintrags	Geburteneintrags	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=591|end_char=607
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=608|end_char=611
+7	ebenfalls	ebenfalls	ADV	ADV	_	8	advmod	_	start_char=612|end_char=621
+8	erforderlich	erforderlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=622|end_char=634
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=634|end_char=635
+
+# text = Wenn du weitere Fragen hast, kann dir die zuständige Stelle helfen.
+# sent_id = 6
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=636|end_char=640
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=641|end_char=643
+3	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	4	amod	_	start_char=644|end_char=651
+4	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=652|end_char=658
+5	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=659|end_char=663
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=663|end_char=664
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=665|end_char=669
+8	dir	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=670|end_char=673
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=674|end_char=677
+10	zuständige	zuständig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=678|end_char=688
+11	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=689|end_char=695
+12	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=696|end_char=702
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=702|end_char=703
+

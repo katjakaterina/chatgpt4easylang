@@ -1,0 +1,752 @@
+# text = Familienname Änderung Allgemeine Informationen Sofern eine Änderung des Nachnamens außerhalb der Regelungen des bürgerlichen Rechts (also nicht z. B. bei Eheschließung oder scheidung) gewünscht ist, muss diese als öffentlich-rechtliche Namensänderung bei der zuständigen Stelle beantragt werden.
+# sent_id = 0
+1	Familienname	familiennam	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=12
+2	Änderung	Änderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	39	nsubj:pass	_	start_char=13|end_char=21
+3	Allgemeine	allgemein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=22|end_char=32
+4	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	appos	_	start_char=33|end_char=46
+5	Sofern	sofern	SCONJ	KOUS	_	26	mark	_	start_char=47|end_char=53
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=54|end_char=58
+7	Änderung	Änderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj:pass	_	start_char=59|end_char=67
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=68|end_char=71
+9	Nachnamens	Nachname	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=72|end_char=82
+10	außerhalb	außerhalb	ADP	APPR	_	12	case	_	start_char=83|end_char=92
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=93|end_char=96
+12	Regelungen	Regelung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=97|end_char=107
+13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=108|end_char=111
+14	bürgerlichen	bürgerlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=112|end_char=124
+15	Rechts	Recht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=125|end_char=131
+16	(	(	PUNCT	$(	_	22	punct	_	start_char=132|end_char=133
+17	also	also	ADV	ADV	_	22	advmod	_	start_char=133|end_char=137
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	start_char=138|end_char=143
+19	z.	z.	X	APPRART	_	20	case	_	start_char=144|end_char=146
+20	B.	B.	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	start_char=147|end_char=149
+21	bei	bei	ADP	APPR	_	22	case	_	start_char=150|end_char=153
+22	Eheschließung	Eheschließung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	start_char=154|end_char=167
+23	oder	oder	CCONJ	KON	_	24	cc	_	start_char=168|end_char=172
+24	scheidung	scheidung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	conj	_	start_char=173|end_char=183
+25	)	)	PUNCT	$(	_	22	punct	_	start_char=183|end_char=184
+26	gewünscht	wünschen	VERB	VVPP	VerbForm=Part	39	advcl	_	start_char=185|end_char=194
+27	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	start_char=195|end_char=198
+28	,	,	PUNCT	$,	_	26	punct	_	start_char=198|end_char=199
+29	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	start_char=200|end_char=204
+30	diese	dies	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	39	nsubj:pass	_	start_char=205|end_char=210
+31	als	als	ADP	KOKOM	_	34	case	_	start_char=211|end_char=214
+32	öffentlich	öffentlich	ADJ	ADJD	Degree=Pos	33	advmod	_	start_char=215|end_char=225
+33	-rechtliche	-rechtlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=225|end_char=236
+34	Namensänderung	Namensänderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	39	obl	_	start_char=237|end_char=251
+35	bei	bei	ADP	APPR	_	38	case	_	start_char=252|end_char=255
+36	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=256|end_char=259
+37	zuständigen	zuständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=260|end_char=271
+38	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	34	nmod	_	start_char=272|end_char=278
+39	beantragt	beantragen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=279|end_char=288
+40	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	39	aux:pass	_	start_char=289|end_char=295
+41	.	.	PUNCT	$.	_	39	punct	_	start_char=295|end_char=296
+
+# text = Verfahrensablauf Für eine beschränkt geschäftsfähige Person stellt der gesetzliche Vertreter den Antrag (Vater, Mutter, Vormund, Betreuer).
+# sent_id = 1
+1	Verfahrensablauf	Verfahrensablauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	dep	_	start_char=297|end_char=313
+2	Für	für	ADP	APPR	_	6	case	_	start_char=314|end_char=317
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=318|end_char=322
+4	beschränkt	beschränken	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=323|end_char=333
+5	geschäftsfähige	geschäftsfähig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=334|end_char=349
+6	Person	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	start_char=350|end_char=356
+7	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=357|end_char=363
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=364|end_char=367
+9	gesetzliche	gesetzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=368|end_char=379
+10	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=380|end_char=389
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=390|end_char=393
+12	Antrag	Antrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=394|end_char=400
+13	(	(	PUNCT	$(	_	14	punct	_	start_char=401|end_char=402
+14	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	appos	_	start_char=402|end_char=407
+15	,	,	PUNCT	$,	_	16	punct	_	start_char=407|end_char=408
+16	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	start_char=409|end_char=415
+17	,	,	PUNCT	$,	_	18	punct	_	start_char=415|end_char=416
+18	Vormund	Vormund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	start_char=417|end_char=424
+19	,	,	PUNCT	$,	_	20	punct	_	start_char=424|end_char=425
+20	Betreuer	Betreuer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	start_char=426|end_char=434
+21	)	)	PUNCT	$(	_	14	punct	_	start_char=434|end_char=435
+22	.	.	PUNCT	$.	_	7	punct	_	start_char=435|end_char=436
+
+# text = Ein Vormund oder Betreuer/-in bedarf hierzu der Genehmigung des Vormundschaftsgerichts.
+# sent_id = 2
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=437|end_char=440
+2	Vormund	Vormund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=441|end_char=448
+3	oder	oder	CCONJ	KON	_	4	cc	_	start_char=449|end_char=453
+4	Betreuer/	Betreuer/	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=454|end_char=463
+5	-in	-in	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=463|end_char=466
+6	bedarf	bedarf	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=467|end_char=473
+7	hierzu	hierzu	ADV	PAV	_	6	advmod	_	start_char=474|end_char=480
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=481|end_char=484
+9	Genehmigung	Genehmigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	start_char=485|end_char=496
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=497|end_char=500
+11	Vormundschaftsgerichts	Vormundschaftsgericht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=501|end_char=523
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=523|end_char=524
+
+# text = Die Genehmigung des Vormundschaftsgerichts und der Nachweis über das Ergebnis der vormundschaftsgerichtlichen Anhörung des Antragstellers/der Antragstellerin sind dem Antrag beizufügen.
+# sent_id = 3
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=525|end_char=528
+2	Genehmigung	Genehmigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=529|end_char=540
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=541|end_char=544
+4	Vormundschaftsgerichts	Vormundschaftsgericht	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=545|end_char=567
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=568|end_char=571
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=572|end_char=575
+7	Nachweis	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=576|end_char=584
+8	über	über	ADP	APPR	_	10	case	_	start_char=585|end_char=589
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=590|end_char=593
+10	Ergebnis	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=594|end_char=602
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=603|end_char=606
+12	vormundschaftsgerichtlichen	vormundschaftsgerichtlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=607|end_char=634
+13	Anhörung	Anhörung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=635|end_char=643
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=644|end_char=647
+15	Antragstellers/der	Antragstellers/der	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	start_char=648|end_char=666
+16	Antragstellerin	Antragstellerin	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=667|end_char=682
+17	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	start_char=683|end_char=687
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=688|end_char=691
+19	Antrag	Antrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	iobj	_	start_char=692|end_char=698
+20	beizufügen	beifufügen	VERB	VVIZU	VerbForm=Inf	0	root	_	start_char=699|end_char=709
+21	.	.	PUNCT	$.	_	20	punct	_	start_char=709|end_char=710
+
+# text = Weitere Fragen zum Antrag beantwortet die zuständige Stelle.
+# sent_id = 4
+1	Weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	2	amod	_	start_char=711|end_char=718
+2	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=719|end_char=725
+3-4	zum	_	_	_	_	_	_	_	start_char=726|end_char=729
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Antrag	Antrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	start_char=730|end_char=736
+6	beantwortet	beantworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=737|end_char=748
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=749|end_char=752
+8	zuständige	zuständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=753|end_char=763
+9	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	start_char=764|end_char=770
+10	.	.	PUNCT	$.	_	6	punct	_	start_char=770|end_char=771
+
+# text = An wen muss ich mich wenden?
+# sent_id = 5
+1	An	an	ADP	APPR	_	2	case	_	start_char=772|end_char=774
+2	wen	er	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	6	obl	_	start_char=775|end_char=778
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=779|end_char=783
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=784|end_char=787
+5	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	start_char=788|end_char=792
+6	wenden	wenden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=793|end_char=799
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=799|end_char=800
+
+# text = Die Zuständigkeit liegt bei der Gemeinde, der Samtgemeinde und der Stadt, in der die antragstellende Person ihren Wohnsitz hat.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=801|end_char=804
+2	Zuständigkeit	Zuständigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=805|end_char=818
+3	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=819|end_char=824
+4	bei	bei	ADP	APPR	_	6	case	_	start_char=825|end_char=828
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=829|end_char=832
+6	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=833|end_char=841
+7	,	,	PUNCT	$,	_	9	punct	_	start_char=841|end_char=842
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=843|end_char=846
+9	Samtgemeinde	Samtgemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	start_char=847|end_char=859
+10	und	und	CCONJ	KON	_	12	cc	_	start_char=860|end_char=863
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=864|end_char=867
+12	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	start_char=868|end_char=873
+13	,	,	PUNCT	$,	_	21	punct	_	start_char=873|end_char=874
+14	in	in	ADP	APPR	_	15	case	_	start_char=875|end_char=877
+15	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	21	obl	_	start_char=878|end_char=881
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=882|end_char=885
+17	antragstellende	antragstellend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=886|end_char=901
+18	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	start_char=902|end_char=908
+19	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	start_char=909|end_char=914
+20	Wohnsitz	Wohnsitz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	start_char=915|end_char=923
+21	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=924|end_char=927
+22	.	.	PUNCT	$.	_	3	punct	_	start_char=927|end_char=928
+
+# text = Voraussetzungen ? Deutsche/r im Sinne im Sinne des Art.
+# sent_id = 7
+1	Voraussetzungen	Voraussetzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=929|end_char=944
+2	?	?	PUNCT	$.	_	1	punct	_	start_char=945|end_char=946
+3	Deutsche/r	Deutsche/r	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=947|end_char=957
+4-5	im	_	_	_	_	_	_	_	start_char=958|end_char=960
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	start_char=961|end_char=966
+7-8	im	_	_	_	_	_	_	_	start_char=967|end_char=969
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=970|end_char=975
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=976|end_char=979
+11	Art.	Art.	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=980|end_char=984
+
+# text = 116 Abs.
+# sent_id = 8
+1	116	116	NUM	CARD	NumType=Card	2	nummod	_	start_char=985|end_char=988
+2	Abs.	Abs.	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=989|end_char=993
+
+# text = 1 Grundgesetzes für die Bundesrepublik Deutschland (GG), Staatenlose, heimatlose Ausländer, ausländische Flüchtlinge oder Asylberechtigte ? Vorliegen eines wichtigen Grundes, welcher im Antrag ausführlich dazulegen ist Bei folgenden Änderungsgründen gelten weitere Anforderungen, die in der jeweiligen Leistung enthalten sind: ? Erklärung von Vertriebenen, Spätaussiedlern, deren Ehegatten und Abkömmlingen ? Erklärung zur Namensführung von Ehegatten ? Erklärung zur Namensführung von Lebenspartnern ? nachträgliche Erklärung eines gemeinsamen Familiennamens ? Wiederannahme des Geburtsnamens ? Änderung des Familiennamens eines Kindes ? Art.
+# sent_id = 9
+1	1	1	NUM	CARD	NumType=Card	2	nummod	_	start_char=994|end_char=995
+2	Grundgesetzes	Grundgesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	21	dep	_	start_char=996|end_char=1009
+3	für	für	ADP	APPR	_	5	case	_	start_char=1010|end_char=1013
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1014|end_char=1017
+5	Bundesrepublik	Bundesrepublik	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1018|end_char=1032
+6	Deutschland	Deutschland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	5	appos	_	start_char=1033|end_char=1044
+7	(	(	PUNCT	$(	_	8	punct	_	start_char=1045|end_char=1046
+8	GG	GG	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=1046|end_char=1048
+9	)	)	PUNCT	$(	_	8	punct	_	start_char=1048|end_char=1049
+10	,	,	PUNCT	$,	_	11	punct	_	start_char=1049|end_char=1050
+11	Staatenlose	Staatenlose	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=1051|end_char=1062
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=1062|end_char=1063
+13	heimatlose	heimatlos	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=1064|end_char=1074
+14	Ausländer	Ausländer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	start_char=1075|end_char=1084
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=1084|end_char=1085
+16	ausländische	ausländisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=1086|end_char=1098
+17	Flüchtlinge	Flüchtling	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	start_char=1099|end_char=1110
+18	oder	oder	CCONJ	KON	_	19	cc	_	start_char=1111|end_char=1115
+19	Asylberechtigte	Asylberechtigte	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	conj	_	start_char=1116|end_char=1131
+20	?	?	PUNCT	$.	_	11	punct	_	start_char=1132|end_char=1133
+21	Vorliegen	Vorliegen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1134|end_char=1143
+22	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=1144|end_char=1149
+23	wichtigen	wichtig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=1150|end_char=1159
+24	Grundes	Grund	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=1160|end_char=1167
+25	,	,	PUNCT	$,	_	31	punct	_	start_char=1167|end_char=1168
+26	welcher	welch	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	31	nsubj	_	start_char=1169|end_char=1176
+27-28	im	_	_	_	_	_	_	_	start_char=1177|end_char=1179
+27	in	in	ADP	APPR	_	29	case	_	_
+28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Antrag	Antrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	31	obl	_	start_char=1180|end_char=1186
+30	ausführlich	ausführlich	ADJ	ADJD	Degree=Pos	31	advmod	_	start_char=1187|end_char=1198
+31	dazulegen	dazulegen	VERB	VVINF	VerbForm=Inf	24	acl	_	start_char=1199|end_char=1208
+32	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	start_char=1209|end_char=1212
+33	Bei	bei	ADP	APPR	_	35	case	_	start_char=1213|end_char=1216
+34	folgenden	folgend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	35	amod	_	start_char=1217|end_char=1226
+35	Änderungsgründen	Änderungsgrund	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	36	obl	_	start_char=1227|end_char=1243
+36	gelten	gelten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	_	start_char=1244|end_char=1250
+37	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	38	amod	_	start_char=1251|end_char=1258
+38	Anforderungen	Anforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	start_char=1259|end_char=1272
+39	,	,	PUNCT	$,	_	45	punct	_	start_char=1272|end_char=1273
+40	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	45	nsubj:pass	_	start_char=1274|end_char=1277
+41	in	in	ADP	APPR	_	44	case	_	start_char=1278|end_char=1280
+42	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	start_char=1281|end_char=1284
+43	jeweiligen	jeweilig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	start_char=1285|end_char=1295
+44	Leistung	Leistung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	45	obl	_	start_char=1296|end_char=1304
+45	enthalten	enthalten	VERB	VVINF	VerbForm=Inf	38	acl	_	start_char=1305|end_char=1314
+46	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux:pass	_	start_char=1315|end_char=1319
+47	:	:	PUNCT	$.	_	49	punct	_	start_char=1319|end_char=1320
+48	?	?	PUNCT	$.	_	49	punct	_	start_char=1321|end_char=1322
+49	Erklärung	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	appos	_	start_char=1323|end_char=1332
+50	von	von	ADP	APPR	_	51	case	_	start_char=1333|end_char=1336
+51	Vertriebenen	vertrieben	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	49	nmod	_	start_char=1337|end_char=1349
+52	,	,	PUNCT	$,	_	53	punct	_	start_char=1349|end_char=1350
+53	Spätaussiedlern	Spätaussiedlern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	51	conj	_	start_char=1351|end_char=1366
+54	,	,	PUNCT	$,	_	56	punct	_	start_char=1366|end_char=1367
+55	deren	der	DET	PRELAT	Case=Gen|Number=Plur|PronType=Rel	56	det	_	start_char=1368|end_char=1373
+56	Ehegatten	Ehegatten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	51	conj	_	start_char=1374|end_char=1383
+57	und	und	CCONJ	KON	_	58	cc	_	start_char=1384|end_char=1387
+58	Abkömmlingen	Abkömmlinge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	56	conj	_	start_char=1388|end_char=1400
+59	?	?	PUNCT	$.	_	56	punct	_	start_char=1401|end_char=1402
+60	Erklärung	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	49	conj	_	start_char=1403|end_char=1412
+61-62	zur	_	_	_	_	_	_	_	start_char=1413|end_char=1416
+61	zu	zu	ADP	APPR	_	63	case	_	_
+62	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	Namensführung	Namensführung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	60	nmod	_	start_char=1417|end_char=1430
+64	von	von	ADP	APPR	_	65	case	_	start_char=1431|end_char=1434
+65	Ehegatten	Ehegatten	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	63	nmod	_	start_char=1435|end_char=1444
+66	?	?	PUNCT	$.	_	67	punct	_	start_char=1445|end_char=1446
+67	Erklärung	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	60	appos	_	start_char=1447|end_char=1456
+68-69	zur	_	_	_	_	_	_	_	start_char=1457|end_char=1460
+68	zu	zu	ADP	APPR	_	70	case	_	_
+69	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
+70	Namensführung	Namensführung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	67	nmod	_	start_char=1461|end_char=1474
+71	von	von	ADP	APPR	_	72	case	_	start_char=1475|end_char=1478
+72	Lebenspartnern	Lebenspartner	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	70	nmod	_	start_char=1479|end_char=1493
+73	?	?	PUNCT	$.	_	75	punct	_	start_char=1494|end_char=1495
+74	nachträgliche	nachträglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	75	amod	_	start_char=1496|end_char=1509
+75	Erklärung	Erklärung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	67	appos	_	start_char=1510|end_char=1519
+76	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	78	det	_	start_char=1520|end_char=1525
+77	gemeinsamen	gemeinsam	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	78	amod	_	start_char=1526|end_char=1537
+78	Familiennamens	Familiennamens	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	75	nmod	_	start_char=1538|end_char=1552
+79	?	?	PUNCT	$.	_	80	punct	_	start_char=1553|end_char=1554
+80	Wiederannahme	Wiederannahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	75	appos	_	start_char=1555|end_char=1568
+81	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	82	det	_	start_char=1569|end_char=1572
+82	Geburtsnamens	Geburtsnamens	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	80	nmod	_	start_char=1573|end_char=1586
+83	?	?	PUNCT	$.	_	84	punct	_	start_char=1587|end_char=1588
+84	Änderung	Änderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	80	appos	_	start_char=1589|end_char=1597
+85	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	86	det	_	start_char=1598|end_char=1601
+86	Familiennamens	Familiennamens	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	84	nmod	_	start_char=1602|end_char=1616
+87	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	88	det	_	start_char=1617|end_char=1622
+88	Kindes	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	86	nmod	_	start_char=1623|end_char=1629
+89	?	?	PUNCT	$.	_	80	punct	_	start_char=1630|end_char=1631
+90	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	84	appos	_	start_char=1632|end_char=1635
+91	.	.	PUNCT	$.	_	75	punct	_	start_char=1635|end_char=1636
+
+# text = 116 Abs.
+# sent_id = 10
+1	116	116	NUM	CARD	NumType=Card	2	nummod	_	start_char=1637|end_char=1640
+2	Abs.	Abs.	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1641|end_char=1645
+
+# text = 1 Grundgesetz für die Bundesrepublik Deutschland Welche Unterlagen werden benötigt?
+# sent_id = 11
+1	1	1	NUM	CARD	NumType=Card	2	nummod	_	start_char=1646|end_char=1647
+2	Grundgesetz	Grundgesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	dep	_	start_char=1648|end_char=1659
+3	für	für	ADP	APPR	_	5	case	_	start_char=1660|end_char=1663
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1664|end_char=1667
+5	Bundesrepublik	Bundesrepublik	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1668|end_char=1682
+6	Deutschland	Deutschland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	5	appos	_	start_char=1683|end_char=1694
+7	Welche	welch	PRON	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int	8	det	_	start_char=1695|end_char=1701
+8	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	start_char=1702|end_char=1712
+9	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=1713|end_char=1719
+10	benötigt	benötigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1720|end_char=1728
+11	?	?	PUNCT	$.	_	10	punct	_	start_char=1728|end_char=1729
+
+# text = ? Antrag mit ? der Darlegung der wichtigen Gründe ? einer Erklärung darüber, ob schon früher eine Änderung des Namens beantragt wurde, gegebenenfalls wann und bei welcher zuständigen Stelle ? einer Erklärung darüber, dass dem Antragsteller/der Antragstellerin bekannt ist, dass die Namensänderung bzw.
+# sent_id = 12
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=1730|end_char=1731
+2	Antrag	Antrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1732|end_char=1738
+3	mit	mit	ADP	PTKVZ	_	2	dep	_	start_char=1739|end_char=1742
+4	?	?	PUNCT	$.	_	2	punct	_	start_char=1743|end_char=1744
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1745|end_char=1748
+6	Darlegung	Darlegung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	start_char=1749|end_char=1758
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1759|end_char=1762
+8	wichtigen	wichtig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=1763|end_char=1772
+9	Gründe	Grund	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=1773|end_char=1779
+10	?	?	PUNCT	$.	_	6	punct	_	start_char=1780|end_char=1781
+11	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1782|end_char=1787
+12	Erklärung	Erklärung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=1788|end_char=1797
+13	darüber	darüber	PRON	PAV	_	12	dep	_	start_char=1798|end_char=1805
+14	,	,	PUNCT	$,	_	22	punct	_	start_char=1805|end_char=1806
+15	ob	ob	SCONJ	KOUS	_	22	mark	_	start_char=1807|end_char=1809
+16	schon	schon	ADV	ADV	_	17	advmod	_	start_char=1810|end_char=1815
+17	früher	früher	ADJ	ADV	Degree=Pos	22	advmod	_	start_char=1816|end_char=1822
+18	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1823|end_char=1827
+19	Änderung	Änderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj:pass	_	start_char=1828|end_char=1836
+20	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=1837|end_char=1840
+21	Namens	Name	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=1841|end_char=1847
+22	beantragt	beantragen	VERB	VVPP	VerbForm=Part	13	acl	_	start_char=1848|end_char=1857
+23	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	22	aux:pass	_	start_char=1858|end_char=1863
+24	,	,	PUNCT	$,	_	26	punct	_	start_char=1863|end_char=1864
+25	gegebenenfalls	gegebenenfalls	ADV	ADV	_	26	advmod	_	start_char=1865|end_char=1879
+26	wann	wann	ADV	PWAV	_	22	advmod	_	start_char=1880|end_char=1884
+27	und	und	CCONJ	KON	_	31	cc	_	start_char=1885|end_char=1888
+28	bei	bei	ADP	APPR	_	31	case	_	start_char=1889|end_char=1892
+29	welcher	welch	PRON	PWAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	31	det	_	start_char=1893|end_char=1900
+30	zuständigen	zuständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=1901|end_char=1912
+31	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	conj	_	start_char=1913|end_char=1919
+32	?	?	PUNCT	$.	_	31	punct	_	start_char=1920|end_char=1921
+33	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=1922|end_char=1927
+34	Erklärung	Erklärung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	iobj	_	start_char=1928|end_char=1937
+35	darüber	darüber	PRON	PAV	_	34	dep	_	start_char=1938|end_char=1945
+36	,	,	PUNCT	$,	_	41	punct	_	start_char=1945|end_char=1946
+37	dass	dass	SCONJ	KOUS	_	41	mark	_	start_char=1947|end_char=1951
+38	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	start_char=1952|end_char=1955
+39	Antragsteller/der	Antragsteller/der	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	start_char=1956|end_char=1973
+40	Antragstellerin	Antragstellerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	41	iobj	_	start_char=1974|end_char=1989
+41	bekannt	bekennen	ADJ	ADJD	Degree=Pos	35	amod	_	start_char=1990|end_char=1997
+42	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	start_char=1998|end_char=2001
+43	,	,	PUNCT	$,	_	44	punct	_	start_char=2001|end_char=2002
+44	dass	dass	SCONJ	KOUS	_	41	dep	_	start_char=2003|end_char=2007
+45	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	start_char=2008|end_char=2011
+46	Namensänderung	Namensänderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	44	dep	_	start_char=2012|end_char=2026
+47	bzw	bzw	CCONJ	KON	_	46	cc	_	start_char=2027|end_char=2030
+48	.	.	PUNCT	$.	_	47	punct	_	start_char=2030|end_char=2031
+
+# text = die Ablehnung oder Zurücknahme des Antrages gebührenpflichtig ist ? Nachweis, dass der/die Antragsteller/-in entweder Deutsche/r im Sinne des Art.
+# sent_id = 13
+1	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2032|end_char=2035
+2	Ablehnung	Ablehnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=2036|end_char=2045
+3	oder	oder	CCONJ	KON	_	4	cc	_	start_char=2046|end_char=2050
+4	Zurücknahme	Zurücknahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=2051|end_char=2062
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=2063|end_char=2066
+6	Antrages	Antrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=2067|end_char=2075
+7	gebührenpflichtig	gebührenpflichtig	ADJ	ADJD	Degree=Pos	10	ccomp	_	start_char=2076|end_char=2093
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2094|end_char=2097
+9	?	?	PUNCT	$.	_	7	punct	_	start_char=2098|end_char=2099
+10	Nachweis	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=2100|end_char=2108
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=2108|end_char=2109
+12	dass	dass	SCONJ	KOUS	_	7	dep	_	start_char=2110|end_char=2114
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=2115|end_char=2118
+14	/die	/die	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=2118|end_char=2122
+15	Antragsteller/	Antragsteller/	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	start_char=2123|end_char=2137
+16	-in	-in	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	start_char=2137|end_char=2140
+17	entweder	entweder	CCONJ	KON	_	18	cc	_	start_char=2141|end_char=2149
+18	Deutsche/r	deutsch	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	ccomp	_	start_char=2150|end_char=2160
+19-20	im	_	_	_	_	_	_	_	start_char=2161|end_char=2163
+19	in	in	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	start_char=2164|end_char=2169
+22	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=2170|end_char=2173
+23	Art	Art	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=2174|end_char=2177
+24	.	.	PUNCT	$.	_	10	punct	_	start_char=2177|end_char=2178
+
+# text = 116 Abs.
+# sent_id = 14
+1	116	116	NUM	CARD	NumType=Card	2	nummod	_	start_char=2179|end_char=2182
+2	Abs.	Abs.	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2183|end_char=2187
+
+# text = 1 des Grundgesetzes für die Bundesrepublik Deutschland oder staatenlos, heimatloser Ausländer, ausländischer Flüchtling, Asylberechtigter ist, z.B. ? Auszug aus dem Familienregister, ? beglaubigte Abschrift aus dem Familienbuch, ? Staatsangehörigkeitsausweis, ? Reisepass, Reiseausweis, Personalausweis oder Kinderausweis ? beglaubigte Abschrift des Geburteneintrags für den Antragsteller/die Antragstellerin sowie für alle Personen, auf die sich die Änderung des Familiennamens erstrecken soll;
+# sent_id = 15
+1	1	1	NUM	CARD	NumType=Card	0	root	_	start_char=2188|end_char=2189
+2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=2190|end_char=2193
+3	Grundgesetzes	Grundgesetz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	start_char=2194|end_char=2207
+4	für	für	ADP	APPR	_	6	case	_	start_char=2208|end_char=2211
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2212|end_char=2215
+6	Bundesrepublik	Bundesrepublik	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	start_char=2216|end_char=2230
+7	Deutschland	Deutschland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	start_char=2231|end_char=2242
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=2243|end_char=2247
+9	staatenlos	staatenlos	ADJ	ADJD	Degree=Pos	6	conj	_	start_char=2248|end_char=2258
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=2258|end_char=2259
+11	heimatloser	heimatlos	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=2260|end_char=2271
+12	Ausländer	Ausländer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=2272|end_char=2281
+13	,	,	PUNCT	$,	_	15	punct	_	start_char=2281|end_char=2282
+14	ausländischer	ausländisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=2283|end_char=2296
+15	Flüchtling	Flüchtling	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=2297|end_char=2307
+16	,	,	PUNCT	$,	_	17	punct	_	start_char=2307|end_char=2308
+17	Asylberechtigter	Asylberechtigte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=2309|end_char=2325
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=2326|end_char=2329
+19	,	,	PUNCT	$,	_	22	punct	_	start_char=2329|end_char=2330
+20	z.B.	z.B.	ADV	ADV	_	22	advmod	_	start_char=2331|end_char=2335
+21	?	?	PUNCT	$.	_	22	punct	_	start_char=2336|end_char=2337
+22	Auszug	Auszug	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	start_char=2338|end_char=2344
+23	aus	aus	ADP	APPR	_	25	case	_	start_char=2345|end_char=2348
+24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	start_char=2349|end_char=2352
+25	Familienregister	Familienregister	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	start_char=2353|end_char=2369
+26	,	,	PUNCT	$,	_	29	punct	_	start_char=2369|end_char=2370
+27	?	?	PUNCT	$.	_	29	punct	_	start_char=2371|end_char=2372
+28	beglaubigte	beglaubigt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=2373|end_char=2384
+29	Abschrift	Abschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	conj	_	start_char=2385|end_char=2394
+30	aus	aus	ADP	APPR	_	32	case	_	start_char=2395|end_char=2398
+31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	32	det	_	start_char=2399|end_char=2402
+32	Familienbuch	Familienbuch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	start_char=2403|end_char=2415
+33	,	,	PUNCT	$,	_	35	punct	_	start_char=2415|end_char=2416
+34	?	?	PUNCT	$.	_	35	punct	_	start_char=2417|end_char=2418
+35	Staatsangehörigkeitsausweis	Staatsangehörigkeitsausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	appos	_	start_char=2419|end_char=2446
+36	,	,	PUNCT	$,	_	38	punct	_	start_char=2446|end_char=2447
+37	?	?	PUNCT	$.	_	38	punct	_	start_char=2448|end_char=2449
+38	Reisepass	Reisepaß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	conj	_	start_char=2450|end_char=2459
+39	,	,	PUNCT	$,	_	40	punct	_	start_char=2459|end_char=2460
+40	Reiseausweis	Reiseausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	conj	_	start_char=2461|end_char=2473
+41	,	,	PUNCT	$,	_	42	punct	_	start_char=2473|end_char=2474
+42	Personalausweis	Personalausweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	conj	_	start_char=2475|end_char=2490
+43	oder	oder	CCONJ	KON	_	44	cc	_	start_char=2491|end_char=2495
+44	Kinderausweis	Kinderausweis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	38	conj	_	start_char=2496|end_char=2509
+45	?	?	PUNCT	$.	_	38	punct	_	start_char=2510|end_char=2511
+46	beglaubigte	beglaubigt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	start_char=2512|end_char=2523
+47	Abschrift	Abschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	start_char=2524|end_char=2533
+48	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	49	det	_	start_char=2534|end_char=2537
+49	Geburteneintrags	Geburteneintrags	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	start_char=2538|end_char=2554
+50	für	für	ADP	APPR	_	53	case	_	start_char=2555|end_char=2558
+51	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	start_char=2559|end_char=2562
+52	Antragsteller/die	antragsteller/die	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	53	amod	_	start_char=2563|end_char=2580
+53	Antragstellerin	Antragstellerin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	49	nmod	_	start_char=2581|end_char=2596
+54	sowie	sowie	CCONJ	KON	_	57	cc	_	start_char=2597|end_char=2602
+55	für	für	ADP	APPR	_	57	case	_	start_char=2603|end_char=2606
+56	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	57	det	_	start_char=2607|end_char=2611
+57	Personen	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	47	conj	_	start_char=2612|end_char=2620
+58	,	,	PUNCT	$,	_	66	punct	_	start_char=2620|end_char=2621
+59	auf	auf	ADP	APPR	_	60	case	_	start_char=2622|end_char=2625
+60	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	66	obl	_	start_char=2626|end_char=2629
+61	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	66	obj	_	start_char=2630|end_char=2634
+62	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	start_char=2635|end_char=2638
+63	Änderung	Änderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	66	nsubj	_	start_char=2639|end_char=2647
+64	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	65	det	_	start_char=2648|end_char=2651
+65	Familiennamens	Familiennamens	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	63	nmod	_	start_char=2652|end_char=2666
+66	erstrecken	erstrecken	VERB	VVINF	VerbForm=Inf	57	acl	_	start_char=2667|end_char=2677
+67	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	aux	_	start_char=2678|end_char=2682
+68	;	;	PUNCT	$.	_	47	punct	_	start_char=2682|end_char=2683
+
+# text = die Urkunden müssen neueren Datums sein.
+# sent_id = 16
+1	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=2684|end_char=2687
+2	Urkunden	Urkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=2688|end_char=2696
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2697|end_char=2703
+4	neueren	neu	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Neut|Number=Sing	5	amod	_	start_char=2704|end_char=2711
+5	Datums	Datum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	0	root	_	start_char=2712|end_char=2718
+6	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	start_char=2719|end_char=2723
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=2723|end_char=2724
+
+# text = ? Falls die antragstellende Person verheiratet ist oder war, die Heiratsurkunde bzw.
+# sent_id = 17
+1	?	?	PUNCT	$.	_	6	punct	_	start_char=2725|end_char=2726
+2	Falls	Fall	SCONJ	KOUS	_	6	mark	_	start_char=2727|end_char=2732
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2733|end_char=2736
+4	antragstellende	antragstellend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2737|end_char=2752
+5	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2753|end_char=2759
+6	verheiratet	verheiraten	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=2760|end_char=2771
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2772|end_char=2775
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=2776|end_char=2780
+9	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=2781|end_char=2784
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=2784|end_char=2785
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2786|end_char=2789
+12	Heiratsurkunde	Heiratsurkunde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	dep	_	start_char=2790|end_char=2804
+13	bzw	bzw	CCONJ	FM	_	12	dep	_	start_char=2805|end_char=2808
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=2808|end_char=2809
+
+# text = eine beglaubigte Abschrift aus dem Familienbuch.
+# sent_id = 18
+1	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2810|end_char=2814
+2	beglaubigte	beglaubigt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=2815|end_char=2826
+3	Abschrift	Abschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2827|end_char=2836
+4	aus	aus	ADP	APPR	_	6	case	_	start_char=2837|end_char=2840
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=2841|end_char=2844
+6	Familienbuch	Familienbuch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=2845|end_char=2857
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=2857|end_char=2858
+
+# text = ? Bei einer Namensänderung aus familienrechtlichen Gründen ist auch eine beglaubigte Ablichtung aus dem als Heiratseintrag fortgeführten Familienbuch oder der Familienbuchauszug der Familie vorzulegen, deren Namen der/die Antragsteller/-in anzunehmen wünscht.
+# sent_id = 19
+1	?	?	PUNCT	$.	_	24	punct	_	start_char=2859|end_char=2860
+2	Bei	bei	ADP	APPR	_	4	case	_	start_char=2861|end_char=2864
+3	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2865|end_char=2870
+4	Namensänderung	Namensänderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	start_char=2871|end_char=2885
+5	aus	aus	ADP	APPR	_	7	case	_	start_char=2886|end_char=2889
+6	familienrechtlichen	familienrechtlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=2890|end_char=2909
+7	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	start_char=2910|end_char=2917
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	start_char=2918|end_char=2921
+9	auch	auch	ADV	ADV	_	12	advmod	_	start_char=2922|end_char=2926
+10	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2927|end_char=2931
+11	beglaubigte	beglaubigt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=2932|end_char=2943
+12	Ablichtung	Ablichtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	start_char=2944|end_char=2954
+13	aus	aus	ADP	APPR	_	18	case	_	start_char=2955|end_char=2958
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=2959|end_char=2962
+15	als	als	ADP	KOKOM	_	16	case	_	start_char=2963|end_char=2966
+16	Heiratseintrag	Heiratseintrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=2967|end_char=2981
+17	fortgeführten	fortgeführt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=2982|end_char=2995
+18	Familienbuch	Familienbuch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=2996|end_char=3008
+19	oder	oder	CCONJ	KON	_	21	cc	_	start_char=3009|end_char=3013
+20	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=3014|end_char=3017
+21	Familienbuchauszug	Familienbuchauszug	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	start_char=3018|end_char=3036
+22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=3037|end_char=3040
+23	Familie	Familie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=3041|end_char=3048
+24	vorzulegen	vorlegen	VERB	VVIZU	VerbForm=Inf	0	root	_	start_char=3049|end_char=3059
+25	,	,	PUNCT	$,	_	33	punct	_	start_char=3059|end_char=3060
+26	deren	der	DET	PRELAT	Case=Gen|Number=Plur|PronType=Rel	27	nmod:poss	_	start_char=3061|end_char=3066
+27	Namen	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	start_char=3067|end_char=3072
+28	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=3073|end_char=3076
+29	/die	/die	PROPN	NN	Case=Gen|Number=Sing	30	amod	_	start_char=3076|end_char=3080
+30	Antragsteller/	Antragsteller/	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	start_char=3081|end_char=3095
+31	-in	-in	PROPN	NN	Number=Sing	30	appos	_	start_char=3095|end_char=3098
+32	anzunehmen	annehmen	VERB	VVIZU	VerbForm=Inf	33	xcomp	_	start_char=3099|end_char=3109
+33	wünscht	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	start_char=3110|end_char=3117
+34	.	.	PUNCT	$.	_	24	punct	_	start_char=3117|end_char=3118
+
+# text = ? für Personen, die das 14.
+# sent_id = 20
+1	?	?	PUNCT	$.	_	3	punct	_	start_char=3119|end_char=3120
+2	für	für	ADP	APPR	_	3	case	_	start_char=3121|end_char=3124
+3	Personen	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	start_char=3125|end_char=3133
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=3133|end_char=3134
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	3	acl	_	start_char=3135|end_char=3138
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=3139|end_char=3142
+7	14	14	NUM	CARD	NumType=Card	5	dep	_	start_char=3143|end_char=3145
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=3145|end_char=3146
+
+# text = Lebensjahr vollendet haben: ? Führungszeugnis (Beleg-Art O) Die Unterlagen sollten jeweils im Original eingereicht werden.
+# sent_id = 21
+1	Lebensjahr	Lebensjahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	start_char=3147|end_char=3157
+2	vollendet	vollenden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3158|end_char=3167
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=3168|end_char=3173
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=3173|end_char=3174
+5	?	?	PUNCT	$.	_	6	punct	_	start_char=3175|end_char=3176
+6	Führungszeugnis	Führungszeugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=3177|end_char=3192
+7	(	(	PUNCT	$(	_	8	punct	_	start_char=3193|end_char=3194
+8	Beleg	Beleg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=3194|end_char=3199
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=3199|end_char=3200
+10	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	start_char=3200|end_char=3203
+11	O	O	PROPN	XY	_	8	appos	_	start_char=3204|end_char=3205
+12	)	)	PUNCT	$(	_	8	punct	_	start_char=3205|end_char=3206
+13	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=3207|end_char=3210
+14	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj:pass	_	start_char=3211|end_char=3221
+15	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	start_char=3222|end_char=3229
+16	jeweils	jeweils	ADV	ADV	_	20	advmod	_	start_char=3230|end_char=3237
+17-18	im	_	_	_	_	_	_	_	start_char=3238|end_char=3240
+17	in	in	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Original	Original	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	start_char=3241|end_char=3249
+20	eingereicht	einreichen	VERB	VVPP	VerbForm=Part	2	parataxis	_	start_char=3250|end_char=3261
+21	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	20	aux:pass	_	start_char=3262|end_char=3268
+22	.	.	PUNCT	$.	_	20	punct	_	start_char=3268|end_char=3269
+
+# text = Alle Antragsunterlagen verbleiben grundsätzlich bei der zuständigen Stelle.
+# sent_id = 22
+1	Alle	alle	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	start_char=3270|end_char=3274
+2	Antragsunterlagen	Antragsunterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=3275|end_char=3292
+3	verbleiben	verbleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3293|end_char=3303
+4	grundsätzlich	grundsätzlich	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=3304|end_char=3317
+5	bei	bei	ADP	APPR	_	8	case	_	start_char=3318|end_char=3321
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=3322|end_char=3325
+7	zuständigen	zuständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=3326|end_char=3337
+8	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=3338|end_char=3344
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=3344|end_char=3345
+
+# text = Die vorgelegten Originalunterlagen werden nach erfolgter Beglaubigung der Kopien zurückgegeben.
+# sent_id = 23
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=3346|end_char=3349
+2	vorgelegten	vorgelegt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=3350|end_char=3361
+3	Originalunterlagen	Originalunterlagen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj:pass	_	start_char=3362|end_char=3380
+4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=3381|end_char=3387
+5	nach	nach	ADP	APPR	_	7	case	_	start_char=3388|end_char=3392
+6	erfolgter	erfolgt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=3393|end_char=3402
+7	Beglaubigung	Beglaubigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=3403|end_char=3415
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=3416|end_char=3419
+9	Kopien	Kopie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=3420|end_char=3426
+10	zurückgegeben	zurückgeben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3427|end_char=3440
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=3440|end_char=3441
+
+# text = Im Einzelfall können zur Antragsbearbeitung weitere Unterlagen und Nachweise erforderlich werden.
+# sent_id = 24
+1-2	Im	_	_	_	_	_	_	_	start_char=3442|end_char=3444
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Einzelfall	Einzelfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	start_char=3445|end_char=3455
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=3456|end_char=3462
+5-6	zur	_	_	_	_	_	_	_	start_char=3463|end_char=3466
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Antragsbearbeitung	Antragsbearbeitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	start_char=3467|end_char=3485
+8	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	9	amod	_	start_char=3486|end_char=3493
+9	Unterlagen	Unterlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=3494|end_char=3504
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=3505|end_char=3508
+11	Nachweise	Nachweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	start_char=3509|end_char=3518
+12	erforderlich	erforderlich	ADJ	ADJD	Degree=Pos	13	xcomp	_	start_char=3519|end_char=3531
+13	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=3532|end_char=3538
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=3538|end_char=3539
+
+# text = Informationen dazu erteilt die zuständige Stelle.
+# sent_id = 25
+1	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=3540|end_char=3553
+2	dazu	dazu	ADV	PAV	_	1	advmod	_	start_char=3554|end_char=3558
+3	erteilt	erteilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3559|end_char=3566
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3567|end_char=3570
+5	zuständige	zuständig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3571|end_char=3581
+6	Stelle	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3582|end_char=3588
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=3588|end_char=3589
+
+# text = ? Art.
+# sent_id = 26
+1	?	?	PUNCT	$.	_	2	punct	_	start_char=3590|end_char=3591
+2	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3592|end_char=3595
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=3595|end_char=3596
+
+# text = 116 Abs.
+# sent_id = 27
+1	116	116	NUM	CARD	NumType=Card	2	nummod	_	start_char=3597|end_char=3600
+2	Abs.	Abs.	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=3601|end_char=3605
+
+# text = 1 Grundgesetz für die Bundesrepublik Deutschland ? § 15 Gesetz über die Angelegenheiten der Vertriebenen und Flüchtlinge (BVFG) ? § 30 Abs.
+# sent_id = 28
+1	1	1	NUM	CARD	NumType=Card	2	nummod	_	start_char=3606|end_char=3607
+2	Grundgesetz	Grundgesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3608|end_char=3619
+3	für	für	ADP	APPR	_	5	case	_	start_char=3620|end_char=3623
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=3624|end_char=3627
+5	Bundesrepublik	Bundesrepublik	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=3628|end_char=3642
+6	Deutschland	Deutschland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	5	appos	_	start_char=3643|end_char=3654
+7	?	?	PUNCT	$.	_	8	punct	_	start_char=3655|end_char=3656
+8	§	§	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=3657|end_char=3658
+9	15	15	NUM	CARD	NumType=Card	8	appos	_	start_char=3659|end_char=3661
+10	Gesetz	Gesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	dep	_	start_char=3662|end_char=3668
+11	über	über	ADP	APPR	_	13	case	_	start_char=3669|end_char=3673
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=3674|end_char=3677
+13	Angelegenheiten	Angelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	start_char=3678|end_char=3693
+14	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=3694|end_char=3697
+15	Vertriebenen	vertrieben	NOUN	NN	Case=Gen|Number=Plur	13	nmod	_	start_char=3698|end_char=3710
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=3711|end_char=3714
+17	Flüchtlinge	Flüchtling	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	15	conj	_	start_char=3715|end_char=3726
+18	(	(	PUNCT	$(	_	19	punct	_	start_char=3727|end_char=3728
+19	BVFG	BVFG	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	15	appos	_	start_char=3728|end_char=3732
+20	)	)	PUNCT	$(	_	19	punct	_	start_char=3732|end_char=3733
+21	?	?	PUNCT	$.	_	19	punct	_	start_char=3734|end_char=3735
+22	§	§	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	dep	_	start_char=3736|end_char=3737
+23	30	30	NUM	CARD	NumType=Card	22	nummod	_	start_char=3738|end_char=3740
+24	Abs	Abs	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	22	dep	_	start_char=3741|end_char=3744
+25	.	.	PUNCT	$.	_	2	punct	_	start_char=3744|end_char=3745
+
+# text = 5 Gesetz über das Zentralregister und das Erziehungsregister (BZRG) Welche Gebühren fallen an?
+# sent_id = 29
+1	5	5	NUM	CARD	NumType=Card	2	nummod	_	start_char=3746|end_char=3747
+2	Gesetz	Gesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=3748|end_char=3754
+3	über	über	ADP	APPR	_	5	case	_	start_char=3755|end_char=3759
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=3760|end_char=3763
+5	Zentralregister	Zentralregister	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	start_char=3764|end_char=3779
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=3780|end_char=3783
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=3784|end_char=3787
+8	Erziehungsregister	Erziehungsregister	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	start_char=3788|end_char=3806
+9	(	(	PUNCT	$(	_	10	punct	_	start_char=3807|end_char=3808
+10	BZRG	BZRG	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	8	appos	_	start_char=3808|end_char=3812
+11	)	)	PUNCT	$(	_	10	punct	_	start_char=3812|end_char=3813
+12	Welche	welch	PRON	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int	13	det	_	start_char=3814|end_char=3820
+13	Gebühren	Gebühr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=3821|end_char=3829
+14	fallen	fallen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3830|end_char=3836
+15	an	an	ADP	PTKVZ	_	14	compound:prt	_	start_char=3837|end_char=3839
+16	?	?	PUNCT	$.	_	14	punct	_	start_char=3839|end_char=3840
+
+# text = Die Gebührenhöhe richtet sich nach dem Verwaltungsaufwand und der Bedeutung, dem wirtschaftlichen Wert oder dem sonstigen Nutzen der Amtshandlung für den Antragsteller/die Antragstellerin.
+# sent_id = 30
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3841|end_char=3844
+2	Gebührenhöhe	Gebührenhöhe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=3845|end_char=3857
+3	richtet	richten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3858|end_char=3865
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=3866|end_char=3870
+5	nach	nach	ADP	APPR	_	7	case	_	start_char=3871|end_char=3875
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=3876|end_char=3879
+7	Verwaltungsaufwand	Verwaltungsaufwand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=3880|end_char=3898
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=3899|end_char=3902
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3903|end_char=3906
+10	Bedeutung	Bedeutung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	start_char=3907|end_char=3916
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=3916|end_char=3917
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=3918|end_char=3921
+13	wirtschaftlichen	wirtschaftlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=3922|end_char=3938
+14	Wert	Wert	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	start_char=3939|end_char=3943
+15	oder	oder	CCONJ	KON	_	18	cc	_	start_char=3944|end_char=3948
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=3949|end_char=3952
+17	sonstigen	sonstig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=3953|end_char=3962
+18	Nutzen	Nutzen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	start_char=3963|end_char=3969
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=3970|end_char=3973
+20	Amtshandlung	Amtshandlung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=3974|end_char=3986
+21	für	für	ADP	APPR	_	24	case	_	start_char=3987|end_char=3990
+22	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=3991|end_char=3994
+23	Antragsteller/die	antragsteller/die	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=3995|end_char=4012
+24	Antragstellerin	Antragstellerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	start_char=4013|end_char=4028
+25	.	.	PUNCT	$.	_	3	punct	_	start_char=4028|end_char=4029
+
+# text = Welche Fristen muss ich beachten?
+# sent_id = 31
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	2	det	_	start_char=4030|end_char=4036
+2	Fristen	Frist	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=4037|end_char=4044
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4045|end_char=4049
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4050|end_char=4053
+5	beachten	beachen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4054|end_char=4062
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=4062|end_char=4063
+
+# text = Es müssen ggf.
+# sent_id = 32
+1	Es	es	PRON	PPER	PronType=Prs	2	nsubj	_	start_char=4064|end_char=4066
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4067|end_char=4073
+3	ggf	ggf	ADV	ADV	_	2	advmod	_	start_char=4074|end_char=4077
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=4077|end_char=4078
+
+# text = Fristen beachtet werden.
+# sent_id = 33
+1	Fristen	Frist	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	dep	_	start_char=4079|end_char=4086
+2	beachtet	beachten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4087|end_char=4095
+3	werden	werden	AUX	VAFIN	VerbForm=Inf|Voice=Pass	2	aux:pass	_	start_char=4096|end_char=4102
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=4102|end_char=4103
+
+# text = Wenden Sie sich bitte an die zuständige Stelle.
+# sent_id = 34
+1	Wenden	Wende	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4104|end_char=4110
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	start_char=4111|end_char=4114
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=4115|end_char=4119
+4	bitte	bitte	ADV	ADV	_	1	advmod	_	start_char=4120|end_char=4125
+5	an	an	ADP	APPR	_	8	case	_	start_char=4126|end_char=4128
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=4129|end_char=4132
+7	zuständige	zuständig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=4133|end_char=4143
+8	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=4144|end_char=4150
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=4150|end_char=4151
+
+# text = Rechtsgrundlage ? Gesetz über die Änderung von Familiennamen und Vornamen (NamÄndG)
+# sent_id = 35
+1	Rechtsgrundlage	Rechtsgrundlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	dep	_	start_char=4152|end_char=4167
+2	?	?	PUNCT	$.	_	1	punct	_	start_char=4168|end_char=4169
+3	Gesetz	Gesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4170|end_char=4176
+4	über	über	ADP	APPR	_	6	case	_	start_char=4177|end_char=4181
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=4182|end_char=4185
+6	Änderung	Änderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=4186|end_char=4194
+7	von	von	ADP	APPR	_	8	case	_	start_char=4195|end_char=4198
+8	Familiennamen	Familienname	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	start_char=4199|end_char=4212
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=4213|end_char=4216
+10	Vornamen	Vorname	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	conj	_	start_char=4217|end_char=4225
+11	(	(	PUNCT	$(	_	12	punct	_	start_char=4226|end_char=4227
+12	NamÄndG	NamÄndG	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	8	appos	_	start_char=4227|end_char=4234
+13	)	)	PUNCT	$(	_	12	punct	_	start_char=4234|end_char=4235
+

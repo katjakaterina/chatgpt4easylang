@@ -1,0 +1,421 @@
+# text = Fundsachen ________________________________________ Gefundene Wertgegenstand mit einem Gegenwert von mehr als 10 Euro, müssen abgeben werden.
+# sent_id = 0
+1	Fundsachen	Fundsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	start_char=0|end_char=10
+2	________________________________________	________________________________________	PROPN	NN	_	1	punct	_	start_char=11|end_char=51
+3	Gefundene	gefunden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=52|end_char=61
+4	Wertgegenstand	Wertgegenstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	start_char=62|end_char=76
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=77|end_char=80
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=81|end_char=86
+7	Gegenwert	Gegenwert	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=87|end_char=96
+8	von	von	ADP	APPR	_	12	case	_	start_char=97|end_char=100
+9	mehr	mehr	ADV	ADV	_	11	advmod	_	start_char=101|end_char=105
+10	als	als	ADP	KOKOM	_	12	case	_	start_char=106|end_char=109
+11	10	10	NUM	CARD	NumType=Card	12	nummod	_	start_char=110|end_char=112
+12	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nmod	_	start_char=113|end_char=117
+13	,	,	PUNCT	$,	_	4	punct	_	start_char=117|end_char=118
+14	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=119|end_char=125
+15	abgeben	abgeben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=126|end_char=133
+16	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	15	aux:pass	_	start_char=134|end_char=140
+17	.	.	PUNCT	$.	_	15	punct	_	start_char=140|end_char=141
+
+# text = Leistungsbeschreibung Wenn Sie einen Wertgegenstand (das heißt einen Gegenstand mit einem Wert von mehr als 10 Euro) gefunden haben, müssen Sie diesen Fund abgeben.
+# sent_id = 1
+1	Leistungsbeschreibung	Leistungsbeschreibung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	dep	_	start_char=142|end_char=163
+2	Wenn	wenn	SCONJ	KOUS	_	20	mark	_	start_char=164|end_char=168
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=169|end_char=172
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=173|end_char=178
+5	Wertgegenstand	Wertgegenstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=179|end_char=193
+6	(	(	PUNCT	$(	_	8	punct	_	start_char=194|end_char=195
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=195|end_char=198
+8	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=199|end_char=204
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=205|end_char=210
+10	Gegenstand	Gegenstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=211|end_char=221
+11	mit	mit	ADP	APPR	_	13	case	_	start_char=222|end_char=225
+12	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=226|end_char=231
+13	Wert	Wert	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	start_char=232|end_char=236
+14	von	von	ADP	APPR	_	18	case	_	start_char=237|end_char=240
+15	mehr	mehr	ADV	ADV	_	17	advmod	_	start_char=241|end_char=245
+16	als	als	ADP	KOKOM	_	18	case	_	start_char=246|end_char=249
+17	10	10	NUM	CARD	NumType=Card	18	nummod	_	start_char=250|end_char=252
+18	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nmod	_	start_char=253|end_char=257
+19	)	)	PUNCT	$(	_	8	punct	_	start_char=257|end_char=258
+20	gefunden	finden	VERB	VVPP	VerbForm=Part	27	advcl	_	start_char=259|end_char=267
+21	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=268|end_char=273
+22	,	,	PUNCT	$,	_	20	punct	_	start_char=273|end_char=274
+23	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=275|end_char=281
+24	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	start_char=282|end_char=285
+25	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	26	det	_	start_char=286|end_char=292
+26	Fund	Fund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	start_char=293|end_char=297
+27	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=298|end_char=305
+28	.	.	PUNCT	$.	_	27	punct	_	start_char=305|end_char=306
+
+# text = Anlaufstellen sind die Fundbüros der Kommunen.
+# sent_id = 2
+1	Anlaufstellen	Anlaufstelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=307|end_char=320
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=321|end_char=325
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	start_char=326|end_char=329
+4	Fundbüros	Fundbüro	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=330|end_char=339
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=340|end_char=343
+6	Kommunen	Kommune	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=344|end_char=352
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=352|end_char=353
+
+# text = Dort wird eine Fundanzeige aufgenommen.
+# sent_id = 3
+1	Dort	dort	ADV	ADV	_	5	advmod	_	start_char=354|end_char=358
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=359|end_char=363
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=364|end_char=368
+4	Fundanzeige	Fundanzeige	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=369|end_char=380
+5	aufgenommen	aufnehmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=381|end_char=392
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=392|end_char=393
+
+# text = Fundsache, der Fundort und die Fundzeit sowie ihre Personalien werden festgehalten, da Sie unter Umständen später Anspruch auf Finderlohn haben oder auf den Fund selbst, falls sich nach Fristablauf kein Besitzer feststellen lässt.
+# sent_id = 4
+1	Fundsache	Fundsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	start_char=394|end_char=403
+2	,	,	PUNCT	$,	_	4	punct	_	start_char=403|end_char=404
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=405|end_char=408
+4	Fundort	Fundort	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=409|end_char=416
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=417|end_char=420
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=421|end_char=424
+7	Fundzeit	Fundzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=425|end_char=433
+8	sowie	sowie	CCONJ	KON	_	10	cc	_	start_char=434|end_char=439
+9	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=440|end_char=444
+10	Personalien	Personalien	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=445|end_char=456
+11	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	start_char=457|end_char=463
+12	festgehalten	festhalten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=464|end_char=476
+13	,	,	PUNCT	$,	_	22	punct	_	start_char=476|end_char=477
+14	da	da	SCONJ	KOUS	_	22	mark	_	start_char=478|end_char=480
+15	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=481|end_char=484
+16	unter	unter	ADP	APPR	_	17	case	_	start_char=485|end_char=490
+17	Umständen	Umstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	22	obl	_	start_char=491|end_char=500
+18	später	spät	ADJ	ADJD	Degree=Cmp	22	advmod	_	start_char=501|end_char=507
+19	Anspruch	Anspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	start_char=508|end_char=516
+20	auf	auf	ADP	APPR	_	21	case	_	start_char=517|end_char=520
+21	Finderlohn	Finderlohn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	start_char=521|end_char=531
+22	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=532|end_char=537
+23	oder	oder	CCONJ	KON	_	26	cc	_	start_char=538|end_char=542
+24	auf	auf	ADP	APPR	_	26	case	_	start_char=543|end_char=546
+25	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=547|end_char=550
+26	Fund	Fund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	start_char=551|end_char=555
+27	selbst	selbst	ADV	ADV	_	26	advmod	_	start_char=556|end_char=562
+28	,	,	PUNCT	$,	_	36	punct	_	start_char=562|end_char=563
+29	falls	falls	SCONJ	KOUS	_	36	mark	_	start_char=564|end_char=569
+30	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	36	obj	_	start_char=570|end_char=574
+31	nach	nach	ADP	APPR	_	32	case	_	start_char=575|end_char=579
+32	Fristablauf	Fristablauf	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	start_char=580|end_char=591
+33	kein	kein	PRON	PIAT	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	34	nmod	_	start_char=592|end_char=596
+34	Besitzer	Besitzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	start_char=597|end_char=605
+35	feststellen	feststellen	VERB	VVINF	VerbForm=Inf	36	xcomp	_	start_char=606|end_char=617
+36	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	start_char=618|end_char=623
+37	.	.	PUNCT	$.	_	12	punct	_	start_char=623|end_char=624
+
+# text = Aufbewahrung und Versteigerung Das Fundbüro ist verpflichtet, Fundsachen mindestens sechs Monate lang aufzubewahren.
+# sent_id = 5
+1	Aufbewahrung	Aufbewahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=625|end_char=637
+2	und	und	CCONJ	KON	_	3	cc	_	start_char=638|end_char=641
+3	Versteigerung	Versteigerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=642|end_char=655
+4	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=656|end_char=659
+5	Fundbüro	Fundbüro	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=660|end_char=668
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=669|end_char=672
+7	verpflichtet	verpflichten	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=673|end_char=685
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=685|end_char=686
+9	Fundsachen	Fundsache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=687|end_char=697
+10	mindestens	mindestens	ADV	ADV	_	11	advmod	_	start_char=698|end_char=708
+11	sechs	sechs	NUM	CARD	NumType=Card	12	nummod	_	start_char=709|end_char=714
+12	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	start_char=715|end_char=721
+13	lang	lang	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=722|end_char=726
+14	aufzubewahren	aufbewahren	VERB	VVIZU	VerbForm=Inf	7	xcomp	_	start_char=727|end_char=740
+15	.	.	PUNCT	$.	_	7	punct	_	start_char=740|end_char=741
+
+# text = Meldet sich der Besitzer innerhalb dieser Zeit nicht, so haben Sie als Finder/in Anspruch auf den gefundenen Gegenstand.
+# sent_id = 6
+1	Meldet	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=742|end_char=748
+2	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=749|end_char=753
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=754|end_char=757
+4	Besitzer	Besitzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=758|end_char=766
+5	innerhalb	innerhalb	ADP	APPR	_	7	case	_	start_char=767|end_char=776
+6	dieser	dies	PRON	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=777|end_char=783
+7	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	start_char=784|end_char=788
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	start_char=789|end_char=794
+9	,	,	PUNCT	$,	_	1	punct	_	start_char=794|end_char=795
+10	so	so	ADV	ADV	_	11	advmod	_	start_char=796|end_char=798
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=799|end_char=804
+12	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=805|end_char=808
+13	als	als	ADP	KOKOM	_	14	case	_	start_char=809|end_char=812
+14	Finder/in	Finder/in	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	start_char=813|end_char=822
+15	Anspruch	Anspruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=823|end_char=831
+16	auf	auf	ADP	APPR	_	19	case	_	start_char=832|end_char=835
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=836|end_char=839
+18	gefundenen	gefunden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=840|end_char=850
+19	Gegenstand	Gegenstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	start_char=851|end_char=861
+20	.	.	PUNCT	$.	_	11	punct	_	start_char=861|end_char=862
+
+# text = Wird dieses Recht von Ihnen nicht wahrgenommen oder handelt es sich bei den Fundsachen um in öffentlichen Gebäuden oder Verkehrsmitteln gefundene Gegenstände, wird die Stadt oder die Gemeinde selbst Eigentümerin der Sachen.
+# sent_id = 7
+1	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	start_char=863|end_char=867
+2	dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=868|end_char=874
+3	Recht	Recht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	start_char=875|end_char=880
+4	von	von	ADP	APPR	_	5	case	_	start_char=881|end_char=884
+5	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	obl	_	start_char=885|end_char=890
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=891|end_char=896
+7	wahrgenommen	wahrnehmen	VERB	VVPP	VerbForm=Part	24	advcl	_	start_char=897|end_char=909
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=910|end_char=914
+9	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=915|end_char=922
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=923|end_char=925
+11	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	start_char=926|end_char=930
+12	bei	bei	ADP	APPR	_	14	case	_	start_char=931|end_char=934
+13	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=935|end_char=938
+14	Fundsachen	Fundsache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	start_char=939|end_char=949
+15	um	um	ADP	APPR	_	22	case	_	start_char=950|end_char=952
+16	in	in	ADP	APPR	_	18	case	_	start_char=953|end_char=955
+17	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	start_char=956|end_char=968
+18	Gebäuden	Gebäude	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	21	nmod	_	start_char=969|end_char=977
+19	oder	oder	CCONJ	KON	_	20	cc	_	start_char=978|end_char=982
+20	Verkehrsmitteln	Verkehrsmittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	conj	_	start_char=983|end_char=998
+21	gefundene	gefunden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	start_char=999|end_char=1008
+22	Gegenstände	Gegenstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=1009|end_char=1020
+23	,	,	PUNCT	$,	_	7	punct	_	start_char=1020|end_char=1021
+24	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1022|end_char=1026
+25	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=1027|end_char=1030
+26	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	start_char=1031|end_char=1036
+27	oder	oder	CCONJ	KON	_	29	cc	_	start_char=1037|end_char=1041
+28	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=1042|end_char=1045
+29	Gemeinde	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	conj	_	start_char=1046|end_char=1054
+30	selbst	selbst	ADV	ADV	_	24	advmod	_	start_char=1055|end_char=1061
+31	Eigentümerin	Eigentümerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	xcomp	_	start_char=1062|end_char=1074
+32	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=1075|end_char=1078
+33	Sachen	Sache	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	start_char=1079|end_char=1085
+34	.	.	PUNCT	$.	_	24	punct	_	start_char=1085|end_char=1086
+
+# text = Diese Fundsachen werden dann in größeren zeitlichen Abständen nach vorheriger Ankündigung durch das Fundbüro öffentlich versteigert.
+# sent_id = 8
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=1087|end_char=1092
+2	Fundsachen	Fundsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	start_char=1093|end_char=1103
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	aux:pass	_	start_char=1104|end_char=1110
+4	dann	dann	ADV	ADV	_	16	advmod	_	start_char=1111|end_char=1115
+5	in	in	ADP	APPR	_	8	case	_	start_char=1116|end_char=1118
+6	größeren	groß	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur	8	amod	_	start_char=1119|end_char=1127
+7	zeitlichen	zeitlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=1128|end_char=1138
+8	Abständen	Abstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	start_char=1139|end_char=1148
+9	nach	nach	ADP	APPR	_	11	case	_	start_char=1149|end_char=1153
+10	vorheriger	vorherig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1154|end_char=1164
+11	Ankündigung	Ankündigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=1165|end_char=1176
+12	durch	durch	ADP	APPR	_	14	case	_	start_char=1177|end_char=1182
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=1183|end_char=1186
+14	Fundbüro	Fundbüro	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	start_char=1187|end_char=1195
+15	öffentlich	öffentlich	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=1196|end_char=1206
+16	versteigert	versteigern	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1207|end_char=1218
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=1218|end_char=1219
+
+# text = Die Einnahmen der Versteigerung fließen in den Haushalt der Gemeinde.
+# sent_id = 9
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=1220|end_char=1223
+2	Einnahmen	Einnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=1224|end_char=1233
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1234|end_char=1237
+4	Versteigerung	Versteigerung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=1238|end_char=1251
+5	fließen	fließen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1252|end_char=1259
+6	in	in	ADP	APPR	_	8	case	_	start_char=1260|end_char=1262
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1263|end_char=1266
+8	Haushalt	Haushalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=1267|end_char=1275
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1276|end_char=1279
+10	Gemeinde	Gemeinde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=1280|end_char=1288
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=1288|end_char=1289
+
+# text = Tiere Auch Tiere gelten als Fundsache.
+# sent_id = 10
+1	Tiere	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1290|end_char=1295
+2	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=1297|end_char=1301
+3	Tiere	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1302|end_char=1307
+4	gelten	gelten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1308|end_char=1314
+5	als	als	ADP	KOKOM	_	6	case	_	start_char=1315|end_char=1318
+6	Fundsache	Fundsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	xcomp	_	start_char=1319|end_char=1328
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=1328|end_char=1329
+
+# text = Wenn Sie ein Tier gefunden haben, sollten Sie mit der zuständigen Kommune Kontakt aufnehmen und den Fund dort anzeigen.
+# sent_id = 11
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=1330|end_char=1334
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1335|end_char=1338
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=1339|end_char=1342
+4	Tier	Tier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=1343|end_char=1347
+5	gefunden	finden	VERB	VVPP	VerbForm=Part	15	advcl	_	start_char=1348|end_char=1356
+6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1357|end_char=1362
+7	,	,	PUNCT	$,	_	5	punct	_	start_char=1362|end_char=1363
+8	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	start_char=1364|end_char=1371
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=1372|end_char=1375
+10	mit	mit	ADP	APPR	_	13	case	_	start_char=1376|end_char=1379
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1380|end_char=1383
+12	zuständigen	zuständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=1384|end_char=1395
+13	Kommune	Kommune	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=1396|end_char=1403
+14	Kontakt	Kontakt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=1404|end_char=1411
+15	aufnehmen	aufnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1412|end_char=1421
+16	und	und	CCONJ	KON	_	20	cc	_	start_char=1422|end_char=1425
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=1426|end_char=1429
+18	Fund	Fund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=1430|end_char=1434
+19	dort	dort	ADV	ADV	_	20	advmod	_	start_char=1435|end_char=1439
+20	anzeigen	anzeigen	VERB	VVINF	VerbForm=Inf	15	conj	_	start_char=1440|end_char=1448
+21	.	.	PUNCT	$.	_	15	punct	_	start_char=1448|end_char=1449
+
+# text = In Absprache mit der Gemeinde können Sie das Tier gegebenenfalls auch dort abgeben.
+# sent_id = 12
+1	In	in	ADP	APPR	_	2	case	_	start_char=1450|end_char=1452
+2	Absprache	Absprache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=1453|end_char=1462
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=1463|end_char=1466
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1467|end_char=1470
+5	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=1471|end_char=1479
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=1480|end_char=1486
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1487|end_char=1490
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=1491|end_char=1494
+9	Tier	Tier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=1495|end_char=1499
+10	gegebenenfalls	gegebenenfalls	ADV	ADV	_	13	advmod	_	start_char=1500|end_char=1514
+11	auch	auch	ADV	ADV	_	12	advmod	_	start_char=1515|end_char=1519
+12	dort	dort	ADV	ADV	_	13	advmod	_	start_char=1520|end_char=1524
+13	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1525|end_char=1532
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=1532|end_char=1533
+
+# text = Es wird dann üblicherweise zur weiteren Versorgung in einem Tierheim untergebracht.
+# sent_id = 13
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	start_char=1534|end_char=1536
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	start_char=1537|end_char=1541
+3	dann	dann	ADV	ADV	_	12	advmod	_	start_char=1542|end_char=1546
+4	üblicherweise	üblicherweise	ADV	ADV	_	12	advmod	_	start_char=1547|end_char=1560
+5-6	zur	_	_	_	_	_	_	_	start_char=1561|end_char=1564
+5	zu	zu	ADP	APPR	_	8	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	weiteren	weit	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	start_char=1565|end_char=1573
+8	Versorgung	Versorgung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=1574|end_char=1584
+9	in	in	ADP	APPR	_	11	case	_	start_char=1585|end_char=1587
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=1588|end_char=1593
+11	Tierheim	Tierheim	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=1594|end_char=1602
+12	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1603|end_char=1616
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=1616|end_char=1617
+
+# text = Sie können Fundtiere auch ohne Anzeige direkt in einem Tierheim abgeben.
+# sent_id = 14
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=1618|end_char=1621
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1622|end_char=1628
+3	Fundtiere	Fundtier	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	start_char=1629|end_char=1638
+4	auch	auch	ADV	ADV	_	11	advmod	_	start_char=1639|end_char=1643
+5	ohne	ohne	ADP	APPR	_	6	case	_	start_char=1644|end_char=1648
+6	Anzeige	Anzeige	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=1649|end_char=1656
+7	direkt	direkt	ADV	ADJD	_	10	advmod	_	start_char=1657|end_char=1663
+8	in	in	ADP	APPR	_	10	case	_	start_char=1664|end_char=1666
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=1667|end_char=1672
+10	Tierheim	Tierheim	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=1673|end_char=1681
+11	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1682|end_char=1689
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=1689|end_char=1690
+
+# text = Die Fundanzeige wird dann durch das Tierheim erledigt, da ohne Anzeige die Kommune nicht dazu verpflichtet ist, die Kosten der Unterbringung zu tragen.
+# sent_id = 15
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1691|end_char=1694
+2	Fundanzeige	Fundanzeige	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	start_char=1695|end_char=1706
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=1707|end_char=1711
+4	dann	dann	ADV	ADV	_	8	advmod	_	start_char=1712|end_char=1716
+5	durch	durch	ADP	APPR	_	7	case	_	start_char=1717|end_char=1722
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=1723|end_char=1726
+7	Tierheim	Tierheim	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	start_char=1727|end_char=1735
+8	erledigt	erledigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1736|end_char=1744
+9	,	,	PUNCT	$,	_	17	punct	_	start_char=1744|end_char=1745
+10	da	da	SCONJ	KOUS	_	17	mark	_	start_char=1746|end_char=1748
+11	ohne	ohne	ADP	APPR	_	12	case	_	start_char=1749|end_char=1753
+12	Anzeige	Anzeige	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	start_char=1754|end_char=1761
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=1762|end_char=1765
+14	Kommune	Kommune	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=1766|end_char=1773
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=1774|end_char=1779
+16	dazu	dazu	PRON	PAV	_	17	dep	_	start_char=1780|end_char=1784
+17	verpflichtet	verpflichten	ADJ	VVPP	Degree=Pos|VerbForm=Part	8	advcl	_	start_char=1785|end_char=1797
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=1798|end_char=1801
+19	,	,	PUNCT	$,	_	25	punct	_	start_char=1801|end_char=1802
+20	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	21	det	_	start_char=1803|end_char=1806
+21	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	25	obj	_	start_char=1807|end_char=1813
+22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=1814|end_char=1817
+23	Unterbringung	Unterbringung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=1818|end_char=1831
+24	zu	zu	PART	PTKZU	_	25	mark	_	start_char=1832|end_char=1834
+25	tragen	tragen	VERB	VVINF	VerbForm=Inf	16	acl	_	start_char=1835|end_char=1841
+26	.	.	PUNCT	$.	_	8	punct	_	start_char=1841|end_char=1842
+
+# text = Hinweise / Besonderheiten Zusätzlich bieten wir Ihnen  eine "Onlinesuche" nach in Braunschweig verlorenen Gegenständen,  eine "Veröffentlichungsliste" über in Braunschweig gefundene Gegenstände und  die Möglichkeit, uns eine E-Mail zuzusenden.
+# sent_id = 16
+1	Hinweise	Hinweis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	start_char=1843|end_char=1851
+2	/	/	PUNCT	$(	_	3	punct	_	start_char=1852|end_char=1853
+3	Besonderheiten	Besonderheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=1854|end_char=1868
+4	Zusätzlich	zusätzlich	ADV	ADJD	_	1	advmod	_	start_char=1869|end_char=1879
+5	bieten	bieten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1880|end_char=1886
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=1887|end_char=1890
+7	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	iobj	_	start_char=1891|end_char=1896
+8		"	PUNCT	$(	_	11	punct	_	start_char=1897|end_char=1898
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1899|end_char=1903
+10	"	"	PUNCT	$(	_	11	punct	_	start_char=1904|end_char=1905
+11	Onlinesuche	Onlinesuche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	start_char=1905|end_char=1916
+12	"	"	PUNCT	$(	_	11	punct	_	start_char=1916|end_char=1917
+13	nach	nach	ADP	APPR	_	15	case	_	start_char=1918|end_char=1922
+14	in	in	ADP	APPR	_	15	case	_	start_char=1923|end_char=1925
+15	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	start_char=1926|end_char=1938
+16	verlorenen	verloren	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=1939|end_char=1949
+17	Gegenständen	Gegenstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=1950|end_char=1962
+18	,	,	PUNCT	$,	_	22	punct	_	start_char=1962|end_char=1963
+19		"	PUNCT	$(	_	22	punct	_	start_char=1964|end_char=1965
+20	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1966|end_char=1970
+21	"	"	PUNCT	$(	_	22	punct	_	start_char=1971|end_char=1972
+22	Veröffentlichungsliste	Veröffentlichungsliste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=1972|end_char=1994
+23	"	"	PUNCT	$(	_	22	punct	_	start_char=1994|end_char=1995
+24	über	über	ADP	APPR	_	28	case	_	start_char=1996|end_char=2000
+25	in	in	ADP	APPR	_	26	case	_	start_char=2001|end_char=2003
+26	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	27	nmod	_	start_char=2004|end_char=2016
+27	gefundene	gefunden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	start_char=2017|end_char=2026
+28	Gegenstände	Gegenstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	nmod	_	start_char=2027|end_char=2038
+29	und	und	CCONJ	KON	_	32	cc	_	start_char=2039|end_char=2042
+30		"	PUNCT	$(	_	32	punct	_	start_char=2043|end_char=2044
+31	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=2045|end_char=2048
+32	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	start_char=2049|end_char=2060
+33	,	,	PUNCT	$,	_	38	punct	_	start_char=2060|end_char=2061
+34	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	38	iobj	_	start_char=2062|end_char=2065
+35	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=2066|end_char=2070
+36	E-	E-	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	compound	_	start_char=2071|end_char=2073
+37	Mail	Mail	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	start_char=2073|end_char=2077
+38	zuzusenden	zusenden	VERB	VVIZU	VerbForm=Inf	32	acl	_	start_char=2078|end_char=2088
+39	.	.	PUNCT	$.	_	5	punct	_	start_char=2088|end_char=2089
+
+# text = Fundgegenstände, die innerhalb eines halben Jahres nicht vom Eigentümer bzw. vom Finder abgeholt wurden, werden versteigert.
+# sent_id = 17
+1	Fundgegenstände	Fundgegenstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	nsubj:pass	_	start_char=2090|end_char=2105
+2	,	,	PUNCT	$,	_	17	punct	_	start_char=2105|end_char=2106
+3	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	17	nsubj:pass	_	start_char=2107|end_char=2110
+4	innerhalb	innerhalb	ADP	APPR	_	7	case	_	start_char=2111|end_char=2120
+5	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=2121|end_char=2126
+6	halben	halb	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=2127|end_char=2133
+7	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	start_char=2134|end_char=2140
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=2141|end_char=2146
+9-10	vom	_	_	_	_	_	_	_	start_char=2147|end_char=2150
+9	von	von	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Eigentümer	Eigentümer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	start_char=2151|end_char=2161
+12	bzw	bzw	CCONJ	KON	Abbr=Yes	16	cc	_	start_char=2162|end_char=2165
+13	.	.	PUNCT	$.	_	16	punct	_	start_char=2165|end_char=2166
+14-15	vom	_	_	_	_	_	_	_	start_char=2167|end_char=2170
+14	von	von	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Finder	Find	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	conj	_	start_char=2171|end_char=2177
+17	abgeholt	abholen	VERB	VVPP	VerbForm=Part	1	acl	_	start_char=2178|end_char=2186
+18	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	17	aux:pass	_	start_char=2187|end_char=2193
+19	,	,	PUNCT	$,	_	17	punct	_	start_char=2193|end_char=2194
+20	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	start_char=2195|end_char=2201
+21	versteigert	versteigern	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2202|end_char=2213
+22	.	.	PUNCT	$.	_	21	punct	_	start_char=2213|end_char=2214
+
+# text = Eine Gewährleistung für den Wert sowie mögliche Mängel der versteigerten Gegenstände wird nicht übernommen.
+# sent_id = 18
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=2215|end_char=2219
+2	Gewährleistung	Gewährleistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	start_char=2220|end_char=2234
+3	für	für	ADP	APPR	_	5	case	_	start_char=2235|end_char=2238
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2239|end_char=2242
+5	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	start_char=2243|end_char=2247
+6	sowie	sowie	CCONJ	KON	_	8	cc	_	start_char=2248|end_char=2253
+7	mögliche	möglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=2254|end_char=2262
+8	Mängel	Mangel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=2263|end_char=2269
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=2270|end_char=2273
+10	versteigerten	versteigert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=2274|end_char=2287
+11	Gegenstände	Gegenstand	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=2288|end_char=2299
+12	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	start_char=2300|end_char=2304
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=2305|end_char=2310
+14	übernommen	übernehmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2311|end_char=2321
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=2321|end_char=2322
+

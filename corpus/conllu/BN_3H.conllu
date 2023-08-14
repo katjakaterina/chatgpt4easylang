@@ -1,0 +1,186 @@
+# text = Der Kita-Finder ist eine Webseite, auf der Sie Hilfe bekommen können, um einen Betreuungsplatz für Ihr Kind in Braunschweig zu finden.
+# sent_id = 0
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=3
+2	Kita	Kita	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=4|end_char=8
+3	-	-	PUNCT	$(	_	4	punct	_	start_char=8|end_char=9
+4	Finder	Find	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=9|end_char=15
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=16|end_char=19
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=20|end_char=24
+7	Webseite	Webseite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=25|end_char=33
+8	,	,	PUNCT	$,	_	13	punct	_	start_char=33|end_char=34
+9	auf	auf	ADP	APPR	_	10	case	_	start_char=35|end_char=38
+10	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	13	obl	_	start_char=39|end_char=42
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=43|end_char=46
+12	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=47|end_char=52
+13	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	7	acl	_	start_char=53|end_char=61
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=62|end_char=68
+15	,	,	PUNCT	$,	_	25	punct	_	start_char=68|end_char=69
+16	um	um	ADP	KOUI	_	25	mark	_	start_char=70|end_char=72
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=73|end_char=78
+18	Betreuungsplatz	Betreuungsplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	start_char=79|end_char=94
+19	für	für	ADP	APPR	_	21	case	_	start_char=95|end_char=98
+20	Ihr	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	21	det:poss	_	start_char=99|end_char=102
+21	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	start_char=103|end_char=107
+22	in	in	ADP	APPR	_	23	case	_	start_char=108|end_char=110
+23	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	start_char=111|end_char=123
+24	zu	zu	PART	PTKZU	_	25	mark	_	start_char=124|end_char=126
+25	finden	finden	VERB	VVINF	VerbForm=Inf	13	advcl	_	start_char=127|end_char=133
+26	.	.	PUNCT	$.	_	7	punct	_	start_char=133|end_char=134
+
+# text = Eine Kindertagesstätte (kurz: Kita) ist eine Einrichtung, in der Kinder betreut und gefördert werden.
+# sent_id = 1
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=135|end_char=139
+2	Kindertagesstätte	Kindertagesstätte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=140|end_char=157
+3	(	(	PUNCT	$(	_	6	punct	_	start_char=158|end_char=159
+4	kurz	kurz	ADJ	ADJD	Degree=Pos	6	amod	_	start_char=159|end_char=163
+5	:	:	PUNCT	$.	_	4	punct	_	start_char=163|end_char=164
+6	Kita	Kita	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=165|end_char=169
+7	)	)	PUNCT	$(	_	6	punct	_	start_char=169|end_char=170
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=171|end_char=174
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=175|end_char=179
+10	Einrichtung	Einrichtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=180|end_char=191
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=191|end_char=192
+12	in	in	ADP	APPR	_	13	case	_	start_char=193|end_char=195
+13	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	15	obl	_	start_char=196|end_char=199
+14	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	nsubj:pass	_	start_char=200|end_char=206
+15	betreut	betreuen	VERB	VVPP	VerbForm=Part	10	acl	_	start_char=207|end_char=214
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=215|end_char=218
+17	gefördert	fördern	VERB	VVPP	VerbForm=Part	15	conj	_	start_char=219|end_char=228
+18	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux:pass	_	start_char=229|end_char=235
+19	.	.	PUNCT	$.	_	10	punct	_	start_char=235|end_char=236
+
+# text = Öffentliche Kindertagesstätten werden von der Stadt oder Gemeinde betrieben, während private Einrichtungen von Organisationen oder Unternehmen geleitet werden.
+# sent_id = 2
+1	Öffentliche	öffentlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=237|end_char=248
+2	Kindertagesstätten	Kindertagesstätten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	start_char=249|end_char=267
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	start_char=268|end_char=274
+4	von	von	ADP	APPR	_	6	case	_	start_char=275|end_char=278
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=279|end_char=282
+6	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=283|end_char=288
+7	oder	oder	CCONJ	KON	_	8	cc	_	start_char=289|end_char=293
+8	Gemeinde	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	start_char=294|end_char=302
+9	betrieben	betreiben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=303|end_char=312
+10	,	,	PUNCT	$,	_	18	punct	_	start_char=312|end_char=313
+11	während	während	SCONJ	KOUS	_	18	mark	_	start_char=314|end_char=321
+12	private	privat	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=322|end_char=329
+13	Einrichtungen	Einrichtung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj:pass	_	start_char=330|end_char=343
+14	von	von	ADP	APPR	_	15	case	_	start_char=344|end_char=347
+15	Organisationen	Organisation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	start_char=348|end_char=362
+16	oder	oder	CCONJ	KON	_	17	cc	_	start_char=363|end_char=367
+17	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	conj	_	start_char=368|end_char=379
+18	geleitet	geleiten|leiten	VERB	VVPP	VerbForm=Part	9	advcl	_	start_char=380|end_char=388
+19	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux:pass	_	start_char=389|end_char=395
+20	.	.	PUNCT	$.	_	9	punct	_	start_char=395|end_char=396
+
+# text = Mit dem Kita-Finder können Sie eine Liste aller öffentlichen und privaten Kindertagesstätten in Braunschweig sehen.
+# sent_id = 3
+1	Mit	mit	ADP	APPR	_	5	case	_	start_char=397|end_char=400
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=401|end_char=404
+3	Kita	Kita	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	compound	_	start_char=405|end_char=409
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=409|end_char=410
+5	Finder	Find	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	start_char=410|end_char=416
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=417|end_char=423
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=424|end_char=427
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=428|end_char=432
+9	Liste	Liste	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=433|end_char=438
+10	aller	alle	PRON	PIAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	start_char=439|end_char=444
+11	öffentlichen	öffentlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=445|end_char=457
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=458|end_char=461
+13	privaten	privat	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	conj	_	start_char=462|end_char=470
+14	Kindertagesstätten	Kindertagesstätten	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=471|end_char=489
+15	in	in	ADP	APPR	_	16	case	_	start_char=490|end_char=492
+16	Braunschweig	Braunschweig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=493|end_char=505
+17	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=506|end_char=511
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=511|end_char=512
+
+# text = Sie können Ihre Suche nach Ihren persönlichen Bedürfnissen und Vorlieben filtern und die Einrichtungen auf einer Karte anzeigen lassen.
+# sent_id = 4
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=513|end_char=516
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=517|end_char=523
+3	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=524|end_char=528
+4	Suche	Suche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=529|end_char=534
+5	nach	nach	ADP	APPR	_	8	case	_	start_char=535|end_char=539
+6	Ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=540|end_char=545
+7	persönlichen	persönlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=546|end_char=558
+8	Bedürfnissen	Bedürfnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	start_char=559|end_char=571
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=572|end_char=575
+10	Vorlieben	Vorliebe|Vorlieben	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	conj	_	start_char=576|end_char=585
+11	filtern	filtern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=586|end_char=593
+12	und	und	CCONJ	KON	_	19	cc	_	start_char=594|end_char=597
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=598|end_char=601
+14	Einrichtungen	Einrichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	start_char=602|end_char=615
+15	auf	auf	ADP	APPR	_	17	case	_	start_char=616|end_char=619
+16	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=620|end_char=625
+17	Karte	Karte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=626|end_char=631
+18	anzeigen	anzeigen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	start_char=632|end_char=640
+19	lassen	lassen	VERB	VVINF	VerbForm=Inf	11	conj	_	start_char=641|end_char=647
+20	.	.	PUNCT	$.	_	11	punct	_	start_char=647|end_char=648
+
+# text = Eine Voranmeldung ist eine Anmeldung im Voraus, bevor Sie Ihr Kind in die Kita bringen.
+# sent_id = 5
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=649|end_char=653
+2	Voranmeldung	Voranmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=654|end_char=666
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=667|end_char=670
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=671|end_char=675
+5	Anmeldung	Anmeldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=676|end_char=685
+6-7	im	_	_	_	_	_	_	_	start_char=686|end_char=688
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Voraus	Voraus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=689|end_char=695
+9	,	,	PUNCT	$,	_	17	punct	_	start_char=695|end_char=696
+10	bevor	bevor	SCONJ	KOUS	_	17	mark	_	start_char=697|end_char=702
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=703|end_char=706
+12	Ihr	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	start_char=707|end_char=710
+13	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=711|end_char=715
+14	in	in	ADP	APPR	_	16	case	_	start_char=716|end_char=718
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=719|end_char=722
+16	Kita	Kita	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	start_char=723|end_char=727
+17	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=728|end_char=735
+18	.	.	PUNCT	$.	_	5	punct	_	start_char=735|end_char=736
+
+# text = Mit der Online-Voranmeldung können Sie sich schnell und einfach in mehreren Kitas anmelden.
+# sent_id = 6
+1	Mit	mit	ADP	APPR	_	5	case	_	start_char=737|end_char=740
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=741|end_char=744
+3	Online	Online	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	compound	_	start_char=745|end_char=751
+4	-	-	PUNCT	$(	_	3	punct	_	start_char=751|end_char=752
+5	Voranmeldung	Voranmeldung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=752|end_char=764
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=765|end_char=771
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=772|end_char=775
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	start_char=776|end_char=780
+9	schnell	schnell	ADV	ADJD	_	15	advmod	_	start_char=781|end_char=788
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=789|end_char=792
+11	einfach	einfach	ADV	ADV	_	9	conj	_	start_char=793|end_char=800
+12	in	in	ADP	APPR	_	14	case	_	start_char=801|end_char=803
+13	mehreren	mehrere	PRON	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	14	det	_	start_char=804|end_char=812
+14	Kitas	Kita	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	obl	_	start_char=813|end_char=818
+15	anmelden	anmelden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=819|end_char=827
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=827|end_char=828
+
+# text = Sie müssen nur alle relevanten Daten zu Ihrem Kind, Ihnen und Ihrem Betreuungsbedarf eingeben und Ihre Anmeldung an die ausgewählten Einrichtungen senden.
+# sent_id = 7
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=829|end_char=832
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=833|end_char=839
+3	nur	nur	ADV	ADV	_	15	advmod	_	start_char=840|end_char=843
+4	alle	alle	PRON	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	start_char=844|end_char=848
+5	relevanten	relevant	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=849|end_char=859
+6	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	start_char=860|end_char=865
+7	zu	zu	ADP	APPR	_	9	case	_	start_char=866|end_char=868
+8	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=869|end_char=874
+9	Kind	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=875|end_char=879
+10	,	,	PUNCT	$,	_	11	punct	_	start_char=879|end_char=880
+11	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	9	conj	_	start_char=881|end_char=886
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=887|end_char=890
+13	Ihrem	Ihr|ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=891|end_char=896
+14	Betreuungsbedarf	Betreuungsbedarf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	start_char=897|end_char=913
+15	eingeben	eingeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=914|end_char=922
+16	und	und	CCONJ	KON	_	23	cc	_	start_char=923|end_char=926
+17	Ihre	Ihr|ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	start_char=927|end_char=931
+18	Anmeldung	Anmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=932|end_char=941
+19	an	an	ADP	APPR	_	22	case	_	start_char=942|end_char=944
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=945|end_char=948
+21	ausgewählten	ausgewählt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=949|end_char=961
+22	Einrichtungen	Einrichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	obl	_	start_char=962|end_char=975
+23	senden	senden	VERB	VVINF	VerbForm=Inf	15	conj	_	start_char=976|end_char=982
+24	.	.	PUNCT	$.	_	15	punct	_	start_char=982|end_char=983
+
