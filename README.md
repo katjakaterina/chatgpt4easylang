@@ -8,4 +8,4 @@ The data used in the analysis can be found in the folder 'corpus' which contains
 
 If you use the data for you analyses, please cite the following paper:
 
-Silvana Deilen, Sergio Hernández Garrido, Ekaterina Lapshinova-Koltunski and Christiane Maaß (2023). ChatGPT as a CAT tool in Easy language translation. In Proceedings of the TSAR-2023 workshop co-located with RANLP, Varna, Bulgaria, September 7.
+Silvana Deilen, Sergio Hernández Garrido, Ekaterina Lapshinova-Koltunski and Christiane Maaß (2023). ChatGPT as a CAT tool in Easy language translation. In Proceedings of the TSAR-2023 workshop (https://tsar-workshop.github.io/) co-located with RANLP (http://ranlp.org/ranlp2023/), Varna, Bulgaria, September 7. 
