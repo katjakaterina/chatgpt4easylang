@@ -4,7 +4,13 @@ In the paper, we analyse the feasibility of using ChatGPT to translate citizen-o
 
 The online tool ChatGPT is used to translate selected texts from websites of German public authorities. Two strategies are applied: (a) linguistic and (b) holistic. We analyse the quality of the generated texts based on different criteria, such as correctness, readability, and syntactic complexity. The results indicated that the generated texts are easier than the standard texts, but that they still do not fully meet the established Easy Language standards. Additionally, the content is not always rendered correctly.
 
-The data used in the analysis can be found in the folder 'corpus' which contains both plain text (txt) and annotated (tokenised, lemmatised, UPOS-tagged and dependency parsed) data. We also include the script that was used to automatically annotate the data.
+The data used in the analysis can be found in the folder 'corpus/data' which contains both plain text (txt) and annotated (tokenised, lemmatised, UPOS-tagged and dependency parsed) data. 
+
+We also include the script that was used to automatically annotate the data - 'corpus/preprocessing'. 
+
+The analyses of comprehensibility (readability, etc) usd in the paper are based on the TextLAB obtained with TextLAB and can be found in the folder 'corpus/analyses/TextLAB' which contains an overview of all derived indices, as well as values per text contained in the corresponding folders: S - source texts, H - translations produced with a holistic approach and L  -translations produced with a linguistic approach.
+
+The distributions od compelx syntactic constructions are contained in the folder 'corpus/analyses/syntactic'
 
 If you use the data for you analyses, please cite the following paper:
 
